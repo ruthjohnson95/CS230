@@ -27,3 +27,8 @@ To run the script inside the docker container:
 $ docker run <IMAGE_NAME>
 ```
 
+### Build the Final Report to PDF 
+The final report is written in LaTex and can be built into pdf file by running the following command inside `doc/` directory:
+```
+make
+```
