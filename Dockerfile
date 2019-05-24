@@ -1,8 +1,8 @@
 FROM ubuntu:16.04
 
-WORKDIR /test
+WORKDIR /CS230-Term-Project
 
-COPY . /test
+COPY . /CS230-Term-Project
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -11,5 +11,5 @@ RUN apt-get -y install python-pip python-dev curl pylint
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
-CMD ["pylint", "./main.py"]
+CMD ["python", "./main.py"]
 
