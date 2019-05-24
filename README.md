@@ -14,7 +14,7 @@ We provide a Dockerfile that contains all of the dependencies you need to run th
 
 To build the docker image, run the following command inside the repository directory:
 ```
-$ docker build tag=<IMAGE_NAME> .
+$ docker build --tag=<IMAGE_NAME> .
 ```
 
 Confirm that the image exists after building:
