@@ -129,3 +129,4 @@ dmypy.json
 doc/*.aux 
 doc/*.log 
 doc/*.out
+Papers/
