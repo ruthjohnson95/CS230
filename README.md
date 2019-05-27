@@ -14,7 +14,7 @@ We provide a Dockerfile that contains all of the dependencies you need to run th
 
 To build the docker image, run the following command inside the repository directory:
 ```
-$ docker build --tag=<IMAGE_NAME> .
+$ docker build --tag=cs230 .
 ```
 
 Confirm that the image exists after building:
@@ -24,7 +24,7 @@ $ docker image ls
 
 To run the script inside the docker container:
 ```
-$ docker run <IMAGE_NAME>
+$ docker run cs230
 ```
 
 ### Build the Final Report to PDF 
