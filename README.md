@@ -27,6 +27,11 @@ To run the script inside the docker container:
 $ docker run cs230
 ```
 
+To run a bash shell inside of docker container:
+```
+$ docker run -it cs230 bash
+```
+
 ### Build the Final Report to PDF 
 The final report is written in LaTex and can be built into pdf file by running the following command inside `doc/` directory:
 ```
