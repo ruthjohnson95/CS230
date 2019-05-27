@@ -5,7 +5,7 @@ import csv
 import subprocess
 from subprocess import PIPE
 import argparse
-import pandas as pd 
+import pandas as pd
 
 try:
     # for Python 2.x
@@ -23,6 +23,7 @@ except ImportError:
 
 parser = argparse.ArgumentParser(description='Process specified project.')
 parser.add_argument('targets', nargs='+')
+parser.add_argument("--out", dest="out_prefix", required=True, help="output file prefix; should be name of github repo", type=str)
 args = parser.parse_args()
 
 # run bandit on the given input targets
@@ -31,6 +32,9 @@ args = parser.parse_args()
 # so do not attempt to check this subprocess, it will always raise a CalledProcessError
 # when everything is fine
 bandit_result = subprocess.run(["bandit", "-r", "-f", "csv"] + args.targets, stdout=PIPE, stderr=DEVNULL)
+
+# prefix to be used to define output file
+out_prefix = args.out_prefix
 
 # convert bandit_result into dictionary format
 csv_reader = csv.reader(StringIO(bandit_result.stdout.decode("utf-8")), delimiter=',')
@@ -49,7 +53,9 @@ for line_range in diagnosis['line_range']:
 diagnosis['line_range'] = line_range_list
 # convert line number to integers
 diagnosis['line_number'] = [int(str) for str in diagnosis['line_number']]
- 
+
 df = pd.DataFrame(diagnosis)
 
-df.to_csv("bandit_parser.out", index=False)
+out_fname = out_prefix + "_bandit.txt"
+print("Outputing results of bandit to: %s" % out_fname)
+df.to_csv(out_fname, index=False)
