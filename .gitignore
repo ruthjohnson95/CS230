@@ -133,3 +133,4 @@ doc/*.out
 # Misc
 test/
 Papers/
+quilt/

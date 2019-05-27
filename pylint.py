@@ -101,7 +101,7 @@ type2category_map = {
     "error"         : Category.E,
     "refactor"      : Category.R,
     "fatal"         : Category.F,
-    "information"   : Category.I
+    "info"          : Category.I
 }
 
 class Message:
@@ -142,19 +142,27 @@ class Message:
 
 def process_all(dir):
     all_info = dict()
-    os.system("find . -iname \"*.py\" | xargs pylint --output-format=json --files-output=y")
+    os.system("find "+dir+" -iname \"*.py\" | xargs pylint --output-format=json --files-output=y")
     for root, dirs, files in os.walk(dir):
         for file in files:
-            if file.endswith(".py"):
+            if file.endswith(".json"):
                 pylint_info = parse(file)
-                all_info[file] = pylint_info
+                all_info[pylint_info.filename] = pylint_info
+    
     if os.stat("pylint_global.json").st_size == 0:
         return all_info
+
     with open('pylint_global.json', "r") as f:
         msg_list = json.load(f)
         for msg_dic in msg_list:
             t = msg_dic['type']
-            pylint_info = all_info[msg_dic['module']+'.py']
+
+            if msg_dic['module'] in all_info:
+                pylint_info = all_info[msg_dic['module']]
+            else:
+                pylint_info = PylintInfo(msg_dic['module'])
+                all_info[msg_dic['module']] = pylint_info
+            
             msg = Message(
                 category=type2category_map[t],
                 message=msg_dic['message'],
@@ -179,7 +187,7 @@ def process_all(dir):
                 raise Exception("Message category undefined")
     return all_info
 
-def parse(filename: str):
+def parse(filename: str): 
     """parse Pylint on this given file
 
     Inputs
@@ -193,10 +201,10 @@ def parse(filename: str):
                     a data structure that captures all of the 
                     information from pylint
     """
-    pylint_info = PylintInfo(filename)
-    if os.stat('pylint_'+filename[:-3]+'.json').st_size == 0:
+    pylint_info = PylintInfo(filename[7:-5])
+    if os.stat(filename).st_size == 0:
         return pylint_info
-    with open('pylint_'+filename[:-3]+'.json') as f:
+    with open(filename) as f:
         msg_list = json.load(f)
         for msg_dic in msg_list:
             t = msg_dic['type']
