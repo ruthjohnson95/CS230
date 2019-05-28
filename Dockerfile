@@ -7,10 +7,11 @@ COPY . /CS230-Term-Project
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -y update
-RUN apt-get -y install git python3 python-pip python-dev curl pylint
+RUN apt-get -y install git python3 python-pip python-dev curl pylint python3-pip
 ENV NAME World
 RUN pip install -U pip
 RUN pip install -r requirements.txt
+RUN pip3 install pandas
 
 CMD ["python", "./main.py"]
 
