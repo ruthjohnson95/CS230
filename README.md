@@ -26,6 +26,7 @@ $ python 'bandit parser/bandit_to_csv.py' aiocouchdb-0.5.0 --out aiocouchdb-0.5.
 $ docker run -it cs230 bash
 ```
 Your terminal will now say something like: root@aa7885c90033:/CS230-Term-Project#
+
 3) Assuming you already downloaded the benchmark for Bandit, open up another Terminal window and run this command to copy the benchmark into your docker container: (but replace "aiocouchdb-0.5.0" with the name of the benchmark , and replace "aa7885c90033" with whatever it says in your docker container in the other terminal window
 ```
 $ docker cp aiocouchdb-0.5.0 aa7885c90033:/CS230-Term-Project/
