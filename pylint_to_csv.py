@@ -148,7 +148,7 @@ def process_all(dir):
     os.system("find "+dir+" -iname \"*.py\" | xargs pylint --output-format=json --files-output=y")
     for root, dirs, files in os.walk(dir):
         for file in files:
-            if file.endswith(".json"):
+            if file.endswith(".json") and (not (file=="pylint_global.json")):
                 pylint_info = parse(file)
                 all_info[pylint_info.filename] = pylint_info
     
