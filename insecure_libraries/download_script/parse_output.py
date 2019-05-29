@@ -1,4 +1,4 @@
-file = open('output.txt', 'r')
+file = open('output_linux.txt', 'r')
 line = file.readline()
 lib = False
 library = ''
@@ -16,7 +16,7 @@ while line:
 		index = line.find(' ')
 		library = line[index+1:]
 		
-	if 'Saved c:' in line:
+	if 'Saved ' in line:
 		lib = False
 		
 	line = file.readline()
