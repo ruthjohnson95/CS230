@@ -129,8 +129,17 @@ dmypy.json
 doc/*.aux 
 doc/*.log 
 doc/*.out
+doc/*.bbl
+doc/*.fls
+doc/*.blg
+doc/*.fdb_latexmk
+doc/*.synctex.gz
+
 
 # Misc
 test/
 Papers/
 quilt/
+
+# vs code config files
+.vscode/

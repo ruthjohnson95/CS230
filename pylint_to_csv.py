@@ -14,12 +14,12 @@ class PylintInfo:
 
     Inputs:
     -------
-    filename : String
-        the filename name of this object
+    module : String
+        the module name of this object
     """
     def __init__(self, 
-                filename: str):
-        self.filename = filename
+                module: str):
+        self.module = module
         # each PylintInfo object has lists of messages 
         self.I_msgs = [] # [I]nformational messages that Pylint emits (do not contribute to your analysis score)
         self.R_msgs = [] # [R]efactor for a "good practice" metric violation
@@ -98,7 +98,7 @@ class Category(Enum):
     E = 5
     F = 6
 
-type2category_map = {
+pylint_map = {
     "convention"    : Category.C,
     "warning"       : Category.W,
     "error"         : Category.E,
@@ -145,17 +145,21 @@ class Message:
 
 def process_all(dir):
     all_info = dict()
-    os.system("find "+dir+" -iname \"*.py\" | xargs pylint --output-format=json --files-output=y")
-    for root, dirs, files in os.walk(dir):
-        for file in files:
-            if file.endswith(".json") and (not (file=="pylint_global.json")):
-                pylint_info = parse(file)
-                all_info[pylint_info.filename] = pylint_info
-    
-    if os.stat("pylint_global.json").st_size == 0:
+
+    # find all files in the given directory and input them to pylint
+    os.system("find "+ dir +" -iname \"*.py\" | xargs pylint --output-format=json > pylint.json")
+
+    # Check if 'pylint.json' is generated to prevent FileNotFound Exception
+    try:
+        fh = open('pylint.json', 'r')
+    except FileNotFoundError:
+        print("No JSON file generated, quit")
         return all_info
 
-    with open('pylint_global.json', "r") as f:
+    if os.stat("pylint.json").st_size == 0:
+        return all_info
+
+    with fh as f:
         msg_list = json.load(f)
         for msg_dic in msg_list:
             t = msg_dic['type']
@@ -167,7 +171,7 @@ def process_all(dir):
                 all_info[msg_dic['module']] = pylint_info
             
             msg = Message(
-                category=type2category_map[t],
+                category=pylint_map[t],
                 message=msg_dic['message'],
                 obj=msg_dic['obj'],
                 module=msg_dic['module'],
@@ -189,51 +193,6 @@ def process_all(dir):
             else:
                 raise Exception("Message category undefined")
     return all_info
-
-def parse(filename: str): 
-    """parse Pylint on this given file
-
-    Inputs
-    ------
-    filename : String
-                the name of the file to be ran on
-
-    Returns
-    -------
-    pylint_info : PylintInfo
-                    a data structure that captures all of the 
-                    information from pylint
-    """
-    pylint_info = PylintInfo(filename[7:-5])
-    if os.stat(filename).st_size == 0:
-        return pylint_info
-    with open(filename) as f:
-        msg_list = json.load(f)
-        for msg_dic in msg_list:
-            t = msg_dic['type']
-            msg = Message(
-                category=type2category_map[t],
-                message=msg_dic['message'],
-                obj=msg_dic['obj'],
-                module=msg_dic['module'],
-                symbol=msg_dic['symbol'],
-                line=msg_dic['line'],
-                column=msg_dic['column'])
-            if msg.category==Category.I:
-                pylint_info.add_Imsg(msg)
-            elif msg.category==Category.E:
-                pylint_info.add_Emsg(msg)
-            elif msg.category==Category.F:
-                pylint_info.add_Fmsg(msg)
-            elif msg.category==Category.C:
-                pylint_info.add_Cmsg(msg)
-            elif msg.category==Category.R:
-                pylint_info.add_Rmsg(msg)
-            elif msg.category==Category.W:
-                pylint_info.add_Wmsg(msg)
-            else:
-                raise Exception("Message category undefined")
-    return pylint_info
                 
 ## Test ##
 def main():
