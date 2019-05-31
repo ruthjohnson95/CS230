@@ -31,6 +31,13 @@
 
 \section{Methodology}
 
+\subsection{Dataset}
+For out data set, we used Safety DB [ref], an online repository maintained by pyup.io which keeps a list of Python packages with known vulnerabilities. 
+
+The data is listed on their Github in an json file, which contains, among other things, the name and version number of the vulnerable packages. We wrote a python script to parse the file (called insecure\_full.json), retrieve the name and version number, and attempt to download the package through pip download.
+
+When running the script on Windows, out of the 630 packages listed in the json, pip was unable to download 154 of them, either because pip cannot find the package or because none of the available versions have the vulnerability. When repeated on Ubuntu 18.04, pip was unable to download 160 of them. Thus, we will be using the packages downloaded when the script ran on Windows.
+
 \section{Results}
 
 \section{Discussion}
