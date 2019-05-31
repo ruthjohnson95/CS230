@@ -27,7 +27,7 @@ $ docker run -it cs230 bash
 ```
 Your terminal will now say something like: root@aa7885c90033:/CS230-Term-Project#
 
-3) Assuming you already downloaded the benchmark for Bandit, open up another Terminal window and run this command to copy the benchmark into your docker container: (but replace "aiocouchdb-0.5.0" with the name of the benchmark , and replace "aa7885c90033" with whatever it says in your docker container in the other terminal window
+3) Assuming you already downloaded the benchmark for Bandit, open up another Terminal window and run this command to copy the benchmark into your docker container: (but replace "aiocouchdb-0.5.0" with the name of the benchmark , and replace "aa7885c90033" with whatever it says in your docker container in the other terminal window)
 ```
 $ docker cp aiocouchdb-0.5.0 aa7885c90033:/CS230-Term-Project/
 ```
@@ -37,7 +37,7 @@ $ cd aiocouchdb-0.5.0
 ```
 5) In that docker terminal, run the following command, but replace "aiocouchdb-0.5.0" with the name of the benchmark :
 ```
-$ python3 'pylint_to_csv.py' . aiocouchdb-0.5.0
+$ python3 ../pylint_to_csv.py . aiocouchdb-0.5.0
 ```
 6) Open a new Terminal window. Copy the generated output file (in our example, aiocouchdb-0.5.0_pylint.txt) to Desktop (or wherever else you want on your local machine):
 ```
