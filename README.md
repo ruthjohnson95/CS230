@@ -21,6 +21,9 @@ $ python 'bandit parser/bandit_to_csv.py' aiocouchdb-0.5.0 --out aiocouchdb-0.5.
 
 ### How to run Pylint on a benchmark (you need docker)
 1) If you just downloaded (or git pulled) this "CS230" repository with latest changes, you need to run the docker build command below. Otherwise, this step does NOT need to be repeated for each benchmark.
+```
+$ docker build --tag=cs230 .
+```
 2) Run a bash shell inside docker container:
 ```
 $ docker run -it cs230 bash
