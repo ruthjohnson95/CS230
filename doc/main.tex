@@ -21,7 +21,9 @@
 -Python style\\
 -Databases with vulnerabilities\\
 \section{Related Works}
-
+\subsection{Python Security}
+\subsection{Python Coding Conventions}
+\subsection{Secure Coding Standards}
 \section{Methodology}
 Pylint\\
 Bandit\\
@@ -37,7 +39,7 @@ When running the script on Windows, out of the 630 packages listed in the json, 
 \section{Discussion}
 
 \section{Secure Python Coding Standards}
-As the results have shown, the relationship between PEP8 coding standards and potential security vulnerabilities is not very clear. This is expected. PEP8 is intended for software developers to write more readable code as code is read more often than it is written\cite{PEP8}. However, PEP8\cite{PEP8} is not strong enough for ensuring the security of the program. Therefore, what developers really need, perhaps, is a set of coding standards that prevent common security vulnerabilities. As mentioned in the Related Works section, various coding standards have been proposed for different languages such as Java, C/C++, and Perl\cite{SEI_CERT}. However, as far as we know, there is no such standards for Python yet. Due to the time limitation, we pick five of the most critical security vulnerabilities identified by Bandit that appears most frequently in our data set. In this section, we propose the recommanded coding conventions and standards that programmers can follow to avoid the potential attacks due to these vulnerabilities. Some of the rules are similar to those for other languages, some of them are Python specific. We focus on the general usages of Python instead of specific popular Python packages such as Django in this report. Thus, we only consider the usages of the Python standard library here. 
+As the results have shown, the relationship between PEP8 coding standards and potential security vulnerabilities is not very clear. This is expected. PEP8 is intended for software developers to write more readable code as code is read more often than it is written\cite{PEP8}. However, PEP8\cite{PEP8} is not strong enough for ensuring the security of the program. Therefore, what developers really need, perhaps, is a set of coding standards that prevent common security vulnerabilities. As mentioned in the Related Works section, various coding standards have been proposed for different languages such as Java, C/C++, and Perl\cite{SEI_CERT}. However, to the best of our knowledge, there is no such standards for Python yet. Due to the time limitation, we pick five of the most critical security vulnerabilities identified by Bandit that appears most frequently in our data set. In this section, we propose the recommanded coding conventions and standards that programmers can follow to avoid the potential attacks due to these vulnerabilities. Some of the rules are similar to those for other languages, some of them are Python specific. We focus on the general usages of Python instead of specific popular Python packages such as Django in this report. Thus, we only consider the usages of the Python standard library here. 
 
 \subsection{Sanitizing User Inputs}
 
