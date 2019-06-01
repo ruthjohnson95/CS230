@@ -1,3 +1,0 @@
-filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
-quilt/session.py,152,Locally disabling no-member (E1101),Category.I,locally-disabled,Starting a process without a shell.,MEDIUM,LOW
-quilt/session.py,176,Used builtin function 'input',Category.W,bad-builtin,"The input method in Python 2 will read from standard input, evaluate and run the resulting string as python source code. This is similar, though in many ways worse, then using eval. On Python 2, use raw_input instead, input is safe in Python 3.",HIGH,HIGH
