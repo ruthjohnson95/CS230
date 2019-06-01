@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-
 import os
 import sys
 import json
-import pandas as pd
 
 from enum import Enum
 
@@ -16,8 +13,8 @@ class PylintInfo:
         the module name of this object
     """
     def __init__(self, 
-                module: str):
-        self.module = module
+                filename: str):
+        self.filename = filename
         # each PylintInfo object has lists of messages 
         self.I_msgs = [] # [I]nformational messages that Pylint emits (do not contribute to your analysis score)
         self.R_msgs = [] # [R]efactor for a "good practice" metric violation
@@ -25,6 +22,7 @@ class PylintInfo:
         self.W_msgs = [] # [W]arning for stylistic problems, or minor programming issues
         self.E_msgs = [] # [E]rror for important programming issues (i.e. most probably bug)
         self.F_msgs = [] # [F]atal for errors which prevented further processing
+        self.all_msgs = [self.I_msgs, self.R_msgs, self.C_msgs, self.W_msgs, self.E_msgs, self.F_msgs]
 
     def add_Imsg(self, imsg):
         self.I_msgs.append(imsg)
@@ -141,20 +139,20 @@ class Message:
             "\tcolumn = " + str(self.column) + ",\n" + 
             "}\n")
 
-def process_all(dir):
+def process_all(input_dir, output_dir):
     all_info = dict()
 
-    # find all files in the given directory and input them to pylint
-    os.system("find "+ dir +" -iname \"*.py\" | xargs pylint --output-format=json > pylint.json")
+    # find all dir in the given directory and input them to pylint
+    os.system("find "+ input_dir +" -iname \"*.py\" | xargs pylint --output-format=json > " + output_dir + "pylint.json")
 
-    # Check if 'pylint.json' is generated to prevent FileNotFound Exception
+    # Check if output_dir + "/pylint.json" is generated to prevent FileNotFound Exception
     try:
-        fh = open('pylint.json', 'r')
+        fh = open(output_dir + "/pylint.json", 'r')
     except FileNotFoundError:
         print("No JSON file generated, quit")
         return all_info
 
-    if os.stat("pylint.json").st_size == 0:
+    if os.stat(output_dir + "/pylint.json").st_size == 0:
         return all_info
 
     with fh as f:
@@ -162,11 +160,11 @@ def process_all(dir):
         for msg_dic in msg_list:
             t = msg_dic['type']
 
-            if msg_dic['module'] in all_info:
-                pylint_info = all_info[msg_dic['module']]
+            if msg_dic['path'] in all_info:
+                pylint_info = all_info[msg_dic['path']]
             else:
-                pylint_info = PylintInfo(msg_dic['module'])
-                all_info[msg_dic['module']] = pylint_info
+                pylint_info = PylintInfo(msg_dic['path'])
+                all_info[msg_dic['path']] = pylint_info
             
             msg = Message(
                 category=pylint_map[t],
@@ -192,15 +190,3 @@ def process_all(dir):
                 raise Exception("Message category undefined")
     return all_info
                 
-## Test ##
-def main():
-    # Usage: ./pylint.py <path to the code to be analyzed>
-    if len(sys.argv) != 2:
-        print("Usage: ./pylint.py <path to the code to be analyzed>")
-        sys.exit()
-    
-    pylint_dict=process_all(sys.argv[1])
-    
-    
-if __name__ == "__main__":
-    main()

@@ -1,0 +1,942 @@
+[
+    {
+        "message": "invalid syntax", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/packages.py", 
+        "line": 95, 
+        "type": "error", 
+        "symbol": "syntax-error", 
+        "module": "quilt.packages"
+    }, 
+    {
+        "message": "Locally disabling no-member (E1101)", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 152, 
+        "type": "info", 
+        "symbol": "locally-disabled", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Locally disabling broad-except (W0703)", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 159, 
+        "type": "info", 
+        "symbol": "locally-disabled", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "TODO revoke refresh token (without logging out of web sessions)", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 202, 
+        "type": "warning", 
+        "symbol": "fixme", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Unnecessary parens after 'print' keyword", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 160, 
+        "type": "convention", 
+        "symbol": "superfluous-parens", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Unnecessary parens after 'print' keyword", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 170, 
+        "type": "convention", 
+        "symbol": "superfluous-parens", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Unnecessary parens after 'print' keyword", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 171, 
+        "type": "convention", 
+        "symbol": "superfluous-parens", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Unnecessary parens after 'print' keyword", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 206, 
+        "type": "convention", 
+        "symbol": "superfluous-parens", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Wrong hanging indentation (remove 4 spaces).\n            metadata=get_credentials(),\n        |   ^", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 218, 
+        "type": "convention", 
+        "symbol": "bad-continuation", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Wrong hanging indentation (remove 4 spaces).\n            refresh_using=get_credentials,\n        |   ^", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 219, 
+        "type": "convention", 
+        "symbol": "bad-continuation", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Wrong hanging indentation (remove 4 spaces).\n            method='quilt-registry'\n        |   ^", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 220, 
+        "type": "convention", 
+        "symbol": "bad-continuation", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Wrong hanging indentation.\n            )\n    |   |   ^", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 221, 
+        "type": "convention", 
+        "symbol": "bad-continuation", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Unable to import 'botocore.credentials'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 13, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Unable to import 'quilt.data_transfer' (invalid syntax (&lt;string&gt;, line 198))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 17, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Unable to import 'quilt.util' (invalid syntax (&lt;string&gt;, line 376))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 18, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Invalid variable name \"fd\"", 
+        "obj": "_load_auth", 
+        "column": 32, 
+        "path": "quilt/session.py", 
+        "line": 26, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Invalid variable name \"fd\"", 
+        "obj": "_save_auth", 
+        "column": 33, 
+        "path": "quilt/session.py", 
+        "line": 32, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Invalid constant name \"_registry_url\"", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 36, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "get_registry_url", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 38, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Using the global statement", 
+        "obj": "get_registry_url", 
+        "column": 4, 
+        "path": "quilt/session.py", 
+        "line": 39, 
+        "type": "warning", 
+        "symbol": "global-statement", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Invalid constant name \"_registry_url\"", 
+        "obj": "get_registry_url", 
+        "column": 4, 
+        "path": "quilt/session.py", 
+        "line": 39, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Instance of 'LookupDict' has no 'ok' member", 
+        "obj": "_update_auth", 
+        "column": 31, 
+        "path": "quilt/session.py", 
+        "line": 59, 
+        "type": "error", 
+        "symbol": "no-member", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Instance of 'LookupDict' has no 'unauthorized' member", 
+        "obj": "_handle_response", 
+        "column": 27, 
+        "path": "quilt/session.py", 
+        "line": 74, 
+        "type": "error", 
+        "symbol": "no-member", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Unused argument 'kwargs'", 
+        "obj": "_handle_response", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 73, 
+        "type": "warning", 
+        "symbol": "unused-argument", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Invalid constant name \"_session\"", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 128, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Using the global statement", 
+        "obj": "get_session", 
+        "column": 4, 
+        "path": "quilt/session.py", 
+        "line": 134, 
+        "type": "warning", 
+        "symbol": "global-statement", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Invalid constant name \"_session\"", 
+        "obj": "get_session", 
+        "column": 4, 
+        "path": "quilt/session.py", 
+        "line": 134, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "clear_session", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 143, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Using the global statement", 
+        "obj": "clear_session", 
+        "column": 4, 
+        "path": "quilt/session.py", 
+        "line": 144, 
+        "type": "warning", 
+        "symbol": "global-statement", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Invalid constant name \"_session\"", 
+        "obj": "clear_session", 
+        "column": 4, 
+        "path": "quilt/session.py", 
+        "line": 144, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Used builtin function 'input'", 
+        "obj": "login", 
+        "column": 20, 
+        "path": "quilt/session.py", 
+        "line": 176, 
+        "type": "warning", 
+        "symbol": "bad-builtin", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "get_credentials", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 212, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Redefining name 'get_credentials' from outer scope (line 212)", 
+        "obj": "set_refreshable_credentials", 
+        "column": 32, 
+        "path": "quilt/session.py", 
+        "line": 215, 
+        "type": "warning", 
+        "symbol": "redefined-outer-name", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "set_refreshable_credentials", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 215, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Using the global statement", 
+        "obj": "set_refreshable_credentials", 
+        "column": 4, 
+        "path": "quilt/session.py", 
+        "line": 216, 
+        "type": "warning", 
+        "symbol": "global-statement", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "get_registry_credentials", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 223, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "set_credentials_from_registry", 
+        "column": 0, 
+        "path": "quilt/session.py", 
+        "line": 238, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.session"
+    }, 
+    {
+        "message": "invalid syntax", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/util.py", 
+        "line": 376, 
+        "type": "error", 
+        "symbol": "syntax-error", 
+        "module": "quilt.util"
+    }, 
+    {
+        "message": "invalid syntax", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/main.py", 
+        "line": 45, 
+        "type": "error", 
+        "symbol": "syntax-error", 
+        "module": "quilt.main"
+    }, 
+    {
+        "message": "Wrong continued indentation (remove 1 space).\n                               )\n                              |^", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 35, 
+        "type": "convention", 
+        "symbol": "bad-continuation", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Trailing whitespace", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 55, 
+        "type": "convention", 
+        "symbol": "trailing-whitespace", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Exactly one space required after assignment\n        exception =  QuiltException(\"Query failed unexpectedly due to either a \"\n                  ^", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 116, 
+        "type": "convention", 
+        "symbol": "bad-whitespace", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "No name 'parse' in module 'urllib'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 7, 
+        "type": "error", 
+        "symbol": "no-name-in-module", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Unable to import 'urllib.parse'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 7, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Unable to import 'aws_requests_auth.boto_utils'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 9, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Unable to import 'aws_requests_auth.aws_auth'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 10, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Unable to import 'elasticsearch'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 11, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Unable to import 'quilt.util' (invalid syntax (&lt;string&gt;, line 376))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 14, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Too many local variables (17/15)", 
+        "obj": "search", 
+        "column": 0, 
+        "path": "quilt/search_util.py", 
+        "line": 53, 
+        "type": "refactor", 
+        "symbol": "too-many-locals", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "get_search_schema.transform_mappings", 
+        "column": 4, 
+        "path": "quilt/search_util.py", 
+        "line": 155, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.search_util"
+    }, 
+    {
+        "message": "invalid syntax", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/data_transfer.py", 
+        "line": 198, 
+        "type": "error", 
+        "symbol": "syntax-error", 
+        "module": "quilt.data_transfer"
+    }, 
+    {
+        "message": "Unable to import 'quilt.api' (invalid syntax (&lt;string&gt;, line 252))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/__init__.py", 
+        "line": 7, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt"
+    }, 
+    {
+        "message": "Unable to import 'quilt.packages' (invalid syntax (&lt;string&gt;, line 95))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/__init__.py", 
+        "line": 18, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt"
+    }, 
+    {
+        "message": "invalid syntax", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/api.py", 
+        "line": 252, 
+        "type": "error", 
+        "symbol": "syntax-error", 
+        "module": "quilt.api"
+    }, 
+    {
+        "message": "invalid syntax", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/formats.py", 
+        "line": 174, 
+        "type": "error", 
+        "symbol": "syntax-error", 
+        "module": "quilt.formats"
+    }, 
+    {
+        "message": "TODO: we can maybe get this from searchEndpoint or apiGatewayEndpoint", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 60, 
+        "type": "warning", 
+        "symbol": "fixme", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Line too long (112/100)", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 48, 
+        "type": "convention", 
+        "symbol": "line-too-long", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Trailing whitespace", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 150, 
+        "type": "convention", 
+        "symbol": "trailing-whitespace", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Unable to import 'pathlib'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 7, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "No name 'parse' in module 'urllib'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 8, 
+        "type": "error", 
+        "symbol": "no-name-in-module", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Unable to import 'urllib.parse'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 8, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Unable to import 'quilt.data_transfer' (invalid syntax (&lt;string&gt;, line 198))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 10, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Unable to import 'quilt.formats' (invalid syntax (&lt;string&gt;, line 174))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 13, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Unable to import 'quilt.util' (invalid syntax (&lt;string&gt;, line 376))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 15, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Invalid method name \"ls\"", 
+        "obj": "Bucket.ls", 
+        "column": 4, 
+        "path": "quilt/bucket.py", 
+        "line": 248, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "standard import \"from urllib.parse import urlparse\" comes before \"import pathlib\"", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/bucket.py", 
+        "line": 8, 
+        "type": "convention", 
+        "symbol": "wrong-import-order", 
+        "module": "quilt.bucket"
+    }, 
+    {
+        "message": "Module import itself", 
+        "obj": "", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 8, 
+        "type": "warning", 
+        "symbol": "import-self", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Module import itself", 
+        "obj": "", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 8, 
+        "type": "warning", 
+        "symbol": "import-self", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Module import itself", 
+        "obj": "", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 8, 
+        "type": "warning", 
+        "symbol": "import-self", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "getxattr", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 20, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Invalid variable name \"fd\"", 
+        "obj": "getxattr", 
+        "column": 61, 
+        "path": "quilt/xattr.py", 
+        "line": 21, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Unused argument 'symlink'", 
+        "obj": "getxattr", 
+        "column": 33, 
+        "path": "quilt/xattr.py", 
+        "line": 20, 
+        "type": "warning", 
+        "symbol": "unused-argument", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "setxattr", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 24, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Invalid variable name \"fd\"", 
+        "obj": "setxattr", 
+        "column": 61, 
+        "path": "quilt/xattr.py", 
+        "line": 25, 
+        "type": "convention", 
+        "symbol": "invalid-name", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Unused argument 'options'", 
+        "obj": "setxattr", 
+        "column": 40, 
+        "path": "quilt/xattr.py", 
+        "line": 24, 
+        "type": "warning", 
+        "symbol": "unused-argument", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Unused argument 'symlink'", 
+        "obj": "setxattr", 
+        "column": 51, 
+        "path": "quilt/xattr.py", 
+        "line": 24, 
+        "type": "warning", 
+        "symbol": "unused-argument", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Missing function docstring", 
+        "obj": "removexattr", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 28, 
+        "type": "convention", 
+        "symbol": "missing-docstring", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Unused argument 'symlink'", 
+        "obj": "removexattr", 
+        "column": 36, 
+        "path": "quilt/xattr.py", 
+        "line": 28, 
+        "type": "warning", 
+        "symbol": "unused-argument", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Unused setxattr imported from xattr", 
+        "obj": "", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 8, 
+        "type": "warning", 
+        "symbol": "unused-import", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Unused removexattr imported from xattr", 
+        "obj": "", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 8, 
+        "type": "warning", 
+        "symbol": "unused-import", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Unused getxattr imported from xattr", 
+        "obj": "", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 8, 
+        "type": "warning", 
+        "symbol": "unused-import", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "standard import \"import os\" comes before \"from xattr import getxattr, setxattr, removexattr\"", 
+        "obj": "", 
+        "column": 4, 
+        "path": "quilt/xattr.py", 
+        "line": 10, 
+        "type": "convention", 
+        "symbol": "wrong-import-order", 
+        "module": "quilt.xattr"
+    }, 
+    {
+        "message": "Locally disabling unused-argument (W0613)", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 20, 
+        "type": "info", 
+        "symbol": "locally-disabled", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "Locally disabling too-few-public-methods (R0903)", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 57, 
+        "type": "info", 
+        "symbol": "locally-disabled", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "Locally disabling unused-argument (W0613)", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 65, 
+        "type": "info", 
+        "symbol": "locally-disabled", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "No name 'machinery' in module 'importlib'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 3, 
+        "type": "error", 
+        "symbol": "no-name-in-module", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "Unable to import 'importlib.machinery'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 3, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "No name 'util' in module 'quilt'", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 6, 
+        "type": "error", 
+        "symbol": "no-name-in-module", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "Unable to import 'quilt.util' (invalid syntax (&lt;string&gt;, line 376))", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 6, 
+        "type": "error", 
+        "symbol": "import-error", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "Old-style class defined.", 
+        "obj": "DataPackageImporter", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 13, 
+        "type": "convention", 
+        "symbol": "old-style-class", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "Class has no __init__ method", 
+        "obj": "DataPackageImporter", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 13, 
+        "type": "warning", 
+        "symbol": "no-init", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "Old-style class defined.", 
+        "obj": "DataPackageFinder", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 58, 
+        "type": "convention", 
+        "symbol": "old-style-class", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "Class has no __init__ method", 
+        "obj": "DataPackageFinder", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 58, 
+        "type": "warning", 
+        "symbol": "no-init", 
+        "module": "quilt.imports"
+    }, 
+    {
+        "message": "standard import \"import sys\" comes before \"from importlib.machinery import ModuleSpec\"", 
+        "obj": "", 
+        "column": 0, 
+        "path": "quilt/imports.py", 
+        "line": 4, 
+        "type": "convention", 
+        "symbol": "wrong-import-order", 
+        "module": "quilt.imports"
+    }
+]
