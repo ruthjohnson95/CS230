@@ -8,6 +8,8 @@ In order to run our scripts, the following packages need to be installed:
     - install with `pip install bandit`
 - PyLint
     - install with `apt-get install pylint`
+- Pandas
+    - install with `pip3 install pandas` or `pip install pandas`
     
 ### How to run Bandit on a benchmark (you don't need docker for this)
 1) Download this git repository, "CS230" (or git pull to get the latest changes, if you've already downloaded it - this step does NOT need to be repeated for each benchmark)
@@ -21,13 +23,16 @@ $ python 'bandit parser/bandit_to_csv.py' aiocouchdb-0.5.0 --out aiocouchdb-0.5.
 
 ### How to run Pylint on a benchmark (you need docker)
 1) If you just downloaded (or git pulled) this "CS230" repository with latest changes, you need to run the docker build command below. Otherwise, this step does NOT need to be repeated for each benchmark.
+```
+$ docker build --tag=cs230 .
+```
 2) Run a bash shell inside docker container:
 ```
 $ docker run -it cs230 bash
 ```
 Your terminal will now say something like: root@aa7885c90033:/CS230-Term-Project#
 
-3) Assuming you already downloaded the benchmark for Bandit, open up another Terminal window and run this command to copy the benchmark into your docker container: (but replace "aiocouchdb-0.5.0" with the name of the benchmark , and replace "aa7885c90033" with whatever it says in your docker container in the other terminal window
+3) Assuming you already downloaded the benchmark for Bandit, open up another Terminal window and run this command to copy the benchmark into your docker container: (but replace "aiocouchdb-0.5.0" with the name of the benchmark , and replace "aa7885c90033" with whatever it says in your docker container in the other terminal window)
 ```
 $ docker cp aiocouchdb-0.5.0 aa7885c90033:/CS230-Term-Project/
 ```
@@ -37,7 +42,7 @@ $ cd aiocouchdb-0.5.0
 ```
 5) In that docker terminal, run the following command, but replace "aiocouchdb-0.5.0" with the name of the benchmark :
 ```
-$ python3 'pylint_to_csv.py' . aiocouchdb-0.5.0
+$ python3 ../pylint_to_csv.py . aiocouchdb-0.5.0
 ```
 6) Open a new Terminal window. Copy the generated output file (in our example, aiocouchdb-0.5.0_pylint.txt) to Desktop (or wherever else you want on your local machine):
 ```
