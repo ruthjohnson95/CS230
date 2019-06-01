@@ -8,6 +8,8 @@ In order to run our scripts, the following packages need to be installed:
     - install with `pip install bandit`
 - PyLint
     - install with `apt-get install pylint`
+- Pandas
+    - install with `pip3 install pandas` or `pip install pandas`
     
 ### How to run Bandit on a benchmark (you don't need docker for this)
 1) Download this git repository, "CS230" (or git pull to get the latest changes, if you've already downloaded it - this step does NOT need to be repeated for each benchmark)
