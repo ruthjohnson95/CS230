@@ -3,11 +3,11 @@
 # step 1: move all the benchmarks you want to test into a directory of your choice
 # step 2: cd into that directory
 # step 3: make directories for bandit ouput files and pyline output files (they may be the same directory) 
-# step 4: run script as path/to/run.sh [path of bandit_to_csv.py] [path of pylint_to_csv.py] [directory to dump bandit output] [directory to dump pylint output]
-#       i.e.  ../CS230/run.sh "../CS230/bandit parser/bandit_to_csv.py" ../CS230/pylint_to_csv.py bandit_output pylint_output
+# step 4: run script as path/to/run.sh [path of git project] [directory to dump all output] [true or false on whether to run docker]
+#       i.e. ../CS230/run.sh ../CS230 output/ true
 
-if [ "$#" -ne 4 ]; then
-    echo "Need all 4 arguments"
+if [ "$#" -ne 3 ]; then
+    echo "Need all 3 arguments"
     exit 1
 fi
 
@@ -16,14 +16,67 @@ unzip '*.zip'
 for x in *.tar.gz; do tar -xvzf $x; done
 for x in *.tar.bz2; do tar -xvjf $x; done
 
+#runs bandit first
 for d in */ ; do
     t=${d%?}
-    if [ "$t" = "$3" ] || [ "$t" = "$4" ] || [ "$d" = "$3" ] || [ "$d" = "$4" ]; then
+    echo "running bandit on $t"
+    if [ "$t" = "$2" ] || [ "$d" = "$2" ]; then
         continue
     fi
-    python3 "$1" $t --out $t
-    python3 "$2" $t $t
-done
 
-mv *_bandit.txt "$3"
-mv *_pylint.txt "$4"
+    python3 "$1/bandit parser/bandit_to_csv.py" $t --out $t
+done
+mv *_bandit.txt "$2"
+
+#starts docker for pylint
+if [ "$3" = "true" ] || [ "$3" = "True" ] || [ "$3" = "TRUE" ]; then
+    #docker build --tag=cs230 "$1"
+    docker run -t -d cs230 bash
+
+
+    CONTAINER_ID="$(docker ps | sed -n '2p' | cut -d ' ' -f 1)"
+  
+    echo "$CONTAINER_ID"
+  
+
+    docker exec $CONTAINER_ID mkdir /CS230-Term-Project/output  
+    for d in */ ; do
+        t=${d%?}
+
+        if [ "$t" = "$2" ] || [ "$d" = "$2" ]; then
+            continue
+        fi
+
+        echo "running dockerized pylint and intersection analysis on $t"
+        #docker exec $CONTAINER_ID mkdir "/CS230-Term-Project/output/${t}_intersection"
+        docker cp $t "$CONTAINER_ID:/CS230-Term-Project"
+        docker exec $CONTAINER_ID python3 /CS230-Term-Project/pylint_to_csv.py $t $t
+        docker cp "$CONTAINER_ID:/CS230-Term-Project/${t}_pylint.txt" $2
+        docker exec $CONTAINER_ID python3 /CS230-Term-Project/Intersection_analysis/main.py $t "/CS230-Term-Project/output/${t}_intersection_"
+        docker cp "$CONTAINER_ID:/CS230-Term-Project/output/${t}_intersection_pylint.json" $2
+        docker cp "$CONTAINER_ID:/CS230-Term-Project/output/${t}_intersection_bandit.json" $2
+        docker cp "$CONTAINER_ID:/CS230-Term-Project/output/${t}_intersection_intersect_lines.csv" $2
+    done
+
+    docker stop $CONTAINER_ID
+    echo "docker finished"
+    exit 1
+
+else
+    #runs non docker version of pylint
+    for d in */ ; do
+        t=${d%?}
+
+        if [ "$t" = "$2" ] || [ "$d" = "$2" ]; then
+            continue
+        fi
+
+        echo "running pylint and intersection analysis on $t"
+        python3 "$1/pylint_to_csv.py" $t $t
+        python3 "$1/Intersection_analysis/main.py" $t "$2/${t}_intersection_"
+    done
+    mv *_pylint.txt "$2"
+fi
+
+
+
