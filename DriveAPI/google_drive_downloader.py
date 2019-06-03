@@ -17,7 +17,10 @@ SCOPES = ['https://www.googleapis.com/auth/drive',
 # A list of filenames to be downloaded
 download_list = []
 
+DRIVEAPI_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def main():
+    
     if len(sys.argv) != 3:
         print("Usage: python3 ./google_drive_downloader.py download_list.txt <download path>")
         sys.exit()
@@ -38,7 +41,7 @@ def main():
     # created automatically when the authorization flow completes for the first
     # time.
     if os.path.exists('token.pickle'):
-        with open('token.pickle', 'rb') as token:
+        with open(DRIVEAPI_DIR+'/token.pickle', 'rb') as token:
             creds = pickle.load(token)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
@@ -46,10 +49,10 @@ def main():
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials.json', SCOPES)
+                DRIVEAPI_DIR+'/credentials.json', SCOPES)
             creds = flow.run_local_server()
         # Save the credentials for the next run
-        with open('token.pickle', 'wb') as token:
+        with open(DRIVEAPI_DIR+'/token.pickle', 'wb') as token:
             pickle.dump(creds, token)
 
     service = build('drive', 'v3', credentials=creds)
