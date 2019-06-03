@@ -79,3 +79,12 @@ The final report is written in LaTex and can be built into pdf file by running t
 ```
 make
 ```
+
+### Automatically download benchmarks from google drive
+1. install google drive API libraries for Python3:
+```
+$ pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+```
+2. Put down a list of filenames you would like to download in `DriveAPI/download_list.txt`. Please do not include newline at the end
+3. Run `DriveAPI/google_drive_downloader.py DriveAPI/download_list.txt <dir where you want to put the downloaded files>/`. It will ask for your credentials. Login using your google account (the one which have access to the shared drive). It should automatically download all of the files listed in `DriveAPI/download_list.txt`
+

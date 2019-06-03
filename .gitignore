@@ -143,3 +143,6 @@ quilt/
 
 # vs code config files
 .vscode/
+
+# Google Drive Download
+DriveAPI/token.pickle
