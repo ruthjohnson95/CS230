@@ -30,6 +30,7 @@ mv *_bandit.txt "$2"
 
 #starts docker for pylint
 if [ "$3" = "true" ] || [ "$3" = "True" ] || [ "$3" = "TRUE" ]; then
+    #Uncomment the line below if you recently pulled new changes
     #docker build --tag=cs230 "$1"
     docker run -t -d cs230 bash
 
