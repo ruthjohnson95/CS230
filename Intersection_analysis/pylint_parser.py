@@ -147,12 +147,12 @@ def process_all(input_dir, output_dir):
 
     # Check if output_dir + "/pylint.json" is generated to prevent FileNotFound Exception
     try:
-        fh = open(output_dir + "/pylint.json", 'r')
+        fh = open(output_dir + "pylint.json", 'r')
     except FileNotFoundError:
         print("No JSON file generated, quit")
         return all_info
 
-    if os.stat(output_dir + "/pylint.json").st_size == 0:
+    if os.stat(output_dir + "pylint.json").st_size == 0:
         return all_info
 
     with fh as f:
