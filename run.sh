@@ -16,19 +16,19 @@ unzip '*.zip'
 for x in *.tar.gz; do tar -xvzf $x; done
 for x in *.tar.bz2; do tar -xvjf $x; done
 
-#runs bandit first
-for d in */ ; do
-    t=${d%?}
-    echo "running bandit on $t"
-    if [ "$t" = "$2" ] || [ "$d" = "$2" ]; then
-        continue
-    fi
+#(DELETED) runs bandit first
+#for d in */ ; do
+#    t=${d%?}
+#    echo "running bandit on $t"
+#    if [ "$t" = "$2" ] || [ "$d" = "$2" ]; then
+#        continue
+#    fi
 
-    python3 "$1/bandit parser/bandit_to_csv.py" $t --out $t
-done
-mv *_bandit.txt "$2"
+#    python3 "$1/bandit parser/bandit_to_csv.py" $t --out $t
+#done
+#mv *_bandit.txt "$2"
 
-#starts docker for pylint
+#starts docker for pylint and bandit
 if [ "$3" = "true" ] || [ "$3" = "True" ] || [ "$3" = "TRUE" ]; then
     #Uncomment the line below if you recently pulled new changes
     docker build --tag=cs230 "$1"
@@ -51,8 +51,8 @@ if [ "$3" = "true" ] || [ "$3" = "True" ] || [ "$3" = "TRUE" ]; then
         
         echo "running dockerized pylint and intersection analysis on $t"
         docker exec $CONTAINER_ID mkdir "/CS230-Term-Project/output/${t}_intersection"
-        #docker cp $t "$CONTAINER_ID:/CS230-Term-Project"
-        #docker exec $CONTAINER_ID python3 "/CS230-Term-Project/bandit parser/bandit_to_csv.py" $t --out $t
+        docker cp $t "$CONTAINER_ID:/CS230-Term-Project"
+        docker exec $CONTAINER_ID python3 "/CS230-Term-Project/bandit parser/bandit_to_csv.py" $t --out $t
         docker cp "$CONTAINER_ID:/CS230-Term-Project/${t}_bandit.txt" $2
         docker exec $CONTAINER_ID python3 /CS230-Term-Project/pylint_to_csv.py $t $t
         docker cp "$CONTAINER_ID:/CS230-Term-Project/${t}_pylint.txt" $2
@@ -67,7 +67,7 @@ if [ "$3" = "true" ] || [ "$3" = "True" ] || [ "$3" = "TRUE" ]; then
     exit 1
 
 else
-    #runs non docker version of pylint
+    #runs non docker version of bandit and pylint
     for d in */ ; do
         t=${d%?}
 
@@ -75,9 +75,11 @@ else
             continue
         fi
 
-        echo "running pylint and intersection analysis on $t"
+        echo "running bandit, pylint and intersection analysis on $t"
+        python3 "$1/bandit parser/bandit_to_csv.py" $t --out $t
         python3 "$1/pylint_to_csv.py" $t $t
         python3 "$1/Intersection_analysis/main.py" $d "$2/${t}_intersection_"
     done
     mv *_pylint.txt "$2"
+    mv *_bandit.txt "$2"
 fi
