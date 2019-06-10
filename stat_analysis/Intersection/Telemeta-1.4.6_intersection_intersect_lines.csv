@@ -1,0 +1,27 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Telemeta-1.4.6/example/sandbox/modelviz.py,268,Line too long (120/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+Telemeta-1.4.6/telemeta/views/admin.py,187,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW
+Telemeta-1.4.6/telemeta/backup/core.py,38,"standard import ""from xml.dom.minidom import getDOMImplementation, Node"" should be placed before ""import libxml2""",Category.C,wrong-import-order,"Using getDOMImplementation to parse untrusted XML data is known to be vulnerable to XML attacks. Replace getDOMImplementation with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+Telemeta-1.4.6/telemeta/backup/core.py,38,Unused Node imported from xml.dom.minidom,Category.W,unused-import,"Using getDOMImplementation to parse untrusted XML data is known to be vulnerable to XML attacks. Replace getDOMImplementation with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+Telemeta-1.4.6/telemeta/views/feed.py,71,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW
+Telemeta-1.4.6/telemeta/models/query.py,172,"Wrong hanging indentation in dict value.
+                        'IF(locations.type = ' + str(Location.COUNTRY) + ' '
+                        ^                 |   |",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+Telemeta-1.4.6/telemeta/models/query.py,172,"Wrong hanging indentation in dict value.
+                        'IF(locations.type = ' + str(Location.COUNTRY) + ' '
+                        ^                 |   |",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+Telemeta-1.4.6/telemeta/models/query.py,173,"Wrong hanging indentation in dict value.
+                        'OR locations.type = ' + str(Location.CONTINENT) + ','
+                        ^                 |   |                          |",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+Telemeta-1.4.6/telemeta/models/query.py,162,"Variable name ""qs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of extra potential SQL attack vector.,MEDIUM,MEDIUM
+Telemeta-1.4.6/telemeta/models/query.py,171,"Variable name ""qs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of extra potential SQL attack vector.,MEDIUM,MEDIUM
+Telemeta-1.4.6/telemeta/models/query.py,318,"Variable name ""qs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of extra potential SQL attack vector.,MEDIUM,MEDIUM
+Telemeta-1.4.6/telemeta/models/core.py,452,"No space allowed around keyword argument assignment
+            qs = qs.extra(where = ["" AND "".join(where)],
+                                ^",Category.C,bad-whitespace,Use of extra potential SQL attack vector.,MEDIUM,MEDIUM
+Telemeta-1.4.6/telemeta/models/core.py,452,"Variable name ""qs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of extra potential SQL attack vector.,MEDIUM,MEDIUM
+Telemeta-1.4.6/telemeta/models/core.py,45,"standard import ""from xml.dom.minidom import getDOMImplementation"" should be placed before ""from django.core import exceptions""",Category.C,wrong-import-order,"Using getDOMImplementation to parse untrusted XML data is known to be vulnerable to XML attacks. Replace getDOMImplementation with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+Telemeta-1.4.6/telemeta/views/item.py,553,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Telemeta-1.4.6/telemeta/views/instrument.py,115,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW
+Telemeta-1.4.6/telemeta/views/instrument.py,198,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW
+Telemeta-1.4.6/telemeta/views/core.py,235,Unable to import 'lxml.etree',Category.E,import-error,Using lxml.etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree with the equivalent defusedxml package.,HIGH,LOW

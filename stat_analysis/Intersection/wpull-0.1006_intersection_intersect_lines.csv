@@ -1,0 +1,12 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+wpull-0.1006/wpull/testing/boring_script.py,1,Missing module docstring,Category.C,missing-docstring,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+wpull-0.1006/wpull/testing/boring_script.py,1,Undefined variable 'wpull_hook',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+wpull-0.1006/wpull/testing/ftp.py,304,Missing method docstring,Category.C,missing-docstring,Possible hardcoded password: '',MEDIUM,LOW
+wpull-0.1006/wpull/thirdparty/robotexclusionrulesparser.py,431,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+wpull-0.1006/wpull/thirdparty/robotexclusionrulesparser.py,433,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+wpull-0.1006/wpull/thirdparty/robotexclusionrulesparser.py,146,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+wpull-0.1006/wpull/builder.py,248,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+wpull-0.1006/wpull/builder.py,395,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+wpull-0.1006/wpull/builder.py,412,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+wpull-0.1006/wpull/document/htmlparse/lxml_.py,4,Unable to import 'lxml.html',Category.E,import-error,Using lxml.html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.html with the equivalent defusedxml package.,HIGH,LOW
+wpull-0.1006/wpull/debug.py,40,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM

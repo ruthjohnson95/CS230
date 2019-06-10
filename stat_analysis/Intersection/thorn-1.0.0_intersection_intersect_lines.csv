@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+thorn-1.0.0/thorn/tests/dispatch/test_base.py,192,"Variable name ""d2"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+thorn-1.0.0/thorn/tests/test_request.py,155,"Variable name ""r2"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+thorn-1.0.0/thorn/tests/test_events.py,52,"Variable name ""e2"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+thorn-1.0.0/thorn/tests/test_events.py,206,"Variable name ""e2"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM

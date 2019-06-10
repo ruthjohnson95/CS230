@@ -1,0 +1,27 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-cms-patched-2.3.5/cms/templatetags/cms_admin.py,119,Line too long (116/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+django-cms-patched-2.3.5/cms/templatetags/cms_admin.py,119,Line too long (116/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+django-cms-patched-2.3.5/cms/utils/moderator.py,61,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+django-cms-patched-2.3.5/cms/signals.py,75,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugin_processors.py,21,Final newline missing,Category.C,missing-final-newline,Potential XSS on mark_safe function.,HIGH,MEDIUM
+django-cms-patched-2.3.5/cms/plugin_processors.py,21,Final newline missing,Category.C,missing-final-newline,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+django-cms-patched-2.3.5/cms/test_utils/tmpdir.py,19,"Exactly one space required after comma
+            dirname = 'django-cms-tests-%s' % random.randint(1,1000000)
+                                                              ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+django-cms-patched-2.3.5/cms/test_utils/tmpdir.py,22,"Exactly one space required after comma
+                dirname = 'django-cms-tests-%s' % random.randint(1,1000000)
+                                                                  ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+django-cms-patched-2.3.5/cms/management/commands/subcommands/moderator.py,12,Comparison to True should be just 'expr' or 'expr is True',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+django-cms-patched-2.3.5/cms/admin/change_list.py,188,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/link/migrations/0006_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/text/migrations/0004_table_rename.py,19,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/snippet/migrations/0003_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/googlemap/migrations/0002_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/file/migrations/0004_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/file/migrations/0004_table_rename.py,27,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/flash/migrations/0004_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/flash/migrations/0004_table_rename.py,27,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/picture/migrations/0005_table_rename.py,16,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/plugins/picture/models.py,34,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-patched-2.3.5/cms/tests/po.py,9,"standard import ""import subprocess"" comes before ""from django.core.management.base import CommandError""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+django-cms-patched-2.3.5/cms/tests/permmod.py,659,Line too long (109/100),Category.C,line-too-long,Possible hardcoded password: 'master',MEDIUM,LOW

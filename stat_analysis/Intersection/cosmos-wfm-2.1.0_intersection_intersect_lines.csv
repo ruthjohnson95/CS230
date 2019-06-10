@@ -1,0 +1,57 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+cosmos-wfm-2.1.0/cosmos/__init__.py,19,Line too long (104/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/__init__.py,20,Line too long (112/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/core/cmd_fxn/signature.py,55,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/core/cmd_fxn/signature.py,55,Undefined variable 'basestring',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/job/drm/drm_ge.py,200,Line too long (101/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/job/drm/drm_ge.py,200,Line too long (101/100),Category.C,line-too-long,Starting a process with a partial executable path,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/job/drm/drm_ge.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/job/drm/drm_ge.py,200,Undefined variable 'unicode',Category.E,undefined-variable,subprocess call - check for execution of untrusted input.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/job/drm/drm_ge.py,200,Undefined variable 'unicode',Category.E,undefined-variable,Starting a process with a partial executable path,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/job/drm/drm_lsf.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/job/JobManager.py,61,Undefined variable 'unicode',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/models/Cosmos.py,79,Line too long (126/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/models/Task.py,274,Line too long (105/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+cosmos-wfm-2.1.0/cosmos/models/Task.py,274,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+cosmos-wfm-2.1.0/cosmos/util/sqla.py,23,Line too long (120/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/web/gemon/ge.py,22,Line too long (111/100),Category.C,line-too-long,Using xml.etree.ElementTree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.fromstring with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+cosmos-wfm-2.1.0/cosmos/web/gemon/ge.py,22,Line too long (111/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/web/gemon/ge.py,22,Line too long (111/100),Category.C,line-too-long,Starting a process with a partial executable path,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/web/gemon/ge.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/web/gemon/ge.py,22,"Variable name ""et"" doesn't conform to snake_case naming style",Category.C,invalid-name,Using xml.etree.ElementTree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.fromstring with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+cosmos-wfm-2.1.0/cosmos/web/gemon/ge.py,22,"Variable name ""et"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+cosmos-wfm-2.1.0/cosmos/web/gemon/ge.py,22,"Variable name ""et"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+cosmos-wfm-2.1.0/docs/source/_static/imgs/generate_images.py,23,"Constant name ""workflow"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+cosmos-wfm-2.1.0/docs/source/_static/imgs/generate_images.py,30,"Constant name ""workflow"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+cosmos-wfm-2.1.0/docs/source/_static/imgs/generate_images.py,38,"Constant name ""workflow"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+cosmos-wfm-2.1.0/docs/source/_static/imgs/generate_images.py,47,"Constant name ""workflow"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos -&gt; cosmos.api),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos.api -&gt; cosmos.models.Cosmos -&gt; cosmos.web.views -&gt; cosmos.job.JobManager -&gt; cosmos.job.drm.drm_local),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos -&gt; cosmos.api -&gt; cosmos.core.cmd_fxn.signature),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos -&gt; cosmos.api -&gt; cosmos.models.Cosmos -&gt; cosmos.web.views -&gt; cosmos.graph.draw),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos -&gt; cosmos.api -&gt; cosmos.models.Cosmos -&gt; cosmos.web.views -&gt; cosmos.job.JobManager),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos.api -&gt; cosmos.models.Cosmos -&gt; cosmos.web.views),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos -&gt; cosmos.api -&gt; cosmos.models.Cosmos),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos -&gt; cosmos.api -&gt; cosmos.models.Cosmos -&gt; cosmos.web.views -&gt; cosmos.graph.draw -&gt; cosmos.models.Stage),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos -&gt; cosmos.api -&gt; cosmos.util.relationship_patterns -&gt; cosmos.models.Task),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Cyclic import (cosmos -&gt; cosmos.api -&gt; cosmos.models.Cosmos -&gt; cosmos.web.views -&gt; cosmos.graph.draw -&gt; cosmos.models.Stage -&gt; cosmos.models.Task),Category.R,cyclic-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,"Similar lines in 2 files
+==cosmos.api:61
+==test_examples:1
+import contextlib
+import os
+
+
+@contextlib.contextmanager
+def cd(path):
+    """"""A context manager which changes the working directory to the given
+    path, and then changes it back to its previous value on exit.
+
+    """"""
+    prev_cwd = os.getcwd()
+    os.chdir(path)
+    yield
+    os.chdir(prev_cwd)
+
+",Category.R,duplicate-code,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cosmos-wfm-2.1.0/test/test_examples.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW

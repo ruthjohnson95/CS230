@@ -1,0 +1,3 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-revproxy-0.9.5/revproxy/transformer.py,blacklist,B410,LOW,HIGH,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,18,[18],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b410-import-lxml
+django-revproxy-0.9.5/revproxy/transformer.py,blacklist,B320,MEDIUM,HIGH,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.,142,"[142, 143]",https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b313-b320-xml-bad-etree

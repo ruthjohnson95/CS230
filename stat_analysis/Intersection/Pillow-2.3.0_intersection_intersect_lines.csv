@@ -1,0 +1,52 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Pillow-2.3.0/setup.py,215,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/IptcImagePlugin.py,204,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/IptcImagePlugin.py,204,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/ImageCms.py,871,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Pillow-2.3.0/Scripts/thresholder.py,44,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+Pillow-2.3.0/Tests/test_image_quantize.py,22,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Pillow-2.3.0/PIL/ImageTk.py,120,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/ImageTk.py,240,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/IcnsImagePlugin.py,216,Module 'os' has no 'startfile' member,Category.E,no-member,Starting a process without a shell.,MEDIUM,LOW
+Pillow-2.3.0/PIL/IcnsImagePlugin.py,216,Module 'os' has no 'startfile' member,Category.E,no-member,Starting a process with a partial executable path,HIGH,LOW
+Pillow-2.3.0/PIL/GifImagePlugin.py,318,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/GifImagePlugin.py,335,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/GifImagePlugin.py,318,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/GifImagePlugin.py,335,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/JpegImagePlugin.py,354,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/JpegImagePlugin.py,583,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/JpegImagePlugin.py,75,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/JpegImagePlugin.py,106,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/JpegImagePlugin.py,347,Redefining built-in 'file',Category.W,redefined-builtin,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+Pillow-2.3.0/PIL/JpegImagePlugin.py,354,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/JpegImagePlugin.py,583,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/TiffImagePlugin.py,964,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Pillow-2.3.0/PIL/TiffImagePlugin.py,1009,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/Scripts/enhancer.py,41,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+Pillow-2.3.0/PIL/PngImagePlugin.py,223,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/PngImagePlugin.py,630,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/ImageFile.py,482,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/ImageFile.py,482,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/PpmImagePlugin.py,34,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/PpmImagePlugin.py,34,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/selftest.py,206,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/Tests/test_file_eps.py,13,"Exactly one space required after comma
+        gs = subprocess.Popen(['gs','--version'], stdout=subprocess.PIPE)
+                                   ^",Category.C,bad-whitespace,subprocess call - check for execution of untrusted input.,HIGH,LOW
+Pillow-2.3.0/Tests/test_file_eps.py,13,"Exactly one space required after comma
+        gs = subprocess.Popen(['gs','--version'], stdout=subprocess.PIPE)
+                                   ^",Category.C,bad-whitespace,Starting a process with a partial executable path,HIGH,LOW
+Pillow-2.3.0/Tests/test_file_eps.py,13,"Constant name ""gs"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+Pillow-2.3.0/Tests/test_file_eps.py,13,"Constant name ""gs"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+Pillow-2.3.0/Tests/import_all.py,10,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Pillow-2.3.0/PIL/EpsImagePlugin.py,68,"Multiple imports on one line (tempfile, os, subprocess)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+Pillow-2.3.0/PIL/EpsImagePlugin.py,89,"Variable name ""gs"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+Pillow-2.3.0/PIL/EpsImagePlugin.py,107,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/EpsImagePlugin.py,70,Redefining built-in 'file',Category.W,redefined-builtin,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+Pillow-2.3.0/PIL/EpsImagePlugin.py,107,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/PIL/EpsImagePlugin.py,220,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Pillow-2.3.0/Scripts/pildriver.py,516,"Constant name ""line"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,"The input method in Python 2 will read from standard input, evaluate and run the resulting string as python source code. This is similar, though in many ways worse, then using eval. On Python 2, use raw_input instead, input is safe in Python 3.",HIGH,HIGH
+Pillow-2.3.0/Scripts/pildriver.py,516,Unnecessary semicolon,Category.W,unnecessary-semicolon,"The input method in Python 2 will read from standard input, evaluate and run the resulting string as python source code. This is similar, though in many ways worse, then using eval. On Python 2, use raw_input instead, input is safe in Python 3.",HIGH,HIGH
+Pillow-2.3.0/Scripts/pildriver.py,210,Redefining built-in 'filter',Category.W,redefined-builtin,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+Pillow-2.3.0/Scripts/pildriver.py,210,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+Pillow-2.3.0/PIL/ImageFont.py,76,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

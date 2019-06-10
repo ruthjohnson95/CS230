@@ -1,0 +1,2 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+bepasty-0.1.0/bepasty/storage/filesystem/test_meta.py,13,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

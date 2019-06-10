@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+quintagroup.seoptimizer-3.0.1/quintagroup/seoptimizer/tests/testUsageKeywords.py,30,"Exactly one space required after comma
+            open('/tmp/testrender_SEOKeywords','w').write(html)
+                                              ^",Category.C,bad-whitespace,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+quintagroup.seoptimizer-3.0.1/quintagroup/seoptimizer/tests/testInstallation.py,240,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quintagroup.seoptimizer-3.0.1/quintagroup/seoptimizer/util.py,44,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

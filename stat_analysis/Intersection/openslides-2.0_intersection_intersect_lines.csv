@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+openslides-2.0/openslides/motions/pdf.py,193,"Variable name ""id"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+openslides-2.0/openslides/motions/pdf.py,193,Redefining built-in 'id',Category.W,redefined-builtin,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+openslides-2.0/openslides/users/models.py,88,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW

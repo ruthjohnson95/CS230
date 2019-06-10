@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+safety-1.8.3/tests/test_safety.py,55,"Comparison should be formatter.get_used_db(key=None, db='') == 'default DB'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+safety-1.8.3/tests/test_safety.py,56,"Comparison should be formatter.get_used_db(key='foo', db='') == ""pyup.io's DB""",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+safety-1.8.3/tests/test_safety.py,57,"Comparison should be formatter.get_used_db(key=None, db='/usr/local/some-db') == 'local DB'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

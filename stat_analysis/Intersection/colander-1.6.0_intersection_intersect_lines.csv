@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+colander-1.6.0/colander/compat.py,43,Unused loads imported from cPickle,Category.W,unused-import,Consider possible security implications associated with loads module.,HIGH,LOW
+colander-1.6.0/colander/compat.py,43,Unused dumps imported from cPickle,Category.W,unused-import,Consider possible security implications associated with loads module.,HIGH,LOW
+colander-1.6.0/colander/compat.py,43,Unused HIGHEST_PROTOCOL imported from cPickle,Category.W,unused-import,Consider possible security implications associated with loads module.,HIGH,LOW

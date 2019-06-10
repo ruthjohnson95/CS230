@@ -1,0 +1,2 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+ansigenome-0.5.6/ansigenome/init.py,144,"invalid token (&lt;string&gt;, line 144)",Category.E,syntax-error,Chmod setting a permissive mask 0755 on file (test_file).,HIGH,MEDIUM

@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+PasteScript-1.7.4.2/paste/script/util/secret.py,19,Undefined variable 'xrange',Category.E,undefined-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+PasteScript-1.7.4.2/paste/script/util/uuid.py,216,"invalid syntax (&lt;string&gt;, line 216)",Category.E,syntax-error,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+PasteScript-1.7.4.2/paste/script/util/uuid.py,216,"invalid syntax (&lt;string&gt;, line 216)",Category.E,syntax-error,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+PasteScript-1.7.4.2/paste/script/util/uuid.py,216,"invalid syntax (&lt;string&gt;, line 216)",Category.E,syntax-error,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+PasteScript-1.7.4.2/tests/test_logging_config.py,133,"Variable name ""fn"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+PasteScript-1.7.4.2/tests/test_logging_config.py,209,"Variable name ""fn"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM

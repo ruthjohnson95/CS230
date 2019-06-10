@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+lambdaJSON-0.1.4/lambdaJSON/__init__.py,blacklist,B307,MEDIUM,HIGH,Use of possibly insecure function - consider using safer ast.literal_eval.,29,[29],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval
+lambdaJSON-0.1.4/lambdaJSON/__init__.py,blacklist,B307,MEDIUM,HIGH,Use of possibly insecure function - consider using safer ast.literal_eval.,33,[33],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval
+lambdaJSON-0.1.4/lambdaJSON/lambdaJSON.py,blacklist,B307,MEDIUM,HIGH,Use of possibly insecure function - consider using safer ast.literal_eval.,29,[29],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval
+lambdaJSON-0.1.4/lambdaJSON/lambdaJSON.py,blacklist,B307,MEDIUM,HIGH,Use of possibly insecure function - consider using safer ast.literal_eval.,33,[33],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval

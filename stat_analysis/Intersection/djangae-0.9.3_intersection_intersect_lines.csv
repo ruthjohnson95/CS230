@@ -1,0 +1,54 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+djangae-0.9.3/djangae/sandbox.py,415,Redefining name 'subprocess' from outer scope (line 6),Category.W,redefined-outer-name,Consider possible security implications associated with subprocess module.,HIGH,LOW
+djangae-0.9.3/djangae/sandbox.py,415,Reimport 'subprocess' (imported line 6),Category.W,reimported,Consider possible security implications associated with subprocess module.,HIGH,LOW
+djangae-0.9.3/djangae/db/transaction.py,130,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+djangae-0.9.3/djangae/db/backends/appengine/dnf.py,149,"No space allowed before bracket
+            assert not any([x.connector == 'AND' and not x.is_leaf for x in where.children ])
+                                                                                           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+djangae-0.9.3/djangae/patches/contenttypes.py,46,Access to a protected member _meta of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,331,Line too long (106/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+djangae-0.9.3/djangae/tests/test_connector.py,331,"No space allowed after bracket
+        fruits = [ TestFruit.objects.create(name=str(x), color=random.choice(colors)) for x in range(32) ]
+                 ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+djangae-0.9.3/djangae/tests/test_connector.py,331,"No space allowed before bracket
+        fruits = [ TestFruit.objects.create(name=str(x), color=random.choice(colors)) for x in range(32) ]
+                                                                                                         ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+djangae-0.9.3/djangae/tests/test_connector.py,786,Line too long (102/100),Category.C,line-too-long,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,803,Line too long (102/100),Category.C,line-too-long,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,888,Line too long (102/100),Category.C,line-too-long,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,925,Line too long (102/100),Category.C,line-too-long,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,786,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,803,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,888,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,925,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,331,Class 'TestFruit' has no 'objects' member,Category.E,no-member,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+djangae-0.9.3/djangae/tests/test_connector.py,786,Class 'ModelWithUniques' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,803,Class 'ModelWithUniques' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,888,Class 'ModelWithUniques' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,925,Class 'ModelWithUniques' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/tests/test_connector.py,1323,Class 'TestUser' has no 'objects' member,Category.E,no-member,Use of extra potential SQL attack vector.,MEDIUM,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/models.py,166,Access to a protected member _state of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,51,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,67,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,87,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,106,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,127,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,145,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,162,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,177,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,182,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,201,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,207,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,233,Access to a protected member _meta of a client class,Category.W,protected-access,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,51,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,67,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,87,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,106,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,127,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,145,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,162,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,177,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,182,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,201,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,207,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+djangae-0.9.3/djangae/contrib/uniquetool/tests.py,233,Class 'TestModel' has no '_meta' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM

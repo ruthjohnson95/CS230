@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+recurly-2.6.2/tests/test_resources.py,450,"No space allowed around keyword argument assignment
+        account.billing_info = BillingInfo(token_id = 'abc123')
+                                                    ^",Category.C,bad-whitespace,Possible hardcoded password: 'abc123',MEDIUM,LOW
+recurly-2.6.2/tests/test_resources.py,4,Unused ElementTree imported from xml.etree,Category.W,unused-import,"Using ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+recurly-2.6.2/recurly/errors.py,1,Missing module docstring,Category.C,missing-docstring,"Using ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+recurly-2.6.2/recurly/__init__.py,6,"standard import ""from xml.etree import ElementTree"" should be placed before ""from six.moves.urllib.parse import urljoin""",Category.C,wrong-import-order,"Using ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW

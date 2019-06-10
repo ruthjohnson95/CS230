@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+oodt-0.3/oodt/tests/profileTest.py,23,"Multiple imports on one line (unittest, xml.dom.minidom)",Category.C,multiple-imports,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+oodt-0.3/oodt/webgrid.py,24,"standard import ""from xml.dom.minidom import parseString, getDOMImplementation"" should be placed before ""from oodt.query import Query""",Category.C,wrong-import-order,"Using parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace parseString with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+oodt-0.3/oodt/webgrid.py,108,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM

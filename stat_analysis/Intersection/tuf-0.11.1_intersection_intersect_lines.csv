@@ -1,0 +1,80 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+tuf-0.11.1/tests/test_extraneous_dependencies_attack.py,88,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_extraneous_dependencies_attack.py,90,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1035,"Variable name ""SERVER_PORT"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1288,"Variable name ""SERVER_PORT"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1415,"Variable name ""SERVER_PORT"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,2051,"Variable name ""EXPECTED_KEYFILE_PASSWORD"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/test_updater.py,100,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,102,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,717,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,729,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,756,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,775,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1035,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1037,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1288,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1290,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1415,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1417,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1798,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,1805,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_updater.py,2051,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/test_indefinite_freeze_attack.py,95,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_indefinite_freeze_attack.py,97,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_indefinite_freeze_attack.py,234,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tuf-0.11.1/tests/slow_retrieval_server.py,93,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/slow_retrieval_server.py,108,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tuf-0.11.1/tests/slow_retrieval_server.py,93,Redefining name 'port' from outer scope (line 106),Category.W,redefined-outer-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_mix_and_match_attack.py,89,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_mix_and_match_attack.py,91,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_replay_attack.py,88,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_replay_attack.py,90,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_replay_attack.py,238,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tuf-0.11.1/tests/test_replay_attack.py,251,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tuf-0.11.1/tests/test_arbitrary_package_attack.py,82,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_arbitrary_package_attack.py,84,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_arbitrary_package_attack.py,189,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tuf-0.11.1/tests/test_arbitrary_package_attack.py,203,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tuf-0.11.1/tests/repository_data/generate.py,62,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/repository_data/generate.py,63,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/repository_data/generate.py,64,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/repository_data/generate.py,65,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/repository_data/generate.py,66,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/test_endless_data_attack.py,84,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_endless_data_attack.py,86,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_endless_data_attack.py,193,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tuf-0.11.1/tests/test_endless_data_attack.py,211,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tuf-0.11.1/tests/test_updater_root_rotation_integration.py,338,"Variable name ""EXPECTED_KEYFILE_PASSWORD"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/test_updater_root_rotation_integration.py,89,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_updater_root_rotation_integration.py,91,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_updater_root_rotation_integration.py,338,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/test_slow_retrieval_attack.py,79,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_slow_retrieval_attack.py,103,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_download.py,71,"Attribute name ""PORT"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_download.py,85,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+tuf-0.11.1/tests/test_download.py,71,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_download.py,73,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_download.py,85,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+tuf-0.11.1/tests/test_download.py,221,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_download.py,223,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/simple_server.py,44,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_repository_lib.py,132,Line too long (103/100),Category.C,line-too-long,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,134,Line too long (103/100),Category.C,line-too-long,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,141,Line too long (103/100),Category.C,line-too-long,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,109,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,125,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,132,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,134,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,141,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,222,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,237,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,250,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_repository_lib.py,300,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Possible hardcoded password: 'pw',MEDIUM,LOW
+tuf-0.11.1/tests/test_multiple_repositories_integration.py,134,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_multiple_repositories_integration.py,141,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/simple_https_server.py,49,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_key_revocation_integration.py,470,"Variable name ""EXPECTED_KEYFILE_PASSWORD"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'password',MEDIUM,LOW
+tuf-0.11.1/tests/test_key_revocation_integration.py,84,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tuf-0.11.1/tests/test_key_revocation_integration.py,86,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tuf-0.11.1/tests/test_key_revocation_integration.py,470,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Possible hardcoded password: 'password',MEDIUM,LOW

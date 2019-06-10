@@ -1,0 +1,9 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+hpack-1.1.0/test/test_hpack.py,222,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+hpack-1.1.0/test/test_hpack.py,427,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+hpack-1.1.0/test/test_table.py,72,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+hpack-1.1.0/test/test_table.py,118,Comparison to True should be just 'expr' or 'expr is True',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+hpack-1.1.0/test/test_table.py,122,Comparison to False should be 'not expr' or 'expr is False',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+hpack-1.1.0/test/test_table.py,137,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+hpack-1.1.0/test/test_table.py,35,TODO HPACKException will be raised instead,Category.W,fixme,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+hpack-1.1.0/test/test_table.py,42,TODO HPACKException will be raised instead,Category.W,fixme,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

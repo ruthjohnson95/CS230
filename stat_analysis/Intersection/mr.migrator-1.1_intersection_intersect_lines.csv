@@ -1,0 +1,12 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+mr.migrator-1.1/setup.py,18,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+mr.migrator-1.1/bootstrap.py,21,"Multiple imports on one line (os, shutil, sys, tempfile, urllib, urllib2, subprocess)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mr.migrator-1.1/bootstrap.py,34,"Constant name ""stdout"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mr.migrator-1.1/bootstrap.py,34,"Constant name ""stderr"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mr.migrator-1.1/bootstrap.py,164,"Constant name ""ez_code"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+mr.migrator-1.1/bootstrap.py,246,"Constant name ""exitcode"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mr.migrator-1.1/bootstrap.py,248,"Constant name ""exitcode"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Starting a process without a shell.,MEDIUM,LOW
+mr.migrator-1.1/bootstrap.py,245,Imports from package subprocess are not grouped,Category.C,ungrouped-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mr.migrator-1.1/bootstrap.py,167,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+mr.migrator-1.1/bootstrap.py,245,Reimport 'subprocess' (imported line 21),Category.W,reimported,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mr.migrator-1.1/mr/migrator/__init__.py,5,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM

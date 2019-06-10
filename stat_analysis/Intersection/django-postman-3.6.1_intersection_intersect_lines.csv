@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-postman-3.6.1/postman/models.py,143,"Invalid variable name ""qs""",Category.C,invalid-name,Use of extra potential SQL attack vector.,MEDIUM,MEDIUM
+django-postman-3.6.1/postman/models.py,95,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-postman-3.6.1/postman/models.py,106,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

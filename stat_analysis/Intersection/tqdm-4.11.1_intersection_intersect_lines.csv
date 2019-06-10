@@ -1,0 +1,32 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+tqdm-4.11.1/tqdm/tests/tests_perf.py,170,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_perf.py,224,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_perf.py,234,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_perf.py,264,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_perf.py,283,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_perf.py,294,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_perf.py,327,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_main.py,28,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_main.py,53,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_main.py,18,"Variable name ""ls"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_main.py,18,"Variable name ""ls"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+tqdm-4.11.1/tqdm/_utils.py,167,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tqdm-4.11.1/tqdm/_utils.py,179,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tqdm-4.11.1/tqdm/_main.py,18,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tqdm-4.11.1/tqdm/_main.py,21,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tqdm-4.11.1/setup.py,125,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,344,Comparison should be our_file.read()[-1] == u'\n',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,791,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,803,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,811,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,729,TODO: this may fail in the future,Category.W,fixme,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,789,Access to a protected member _instances of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,791,Access to a protected member _instances of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,803,Access to a protected member _instances of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,806,Access to a protected member _instances of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,811,Access to a protected member _instances of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/tqdm/tests/tests_tqdm.py,869,Access to a protected member _instances of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/examples/progressbar/widgets.py,259,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+tqdm-4.11.1/examples/progressbar/widgets.py,259,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tqdm-4.11.1/examples/7zx.py,58,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tqdm-4.11.1/examples/7zx.py,24,"standard import ""import subprocess"" should be placed before ""from docopt import docopt""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW

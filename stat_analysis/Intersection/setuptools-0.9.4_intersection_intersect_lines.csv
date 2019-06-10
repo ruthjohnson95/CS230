@@ -1,0 +1,37 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+setuptools-0.9.4/setuptools/command/bdist_egg.py,438,More than one statement on a single line,Category.C,multiple-statements,Deserialization with the marshal module is possibly dangerous.,HIGH,MEDIUM
+setuptools-0.9.4/setuptools/compat.py,55,"Constant name ""exec_"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+setuptools-0.9.4/setuptools/compat.py,45,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+setuptools-0.9.4/setuptools/compat.py,55,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+setuptools-0.9.4/setup.py,17,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+setuptools-0.9.4/setup.py,25,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+setuptools-0.9.4/_markerlib/markers.py,109,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+setuptools-0.9.4/pkg_resources.py,45,"Constant name ""exec_"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+setuptools-0.9.4/pkg_resources.py,41,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+setuptools-0.9.4/pkg_resources.py,45,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha512.py,282,Line too long (165/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha512.py,283,Line too long (170/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha512.py,284,Line too long (172/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha512.py,288,Line too long (158/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/command/sdist.py,98,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+setuptools-0.9.4/setuptools/command/sdist.py,98,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+setuptools-0.9.4/setuptools/ssl_support.py,34,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+setuptools-0.9.4/setuptools/ssl_support.py,190,Attribute 'sock' defined outside __init__,Category.W,attribute-defined-outside-init,"ssl.wrap_socket call with no SSL/TLS protocol version specified, the default SSLv23 could be insecure, possible security issue.",MEDIUM,LOW
+setuptools-0.9.4/setuptools/extension.py,19,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+setuptools-0.9.4/setuptools/dist.py,48,"Exactly one space required around comparison
+        assert ''.join(value)!=value
+                             ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/tests/test_packageindex.py,74,Line too long (112/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha.py,353,Comparison should be new().hexdigest() == 'da39a3ee5e6b4b0d3255bfef95601890afd80709',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha.py,354,Comparison should be new(a_str).hexdigest() == '3f0cf2e3d9e5903e839417dfc47fed6bfa6457f6',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha.py,355,Comparison should be new((a_str) * (7)).hexdigest() == '0852b254078fe3772568a4aba37b917f3d4066ba',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha.py,359,Comparison should be s.hexdigest() == '8862c1b50967f39d3db6bdc2877d9ccebd3102e5',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha256.py,254,Line too long (101/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha256.py,255,Line too long (106/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha256.py,256,Line too long (108/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha256.py,254,Comparison should be sha256().hexdigest() == 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha256.py,255,Comparison should be sha256(a_str).hexdigest() == 'd7b553c6f09ac85d142415f857c5310f3bbbe7cdd787cce4b985acedd585266f',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha256.py,256,Comparison should be sha256((a_str) * (7)).hexdigest() == '8113ebf33c97daa9998762aacafe750c7cefc2b2f173c90c59663a57fe626f21',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/_backport/hashlib/_sha256.py,260,Comparison should be s.hexdigest() == '03d9963e05a094593190b6fc794cb1a3e1ac7d7883f0b5855268afeccc70d461',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+setuptools-0.9.4/setuptools/tests/test_easy_install.py,226,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+setuptools-0.9.4/setuptools/tests/test_dist_info.py,11,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

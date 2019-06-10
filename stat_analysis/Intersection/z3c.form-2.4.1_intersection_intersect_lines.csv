@@ -1,0 +1,12 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+z3c.form-2.4.1/src/z3c/form/field.py,146,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+z3c.form-2.4.1/src/z3c/form/field.py,161,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+z3c.form-2.4.1/src/z3c/form/outputchecker.py,3,Unable to import 'lxml.etree',Category.E,import-error,Using lxml.etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree with the equivalent defusedxml package.,HIGH,LOW
+z3c.form-2.4.1/src/z3c/form/outputchecker.py,4,Unable to import 'lxml.doctestcompare',Category.E,import-error,Using lxml.doctestcompare to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.doctestcompare with the equivalent defusedxml package.,HIGH,LOW
+z3c.form-2.4.1/benchmark/benchmark/tests.py,66,"Wrong hanging indentation (add 1 space).
+           ["""".join(chr(random.randint(65, 90)) for i in range(10))]
+           ^|",Category.C,bad-continuation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+z3c.form-2.4.1/src/z3c/form/testing.py,38,Unable to import 'lxml.html',Category.E,import-error,Using lxml.html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.html with the equivalent defusedxml package.,HIGH,LOW
+z3c.form-2.4.1/src/z3c/form/testing.py,39,Unable to import 'lxml.doctestcompare',Category.E,import-error,Using lxml.doctestcompare to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.doctestcompare with the equivalent defusedxml package.,HIGH,LOW
+z3c.form-2.4.1/bootstrap.py,28,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+z3c.form-2.4.1/bootstrap.py,28,Use of exec,Category.W,exec-used,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM

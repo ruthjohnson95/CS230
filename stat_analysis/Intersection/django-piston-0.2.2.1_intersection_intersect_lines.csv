@@ -1,0 +1,16 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-piston-0.2.2.1/piston/emitters.py,39,"Import ""import cPickle as pickle"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with cPickle module.,HIGH,LOW
+django-piston-0.2.2.1/piston/emitters.py,41,"Import ""import pickle"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with pickle module.,HIGH,LOW
+django-piston-0.2.2.1/piston/emitters.py,248,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+django-piston-0.2.2.1/piston/emitters.py,253,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+django-piston-0.2.2.1/piston/emitters.py,39,"standard import ""import cPickle as pickle"" comes before ""import yaml""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+django-piston-0.2.2.1/piston/emitters.py,41,"standard import ""import pickle"" comes before ""import yaml""",Category.C,wrong-import-order,Consider possible security implications associated with pickle module.,HIGH,LOW
+django-piston-0.2.2.1/piston/emitters.py,248,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-piston-0.2.2.1/piston/emitters.py,253,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-piston-0.2.2.1/piston/decorator.py,87,"Consider changing ""not '_wrapper_' in infodict['argnames']"" to ""'_wrapper_' not in infodict['argnames']""",Category.C,unneeded-not,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+django-piston-0.2.2.1/piston/decorator.py,97,"Consider changing ""not name in infodict['argnames']"" to ""name not in infodict['argnames']""",Category.C,unneeded-not,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+django-piston-0.2.2.1/piston/decorator.py,66,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-piston-0.2.2.1/piston/decorator.py,90,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+django-piston-0.2.2.1/piston/decorator.py,100,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+django-piston-0.2.2.1/piston/decorator.py,159,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+django-piston-0.2.2.1/piston/oauth.py,152,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+stormpath-2.0.4/stormpath/auth.py,165,Too many arguments (12/5),Category.R,too-many-arguments,Possible hardcoded password: 'apiKey.secret',MEDIUM,LOW
+stormpath-2.0.4/stormpath/auth.py,165,Too many return statements (8/6),Category.R,too-many-return-statements,Possible hardcoded password: 'apiKey.secret',MEDIUM,LOW
+stormpath-2.0.4/setup.py,4,"standard import ""import subprocess"" should be placed before ""from setuptools import setup, find_packages, Command""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+stormpath-2.0.4/tests/mocks/test_auth.py,33,"Variable name ""a"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'Shush!',MEDIUM,LOW
+stormpath-2.0.4/tests/mocks/test_auth.py,50,"Variable name ""s"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'Shush!',MEDIUM,LOW
+stormpath-2.0.4/tests/mocks/test_auth.py,74,"Variable name ""s"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'Shush!',MEDIUM,LOW

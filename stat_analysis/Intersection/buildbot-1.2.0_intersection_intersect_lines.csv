@@ -1,0 +1,69 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+buildbot-1.2.0/buildbot/changes/pb.py,105,Too many arguments (6/5),Category.R,too-many-arguments,Possible hardcoded password: 'changepw',MEDIUM,LOW
+buildbot-1.2.0/buildbot/changes/svnpoller.py,25,"standard import ""import xml.dom.minidom"" should be placed before ""from future.moves.urllib.parse import quote_plus as urlquote_plus""",Category.C,wrong-import-order,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+buildbot-1.2.0/buildbot/clients/tryclient.py,560,Attribute 'bsid' defined outside __init__,Category.W,attribute-defined-outside-init,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+buildbot-1.2.0/buildbot/db/base.py,72,Line too long (120/100),Category.C,line-too-long,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/db/model.py,833,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+buildbot-1.2.0/buildbot/process/users/users.py,167,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/process/users/users.py,184,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/schedulers/timed.py,391,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+buildbot-1.2.0/buildbot/scripts/base.py,160,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+buildbot-1.2.0/buildbot/scripts/base.py,261,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+buildbot-1.2.0/buildbot/scripts/tryserver.py,34,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/status/client.py,28,Unused argument 'port',Category.W,unused-argument,Possible hardcoded password: 'clientpw',MEDIUM,LOW
+buildbot-1.2.0/buildbot/status/client.py,28,Unused argument 'user',Category.W,unused-argument,Possible hardcoded password: 'clientpw',MEDIUM,LOW
+buildbot-1.2.0/buildbot/status/client.py,28,Unused argument 'passwd',Category.W,unused-argument,Possible hardcoded password: 'clientpw',MEDIUM,LOW
+buildbot-1.2.0/buildbot/steps/source/gerrit.py,47,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+buildbot-1.2.0/buildbot/steps/source/git.py,336,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+buildbot-1.2.0/buildbot/steps/source/svn.py,23,"standard import ""import xml.dom.minidom"" should be placed before ""from future.moves.urllib.parse import unquote as urlunquote""",Category.C,wrong-import-order,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+buildbot-1.2.0/buildbot/steps/shell.py,171,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+buildbot-1.2.0/buildbot/test/fake/fakedb.py,100,Instance of 'Row' has no 'defaults' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+buildbot-1.2.0/buildbot/test/integration/test_integration_secrets_with_vault.py,35,"Variable name ""rv"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",HIGH,LOW
+buildbot-1.2.0/buildbot/test/integration/test_integration_secrets_with_vault.py,35,"Variable name ""rv"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+buildbot-1.2.0/buildbot/test/integration/test_integration_secrets_with_vault.py,41,"Variable name ""rv"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",HIGH,LOW
+buildbot-1.2.0/buildbot/test/integration/test_integration_secrets_with_vault.py,41,"Variable name ""rv"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+buildbot-1.2.0/buildbot/test/unit/test_changes_svnpoller.py,406,Method could be a function,Category.R,no-self-use,Possible hardcoded password: 'bbrocks',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_changes_svnpoller.py,413,Method could be a function,Category.R,no-self-use,Possible hardcoded password: 'bbrocks',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_changes_svnpoller.py,406,"Method name ""makeInfoExpect"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'bbrocks',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_changes_svnpoller.py,406,Missing method docstring,Category.C,missing-docstring,Possible hardcoded password: 'bbrocks',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_changes_svnpoller.py,413,"Method name ""makeLogExpect"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'bbrocks',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_changes_svnpoller.py,413,Missing method docstring,Category.C,missing-docstring,Possible hardcoded password: 'bbrocks',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_db_base.py,111,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/test/unit/test_db_base.py,128,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/test/unit/test_db_base.py,139,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/test/unit/test_db_base.py,155,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/test/unit/test_process_users_manual.py,301,"Variable name ""d"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'y',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_scripts_user.py,62,"Variable name ""d"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'y',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_scripts_user.py,81,"Variable name ""d"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'y',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_scripts_user.py,96,"Variable name ""d"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'y',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,75,"Variable name ""kw"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'SECRET_KEY',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,104,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,127,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,139,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,175,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,208,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,268,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,326,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,345,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,375,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,396,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,422,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,457,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,480,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,497,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,511,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,594,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,612,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,631,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,645,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/unit/test_worker_ec2.py,659,"Variable name ""bs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'privatekey',MEDIUM,LOW
+buildbot-1.2.0/buildbot/test/util/gpo.py,35,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+buildbot-1.2.0/buildbot/test/util/gpo.py,40,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+buildbot-1.2.0/buildbot/worker/docker.py,93,Attribute 'masterhash' defined outside __init__,Category.W,attribute-defined-outside-init,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/www/avatar.py,46,"Variable name ""emailHash"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+buildbot-1.2.0/buildbot/www/resource.py,104,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+buildbot-1.2.0/buildbot/__init__.py,116,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+buildbot-1.2.0/buildbot/__init__.py,116,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+buildbot-1.2.0/buildbot/buildbot_net_usage_data.py,55,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+buildbot-1.2.0/docs/conf.py,91,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+buildbot-1.2.0/docs/conf.py,38,Module 'sphinxcontrib' has no 'blockdiag' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

@@ -1,0 +1,2 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+block-io-1.1.6/block_io/__init__.py,blacklist,B413,HIGH,HIGH,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,1,[1],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b413-import-pycrypto

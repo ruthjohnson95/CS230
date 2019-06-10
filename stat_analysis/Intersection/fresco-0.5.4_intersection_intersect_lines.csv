@@ -1,0 +1,26 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+fresco-0.5.4/fresco/tests/test_core.py,733,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,734,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,735,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,736,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,737,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,738,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,742,Instance of 'str' has no 'method' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,743,Instance of 'str' has no 'form' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,744,Instance of 'str' has no 'query' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,748,Instance of 'str' has no 'method' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,749,Instance of 'str' has no 'form' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,754,Instance of 'str' has no 'files' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,755,Instance of 'str' has no 'files' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,760,Instance of 'str' has no 'body' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,764,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,770,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,777,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_core.py,784,Instance of 'str' has no 'environ' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_routeargs.py,32,Comparison to literal,Category.R,literal-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_routeargs.py,191,Instance of 'str' has no 'form' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/compat.py,49,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+fresco-0.5.4/fresco/tests/util/test_http.py,68,Unused variable 'value',Category.W,unused-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/routing.py,494,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+fresco-0.5.4/fresco/tests/test_decorators.py,139,Instance of 'dict' has no 'content_iterator' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fresco-0.5.4/fresco/tests/test_decorators.py,145,Instance of 'dict' has no 'content_iterator' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

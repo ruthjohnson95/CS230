@@ -1,0 +1,2 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+collins_client-0.1.1/collins_client/client.py,109,Module 'urllib' has no 'urlencode' member,Category.E,no-member,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM

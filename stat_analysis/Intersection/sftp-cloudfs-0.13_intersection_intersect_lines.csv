@@ -1,0 +1,3 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+sftp-cloudfs-0.13/sftpcloudfs/main.py,36,Unable to import 'Crypto',Category.E,import-error,The pyCrypto library and its module Random are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+sftp-cloudfs-0.13/sftpcloudfs/server.py,35,Unable to import 'Crypto',Category.E,import-error,The pyCrypto library and its module Random are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH

@@ -1,0 +1,15 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+ipwb-0.2018.8.20.40/ipwb/replay.py,708,"Variable name ""e"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Try, Except, Continue detected.",HIGH,LOW
+ipwb-0.2018.8.20.40/ipwb/replay.py,919,"Variable name ""e"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Try, Except, Continue detected.",HIGH,LOW
+ipwb-0.2018.8.20.40/ipwb/replay.py,17,"standard import ""import subprocess"" should be placed before ""import ipfsapi""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+ipwb-0.2018.8.20.40/ipwb/replay.py,708,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+ipwb-0.2018.8.20.40/ipwb/replay.py,919,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+ipwb-0.2018.8.20.40/ipwb/replay.py,919,Unused variable 'e',Category.W,unused-variable,"Try, Except, Continue detected.",HIGH,LOW
+ipwb-0.2018.8.20.40/ipwb/replay.py,46,Unable to import 'Crypto.Cipher',Category.E,import-error,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+ipwb-0.2018.8.20.40/ipwb/replay.py,47,Unable to import 'Crypto.Util.Padding',Category.E,import-error,The pyCrypto library and its module pad are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+ipwb-0.2018.8.20.40/ipwb/__main__.py,49,"Variable name ""tempFilePath"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ipwb-0.2018.8.20.40/ipwb/indexer.py,93,"Variable name ""ipfsTempPath"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ipwb-0.2018.8.20.40/ipwb/indexer.py,41,Unable to import 'Crypto.Cipher',Category.E,import-error,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+ipwb-0.2018.8.20.40/ipwb/indexer.py,42,Unable to import 'Crypto.Util.Padding',Category.E,import-error,The pyCrypto library and its module pad are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+ipwb-0.2018.8.20.40/ipwb/util.py,13,"standard import ""import subprocess"" should be placed before ""import requests""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+ipwb-0.2018.8.20.40/ipwb/util.py,13,Unused import subprocess,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW

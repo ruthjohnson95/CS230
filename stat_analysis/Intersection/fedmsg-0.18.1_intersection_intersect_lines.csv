@@ -1,0 +1,19 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+fedmsg-0.18.1/setup.py,63,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+fedmsg-0.18.1/fedmsg/config.py,333,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+fedmsg-0.18.1/fedmsg/crypto/gpg.py,103,"Invalid variable name ""p""",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/crypto/gpg.py,118,"Invalid variable name ""p""",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/crypto/gpg.py,138,"Invalid variable name ""p""",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/crypto/gpg.py,26,"standard import ""import subprocess"" comes before ""import six""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/__init__.py,77,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/__init__.py,77,Access to a protected member __context of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/tests/fedmsg-test-config.py,37,"Invalid constant name ""port""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/tests/test_replay.py,124,"Comparison should be rep[0].decode('utf-8') == ""error: 'No luck!'""",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/tests/test_hub.py,44,"Invalid constant name ""secret""",Category.C,invalid-name,Possible hardcoded password: 'secret_message',MEDIUM,LOW
+fedmsg-0.18.1/fedmsg/tests/test_threads.py,145,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/tests/test_threads.py,42,"Invalid constant name ""secret""",Category.C,invalid-name,Possible hardcoded password: 'secret_message',MEDIUM,LOW
+fedmsg-0.18.1/fedmsg/tests/test_commands.py,109,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/tests/test_commands.py,136,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/tests/test_commands.py,163,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+fedmsg-0.18.1/fedmsg/tests/test_crypto_gpg.py,42,"Invalid constant name ""secret_fp""",Category.C,invalid-name,Possible hardcoded password: 'FBDA 92E4 338D FFD9 EB83  F8F6 3FBD B725 DA19 B4EC',MEDIUM,LOW
+fedmsg-0.18.1/fedmsg/utils.py,25,"standard import ""import subprocess"" comes before ""import six""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW

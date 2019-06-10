@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Henosis-0.0.10/Henosis/model.py,14,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW
+Henosis-0.0.10/Henosis/server.py,32,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+Henosis-0.0.10/Henosis/server.py,32,"standard import ""import subprocess"" should be placed before ""from gevent import monkey""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+Henosis-0.0.10/Henosis/server.py,546,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Henosis-0.0.10/Henosis/utils.py,15,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW

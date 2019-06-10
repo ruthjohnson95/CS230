@@ -1,0 +1,6 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+sevabot-1.0/modules/weather.py,HIGH,MEDIUM,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,28,[28],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen,B310,blacklist
+sevabot-1.0/sevabot/bot/bot.py,HIGH,MEDIUM,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",62,[62],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5,B303,blacklist
+sevabot-1.0/sevabot/bot/modules.py,HIGH,LOW,Consider possible security implications associated with subprocess module.,14,"[14, 15]",https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess,B404,blacklist
+sevabot-1.0/sevabot/bot/modules.py,HIGH,HIGH,"subprocess call with shell=True identified, security issue.",76,[76],https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html,B602,subprocess_popen_with_shell_equals_true
+sevabot-1.0/sevabot/frontend/api.py,HIGH,MEDIUM,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",70,[70],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5,B303,blacklist

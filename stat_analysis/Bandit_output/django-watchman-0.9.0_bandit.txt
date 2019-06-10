@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-watchman-0.9.0/setup.py,start_process_with_a_shell,B605,LOW,HIGH,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",17,[17],https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html
+django-watchman-0.9.0/setup.py,start_process_with_partial_path,B607,LOW,HIGH,Starting a process with a partial executable path,17,[17],https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html
+django-watchman-0.9.0/tests/test_views.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'ABCDE',136,[136],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html

@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+pip-1.2.1/pip/backwardcompat.py,68,Unused import xmlrpclib,Category.W,unused-import,Using xmlrpclib to parse untrusted XML data is known to be vulnerable to XML attacks. Use defused.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.,HIGH,HIGH
+pip-1.2.1/pip/req.py,470,Line too long (156/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+pip-1.2.1/pip/util.py,10,"standard import ""import subprocess"" should be placed before ""import pkg_resources""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+pip-1.2.1/pip/util.py,412,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

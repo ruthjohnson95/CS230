@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+cloudinary-1.0.19/cloudinary/poster/encode.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,189,[189],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+cloudinary-1.0.19/cloudinary/utils.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",121,[121],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+cloudinary-1.0.19/cloudinary/utils.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",251,[251],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+cloudinary-1.0.19/cloudinary/utils.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",270,[270],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5

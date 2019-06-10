@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+verifone-0.1.7/verifone/verifone.py,7,Unable to import 'Crypto.PublicKey',Category.E,import-error,The pyCrypto library and its module RSA are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+verifone-0.1.7/verifone/verifone.py,8,Unable to import 'Crypto.Hash',Category.E,import-error,The pyCrypto library and its module SHA512 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+verifone-0.1.7/verifone/verifone.py,9,Unable to import 'Crypto.Signature',Category.E,import-error,The pyCrypto library and its module PKCS1_v1_5 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH

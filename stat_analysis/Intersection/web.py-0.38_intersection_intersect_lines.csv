@@ -1,0 +1,27 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+web.py-0.38/web/webopenid.py,45,"Variable name ""n"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+web.py-0.38/web/webopenid.py,47,"Variable name ""n"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+web.py-0.38/web/net.py,79,Too many branches (14/12),Category.R,too-many-branches,Possible binding to all interfaces.,MEDIUM,MEDIUM
+web.py-0.38/web/net.py,79,"Argument name ""ip"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible binding to all interfaces.,MEDIUM,MEDIUM
+web.py-0.38/web/wsgiserver/ssl_pyopenssl.py,136,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+web.py-0.38/web/db.py,886,"Wrong hanging indentation (add 2 spaces).
+          ""UPDATE "" + sqllist(tables) + 
+          ^ |",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+web.py-0.38/web/db.py,886,Trailing whitespace,Category.C,trailing-whitespace,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+web.py-0.38/web/db.py,1145,Trailing whitespace,Category.C,trailing-whitespace,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+web.py-0.38/web/db.py,1242,Trailing whitespace,Category.C,trailing-whitespace,Possible hardcoded password: '{',MEDIUM,LOW
+web.py-0.38/web/db.py,1244,Trailing whitespace,Category.C,trailing-whitespace,Possible hardcoded password: '}',MEDIUM,LOW
+web.py-0.38/web/db.py,305,"Variable name ""v"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+web.py-0.38/web/db.py,910,"Variable name ""q"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+web.py-0.38/web/db.py,305,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+web.py-0.38/web/utils.py,1528,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+web.py-0.38/web/utils.py,1533,"Variable name ""o"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+web.py-0.38/web/utils.py,1533,Using deprecated method popen2(),Category.W,deprecated-method,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+web.py-0.38/web/template.py,918,Trailing whitespace,Category.C,trailing-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+web.py-0.38/web/template.py,803,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+web.py-0.38/web/template.py,918,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+web.py-0.38/web/wsgiserver/__init__.py,1718,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+web.py-0.38/web/wsgiserver/__init__.py,1721,More than one statement on a single line,Category.C,multiple-statements,Chmod setting a permissive mask 0777 on file (NOT PARSED).,HIGH,HIGH
+web.py-0.38/web/wsgiserver/__init__.py,1722,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+web.py-0.38/web/wsgiserver/__init__.py,1718,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+web.py-0.38/web/wsgiserver/__init__.py,1722,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

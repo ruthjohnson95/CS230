@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django_make_app-0.1.2.1/django_make_app/io_utils.py,yaml_load,B506,MEDIUM,HIGH,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,15,[15],https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html
+django_make_app-0.1.2.1/django_make_app/renderers.py,jinja2_autoescape_false,B701,HIGH,HIGH,"By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",22,[22],https://bandit.readthedocs.io/en/latest/plugins/b701_jinja2_autoescape_false.html
+django_make_app-0.1.2.1/tests/test_schema.py,yaml_load,B506,MEDIUM,HIGH,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,32,"[32, 33, 34, 35, 36, 37, 38, 39, 40, 41]",https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html

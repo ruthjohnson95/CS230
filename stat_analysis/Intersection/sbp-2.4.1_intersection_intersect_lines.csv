@@ -1,0 +1,135 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+sbp-2.4.1/sbp/client/handler.py,197,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,134,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,36,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,37,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,38,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,39,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,40,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,80,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,83,"Bad indentation. Found 6 spaces, expected 12",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,100,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,108,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,109,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,118,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,119,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/utils.py,134,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/build_test_data.py,193,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/sbp/client/drivers/network_drivers.py,192,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+sbp-2.4.1/sbp/client/drivers/network_drivers.py,285,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+sbp-2.4.1/sbp/client/drivers/network_drivers.py,360,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+sbp-2.4.1/sbp/msg.py,139,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,48,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,52,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,36,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,48,"Bad indentation. Found 10 spaces, expected 20",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,49,"Bad indentation. Found 10 spaces, expected 20",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,52,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,53,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,67,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,81,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,82,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,83,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,88,"Bad indentation. Found 6 spaces, expected 12",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,137,"Bad indentation. Found 12 spaces, expected 24",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,138,"Bad indentation. Found 12 spaces, expected 24",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,140,"Bad indentation. Found 6 spaces, expected 12",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_logger.py,141,"Bad indentation. Found 6 spaces, expected 12",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/sbp/client/forwarder.py,53,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+sbp-2.4.1/sbp/client/util/settingmonitor.py,120,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/sbp/client/util/settingmonitor.py,131,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/sbp/client/util/settingmonitor.py,120,Comparison to True should be just 'expr' or 'expr is True',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/sbp/client/util/settingmonitor.py,131,Comparison to False should be 'not expr' or 'expr is False',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/sbp/version.py,43,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+sbp-2.4.1/sbp/version.py,43,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+sbp-2.4.1/sbp/version.py,69,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+sbp-2.4.1/tests/sbp/test_table.py,47,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/test_table.py,74,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/test_table.py,88,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/test_table.py,93,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/test_table.py,94,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/test_table.py,95,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/test_messages.py,45,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/test_messages.py,46,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/test_messages.py,45,Undefined variable 'ROOTDIR',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,48,"Exactly one space required around comparison
+    assert s.preamble==0x55
+                     ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,49,"Exactly one space required around comparison
+    assert s.msg_type==0x10
+                     ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,50,"Exactly one space required around comparison
+    assert s.sender==66
+                   ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,51,"Exactly one space required around comparison
+    assert s.length==3
+                   ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,52,"Exactly one space required around comparison
+    assert s.payload=='abc'
+                    ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,53,"Exactly one space required around comparison
+    assert s.crc==0xDAEE
+                ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,48,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,49,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,50,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,51,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,52,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,53,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,65,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,76,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,77,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,78,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,79,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,81,"Bad indentation. Found 6 spaces, expected 12",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,82,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,83,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,84,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,90,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,100,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,113,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,114,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,125,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,140,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,141,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,142,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,143,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,144,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,145,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,146,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,152,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,171,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_driver.py,172,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,37,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,42,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,47,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,37,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,42,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,47,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,53,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,54,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,55,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,56,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,63,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,79,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,80,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,81,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,82,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,89,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,90,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,91,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,92,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,102,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,103,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,108,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,109,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,121,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,133,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,134,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,148,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,153,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,37,Access to a protected member _receive of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,42,Access to a protected member _receive of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,47,Access to a protected member _receive of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/tests/sbp/client/test_handler.py,148,Access to a protected member _sinks of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+sbp-2.4.1/sbp/client/framer.py,127,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

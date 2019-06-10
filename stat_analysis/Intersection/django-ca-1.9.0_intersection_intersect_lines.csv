@@ -1,0 +1,3 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-ca-1.9.0/ca/django_ca/utils.py,413,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+django-ca-1.9.0/ca/django_ca/utils.py,419,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW

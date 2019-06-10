@@ -1,0 +1,171 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+numpy-1.16.0/setup.py,26,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+numpy-1.16.0/setup.py,206,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/f2py/f90mod_rules.py,183,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/lib/utils.py,554,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/lib/tests/test_polynomial.py,256,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,1210,"Variable name ""v"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,2105,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,2587,"Variable name ""l"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,2596,"Variable name ""l"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,3117,"Variable name ""c"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,3235,"Variable name ""v"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,1049,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,1055,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,1065,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,1210,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,1803,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,2105,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,2117,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,2159,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,2195,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,2486,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,2514,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,2588,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,2587,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,2597,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,2596,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,2828,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,2826,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,3117,Redefining name 'c' from outer scope (line 245),Category.W,redefined-outer-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,3117,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/crackfortran.py,3237,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/crackfortran.py,3235,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/tests/util.py,135,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/f2py/tests/util.py,211,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/f2py/tests/util.py,289,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/testing/_private/utils.py,1057,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+numpy-1.16.0/numpy/testing/_private/utils.py,1375,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+numpy-1.16.0/numpy/ma/core.py,1043,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/ma/core.py,1185,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_dtype.py,518,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/setup.py,191,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/f2py_testing.py,15,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/code_generators/genapi.py,134,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+numpy-1.16.0/numpy/core/code_generators/genapi.py,500,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+numpy-1.16.0/numpy/linalg/tests/test_build.py,18,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/linalg/tests/test_build.py,24,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/testing/_private/parameterized.py,402,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/lib/tests/test_format.py,659,"Variable name ""tf"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/capi_maps.py,191,"Constant name ""d"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/capi_maps.py,486,"Variable name ""v"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/capi_maps.py,191,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/capi_maps.py,331,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/f2py/capi_maps.py,330,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/capi_maps.py,486,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_arrayprint.py,332,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_arrayprint.py,333,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/distutils/fcompiler/__init__.py,251,Access to a protected member _is_customised of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/misc_util.py,1150,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/misc_util.py,1150,"Exactly one space required around comparison
+                            assert s==path_list[i], repr((s, path_list[i], data_path, d, path, rpath))
+                                    ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/misc_util.py,1276,"Exactly one space required around comparison
+        assert len(files)==1
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/misc_util.py,1841,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+numpy-1.16.0/numpy/distutils/misc_util.py,1841,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+numpy-1.16.0/numpy/distutils/misc_util.py,1878,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+numpy-1.16.0/numpy/distutils/misc_util.py,1878,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+numpy-1.16.0/numpy/distutils/misc_util.py,155,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/distutils/misc_util.py,161,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/distutils/misc_util.py,346,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/distutils/misc_util.py,829,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/distutils/misc_util.py,1846,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/distutils/misc_util.py,1883,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/distutils/command/config.py,126,"Variable name ""d"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/command/config.py,126,"Variable name ""d"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+numpy-1.16.0/numpy/distutils/ccompiler.py,458,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/tools/npy_tempita/__init__.py,311,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/tools/npy_tempita/__init__.py,326,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+numpy-1.16.0/tools/npy_tempita/__init__.py,331,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+numpy-1.16.0/tools/npy_tempita/__init__.py,341,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+numpy-1.16.0/tools/npy_tempita/__init__.py,363,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+numpy-1.16.0/tools/npy_tempita/__init__.py,1288,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/distutils/mingw32ccompiler.py,74,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+numpy-1.16.0/numpy/distutils/mingw32ccompiler.py,74,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+numpy-1.16.0/numpy/distutils/mingw32ccompiler.py,288,"Variable name ""st"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/mingw32ccompiler.py,288,"Variable name ""st"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,141,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,143,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,143,"Exactly one space required after :
+        assert(xm.size == reduce(lambda x, y:x*y, s))
+                                            ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,144,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,144,"Exactly one space required after :
+        assert(self.count(xm) == len(m1) - reduce(lambda x, y:x+y, m1))
+                                                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,152,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,152,"Exactly one space required after :
+            assert(self.count(xm) == len(m1) - reduce(lambda x, y:x+y, m1))
+                                                                 ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,192,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,194,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,382,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,384,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,389,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,439,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/ma/timer_comparison.py,384,Instance of 'ModuleTester' has no 'average' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/ma/timer_comparison.py,389,Instance of 'ModuleTester' has no 'average' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/fcompiler/ibm.py,40,"Variable name ""o"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/lib2def.py,68,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+numpy-1.16.0/numpy/distutils/system_info.py,295,"Constant name ""p"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/system_info.py,295,"Constant name ""p"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+numpy-1.16.0/numpy/distutils/system_info.py,2248,"Variable name ""o"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/system_info.py,2248,Undefined variable 'subprocess',Category.E,undefined-variable,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/ma/tests/test_core.py,3740,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_nditer.py,2771,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_scalarmath.py,536,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/doc/sphinxext/numpydoc/numpydoc.py,299,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/matrixlib/tests/test_interaction.py,260,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/matrixlib/tests/test_interaction.py,261,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/f2py/auxfuncs.py,570,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/auxfuncs.py,578,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/f2py/auxfuncs.py,582,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/_internal.py,199,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_memmap.py,171,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_memmap.py,173,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/fcompiler/gnu.py,406,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+numpy-1.16.0/numpy/distutils/fcompiler/gnu.py,541,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/runtests.py,60,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+numpy-1.16.0/runtests.py,233,"Variable name ""r1"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/runtests.py,233,"Variable name ""r1"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+numpy-1.16.0/runtests.py,235,"Variable name ""r2"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/runtests.py,235,"Variable name ""r2"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+numpy-1.16.0/runtests.py,388,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/runtests.py,483,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/function_base.py,461,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_multiarray.py,3286,"Variable name ""MyType"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_multiarray.py,3742,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_multiarray.py,135,Redefining name 'pickle' from outer scope (line 24),Category.W,redefined-outer-name,Consider possible security implications associated with pickle module.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_multiarray.py,135,Reimport 'pickle' (imported line 24),Category.W,reimported,Consider possible security implications associated with pickle module.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_multiarray.py,1206,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_multiarray.py,3286,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_multiarray.py,4477,Attribute 'filename' defined outside __init__,Category.W,attribute-defined-outside-init,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_function_base.py,88,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_function_base.py,91,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_function_base.py,213,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_function_base.py,216,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_function_base.py,304,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_function_base.py,307,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/doc/sphinxext/numpydoc/tests/test_docscrape.py,708,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/doc/sphinxext/numpydoc/tests/test_docscrape.py,710,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/doc/sphinxext/numpydoc/tests/test_docscrape.py,759,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/doc/sphinxext/numpydoc/tests/test_docscrape.py,760,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/doc/sphinxext/numpydoc/tests/test_docscrape.py,761,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/doc/sphinxext/numpydoc/tests/test_docscrape.py,785,Comparison should be str(w[0].message) == 'Unknown section Mope',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/cpuinfo.py,339,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/distutils/cpuinfo.py,78,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/distutils/cpuinfo.py,339,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/distutils/cpuinfo.py,23,No name 'getstatusoutput' in module 'subprocess',Category.E,no-name-in-module,Consider possible security implications associated with getstatusoutput module.,HIGH,LOW
+numpy-1.16.0/numpy/core/tests/test_records.py,154,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_records.py,155,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/core/tests/test_records.py,156,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+numpy-1.16.0/numpy/distutils/tests/test_system_info.py,73,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/tests/test_system_info.py,7,"standard import ""from subprocess import Popen, PIPE"" should be placed before ""import pytest""",Category.C,wrong-import-order,Consider possible security implications associated with Popen module.,HIGH,LOW
+numpy-1.16.0/numpy/distutils/tests/test_system_info.py,166,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/distutils/tests/test_system_info.py,170,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/distutils/tests/test_system_info.py,174,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/numpy/tests/test_scripts.py,11,"standard import ""from subprocess import Popen, PIPE"" should be placed before ""import pytest""",Category.C,wrong-import-order,Consider possible security implications associated with Popen module.,HIGH,LOW
+numpy-1.16.0/numpy/tests/test_scripts.py,74,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+numpy-1.16.0/tools/cythonize.py,139,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM

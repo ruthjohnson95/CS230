@@ -1,0 +1,6 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+stormpath-sdk-0.2.1/stormpath/client/client_builder.py,HIGH,MEDIUM,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,159,[159],https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html,B506,yaml_load
+stormpath-sdk-0.2.1/stormpath/client/client_builder.py,HIGH,MEDIUM,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,171,[171],https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html,B506,yaml_load
+stormpath-sdk-0.2.1/stormpath/resource/accounts.py,MEDIUM,LOW,Possible hardcoded password: 'password',10,[10],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html,B105,hardcoded_password_string
+stormpath-sdk-0.2.1/stormpath/resource/accounts.py,MEDIUM,LOW,Possible hardcoded password: 'emailVerificationToken',16,[16],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html,B105,hardcoded_password_string
+stormpath-sdk-0.2.1/stormpath/resource/applications.py,MEDIUM,LOW,Possible hardcoded password: 'passwordResetTokens',12,"[12, 13]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html,B105,hardcoded_password_string

@@ -1,0 +1,2 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+cffconvert-1.0.2/setup.py,31,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM

@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+requests-2.2.1/requests/packages/urllib3/packages/six.py,327,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+requests-2.2.1/test_requests.py,688,"Variable name ""pr"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+requests-2.2.1/test_requests.py,731,"Variable name ""s"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+requests-2.2.1/test_requests.py,860,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+requests-2.2.1/test_requests.py,952,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+requests-2.2.1/test_requests.py,571,Access to a protected member _rest of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

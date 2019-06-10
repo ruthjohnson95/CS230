@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+keyring-0.9/keyring/backend.py,441,Unused variable 'AES',Category.W,unused-variable,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+keyring-0.9/keyring/backend.py,527,Unable to import 'Crypto.Cipher',Category.E,import-error,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+keyring-0.9/keyring/util/properties.py,22,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+keyring-0.9/keyring/util/properties.py,23,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+keyring-0.9/keyring/util/platform.py,8,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+keyring-0.9/keyring/tests/test_backend.py,115,Unused variable 'AES',Category.W,unused-variable,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH

@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-countries-3.3/django_countries/ioc_data.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,220,[220],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+django-countries-3.3/django_countries/tests/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'test',1,"[1, 2]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+django-countries-3.3/django_countries/widgets.py,django_mark_safe,B703,MEDIUM,HIGH,Potential XSS on mark_safe function.,74,"[74, 75]",https://bandit.readthedocs.io/en/latest/plugins/b703_django_mark_safe.html
+django-countries-3.3/django_countries/widgets.py,blacklist,B308,MEDIUM,HIGH,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,74,"[74, 75]",https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b308-mark-safe

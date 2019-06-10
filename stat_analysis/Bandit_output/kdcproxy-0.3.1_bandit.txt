@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+kdcproxy-0.3.1/kdcproxy/config/__init__.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,138,"[138, 139, 140]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+kdcproxy-0.3.1/kdcproxy/config/mit.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,279,[279],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+kdcproxy-0.3.1/kdcproxy/config/mit.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,285,[285],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+kdcproxy-0.3.1/kdcproxy/config/mit.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,290,[290],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html

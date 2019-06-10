@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+collective.contact.core-1.9/src/collective/contact/core/browser/utils.py,47,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+collective.contact.core-1.9/bootstrap.py,158,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+collective.contact.core-1.9/bootstrap.py,158,"standard import ""import subprocess"" should be placed before ""import setuptools""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+collective.contact.core-1.9/bootstrap.py,78,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+collective.contact.core-1.9/bootstrap.py,78,Use of exec,Category.W,exec-used,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM

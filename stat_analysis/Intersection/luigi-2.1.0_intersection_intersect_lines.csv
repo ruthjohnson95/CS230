@@ -1,0 +1,64 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+luigi-2.1.0/test/task_test.py,78,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/test/event_callbacks_test.py,164,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+luigi-2.1.0/luigi/retcodes.py,74,Access to a protected member _ORDERED_STATUSES of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/test/s3_test.py,142,Access to a protected member _config_paths of a client class,Category.W,protected-access,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+luigi-2.1.0/test/lock_test.py,34,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/test/lock_test.py,34,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+luigi-2.1.0/test/lock_test.py,53,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/test/lock_test.py,53,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+luigi-2.1.0/luigi/six.py,677,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+luigi-2.1.0/examples/wordcount.py,37,Instance of 'DateParameter' has no 'strftime' member,Category.E,no-member,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/luigi/worker.py,372,Line too long (106/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/worker.py,373,Line too long (105/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/db_task_history.py,147,Line too long (128/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hadoop_jar.py,49,Line too long (114/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hadoop_jar.py,49,"Variable name ""y"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+luigi-2.1.0/test/recursion_test.py,31,Instance of 'DateParameter' has no 'strftime' member,Category.E,no-member,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/decorator_test.py,322,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+luigi-2.1.0/test/decorator_test.py,293,Instance of 'DateParameter' has no 'strftime' member,Category.E,no-member,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/decorator_test.py,305,Instance of 'PCopy' has no 'date' member,Category.E,no-member,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/examples/wordcount_hadoop.py,46,Instance of 'DateParameter' has no 'strftime' member,Category.E,no-member,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/test_sigpipe.py,45,"Variable name ""fp"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/test_sigpipe.py,54,"Variable name ""p1"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/test_sigpipe.py,60,"Variable name ""p1"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/test_sigpipe.py,72,"Variable name ""fp"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/test_sigpipe.py,81,"Variable name ""p1"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/test_sigpipe.py,88,"Variable name ""p1"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/cmdline_test.py,163,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/test/cmdline_test.py,25,"standard import ""import subprocess"" should be placed before ""import mock""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+luigi-2.1.0/luigi/lock.py,39,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+luigi-2.1.0/luigi/lock.py,46,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+luigi-2.1.0/luigi/file.py,105,Line too long (103/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/bigquery.py,425,Line too long (106/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/bigquery.py,486,Line too long (106/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/bigquery.py,536,Line too long (104/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/bigquery.py,546,Line too long (104/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/ftp.py,385,Line too long (116/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/ftp.py,79,Attribute 'conn' defined outside __init__,Category.W,attribute-defined-outside-init,FTP-related functions are being called. FTP is considered insecure. Use SSH/SFTP/SCP or some other encrypted protocol.,HIGH,HIGH
+luigi-2.1.0/luigi/contrib/ftp.py,81,Attribute 'conn' defined outside __init__,Category.W,attribute-defined-outside-init,FTP-related functions are being called. FTP is considered insecure. Use SSH/SFTP/SCP or some other encrypted protocol.,HIGH,HIGH
+luigi-2.1.0/luigi/contrib/ftp.py,385,Attribute '__tmp_path' defined outside __init__,Category.W,attribute-defined-outside-init,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/ssh.py,155,Line too long (110/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/ssh.py,245,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/pig.py,136,Line too long (106/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hadoop.py,283,Line too long (134/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hadoop.py,582,Line too long (116/100),Category.C,line-too-long,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+luigi-2.1.0/luigi/contrib/hdfs/hadoopcli_clients.py,65,Line too long (126/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hdfs/hadoopcli_clients.py,78,Line too long (122/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hdfs/hadoopcli_clients.py,65,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hdfs/hadoopcli_clients.py,78,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hdfs/hadoopcli_clients.py,260,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hdfs/hadoopcli_clients.py,30,"standard import ""import subprocess"" should be placed before ""from luigi.target import FileAlreadyExists""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/sge_runner.py,84,Line too long (106/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/luigi/contrib/hive.py,65,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/test/postgres_with_server_test.py,40,"Constant name ""password"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: 'guest',MEDIUM,LOW
+luigi-2.1.0/luigi/contrib/redshift.py,188,Line too long (104/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+luigi-2.1.0/test/instance_wrap_test.py,40,Instance of 'DateParameter' has no 'strftime' member,Category.E,no-member,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/worker_external_task_test.py,162,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+luigi-2.1.0/test/wrap_test.py,95,Line too long (128/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/wrap_test.py,99,Line too long (141/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/wrap_test.py,45,Instance of 'DateParameter' has no 'strftime' member,Category.E,no-member,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/wrap_test.py,80,Instance of 'BXML' has no 'date' member,Category.E,no-member,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+luigi-2.1.0/test/webhdfs_minicluster.py,20,"standard import ""import subprocess"" should be placed before ""from minicluster import MiniClusterTestCase""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+luigi-2.1.0/test/webhdfs_minicluster.py,58,Attribute 'hdfs' defined outside __init__,Category.W,attribute-defined-outside-init,subprocess call - check for execution of untrusted input.,HIGH,LOW
+luigi-2.1.0/test/snakebite_test.py,51,"Attribute name ""testDir"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM

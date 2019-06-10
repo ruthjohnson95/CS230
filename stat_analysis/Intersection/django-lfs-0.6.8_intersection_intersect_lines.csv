@@ -1,0 +1,12 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-lfs-0.6.8/lfs/manage/api/handlers.py,34,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+django-lfs-0.6.8/lfs/cart/models.py,321,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+django-lfs-0.6.8/lfs/caching/listeners.py,73,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-lfs-0.6.8/lfs/core/fields/thumbs.py,100,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-lfs-0.6.8/lfs/export/utils.py,24,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-lfs-0.6.8/lfs/export/utils.py,21,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-lfs-0.6.8/lfs/catalog/utils.py,220,Line too long (104/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+django-lfs-0.6.8/lfs/catalog/utils.py,271,Line too long (107/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+django-lfs-0.6.8/lfs/catalog/utils.py,302,Line too long (111/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+django-lfs-0.6.8/lfs/catalog/utils.py,441,Line too long (106/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+django-lfs-0.6.8/lfs/catalog/utils.py,630,Line too long (101/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM

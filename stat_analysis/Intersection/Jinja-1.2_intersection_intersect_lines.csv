@@ -1,0 +1,8 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Jinja-1.2/jinja/debugger.py,102,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Jinja-1.2/jinja/translators/python.py,55,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Jinja-1.2/jinja/translators/python.py,120,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Jinja-1.2/jinja/filters.py,39,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Jinja-1.2/jinja/filters.py,58,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Jinja-1.2/tests/test_lexer.py,45,Anomalous Unicode escape in byte string: '\N'. String constant might be missing an r or u prefix.,Category.W,anomalous-unicode-escape-in-string,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Jinja-1.2/tests/runtime/bigtable.py,108,"Constant name ""mako_tmpl"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,"Mako templates allow HTML/JS rendering by default and are inherently open to XSS attacks. Ensure variables in all templates are properly sanitized via the 'n', 'h' or 'x' flags (depending on context). For example, to HTML escape the variable 'data' do ${ data |h }.",HIGH,MEDIUM

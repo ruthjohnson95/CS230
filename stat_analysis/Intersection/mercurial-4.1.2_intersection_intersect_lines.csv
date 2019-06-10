@@ -1,0 +1,81 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+mercurial-4.1.2/setup.py,12,"Constant name ""printf"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+mercurial-4.1.2/setup.py,24,"Constant name ""sha"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/setup.py,61,"Multiple imports on one line (os, stat, subprocess, time)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/setup.py,61,"Import ""import os, stat, subprocess, time"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/setup.py,61,"Import ""import os, stat, subprocess, time"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/setup.py,61,"Import ""import os, stat, subprocess, time"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/setup.py,61,"Import ""import os, stat, subprocess, time"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/setup.py,143,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mercurial-4.1.2/setup.py,12,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+mercurial-4.1.2/setup.py,140,Using deprecated method popen3(),Category.W,deprecated-method,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+mercurial-4.1.2/mercurial/tags.py,97,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mercurial-4.1.2/mercurial/tags.py,301,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/mercurial/subrepo.py,1118,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mercurial-4.1.2/mercurial/subrepo.py,1418,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mercurial-4.1.2/mercurial/similar.py,31,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/mercurial/similar.py,38,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/hgext/convert/git.py,473,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/hgext/fsmonitor/pywatchman/__init__.py,825,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mercurial-4.1.2/contrib/bdiff-torture.py,72,"Variable name ""b"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+mercurial-4.1.2/contrib/bdiff-torture.py,56,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/contrib/synthrepo.py,331,"Variable name ""w"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+mercurial-4.1.2/hgext/largefiles/lfcommands.py,233,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/tests/run-tests.py,130,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+mercurial-4.1.2/tests/run-tests.py,1876,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mercurial-4.1.2/mercurial/bundle2.py,1004,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+mercurial-4.1.2/hgext/convert/p4.py,24,"Variable name ""d"" doesn't conform to snake_case naming style",Category.C,invalid-name,Deserialization with the marshal module is possibly dangerous.,HIGH,MEDIUM
+mercurial-4.1.2/mercurial/hgweb/protocol.py,151,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mercurial-4.1.2/tests/test-demandimport.py,7,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/tests/test-demandimport.py,7,"standard import ""import subprocess"" should be placed before ""from mercurial import demandimport""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/tests/test-parseindex2.py,124,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+mercurial-4.1.2/contrib/python-zstandard/tests/test_compressor.py,326,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/contrib/python-zstandard/tests/test_compressor.py,340,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/mercurial/repoview.py,105,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/mercurial/patch.py,2451,"Variable name ""s"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/contrib/python-zstandard/make_cffi.py,80,"Constant name ""process"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+mercurial-4.1.2/contrib/python-zstandard/make_cffi.py,12,"standard import ""import subprocess"" should be placed before ""import cffi""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/hgext/convert/common.py,348,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+mercurial-4.1.2/mercurial/dirstate.py,1221,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mercurial-4.1.2/mercurial/dirstate.py,1221,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mercurial-4.1.2/mercurial/dirstate.py,1247,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mercurial-4.1.2/mercurial/dirstate.py,1247,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mercurial-4.1.2/mercurial/dirstate.py,1258,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mercurial-4.1.2/mercurial/dirstate.py,1258,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mercurial-4.1.2/mercurial/ui.py,888,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/mercurial/verify.py,111,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/mercurial/statprof.py,223,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/mercurial/pycompat.py,21,Unused cPickle imported as pickle,Category.W,unused-import,Consider possible security implications associated with cPickle module.,HIGH,LOW
+mercurial-4.1.2/mercurial/pycompat.py,28,Unused import xmlrpclib,Category.W,unused-import,Using xmlrpclib to parse untrusted XML data is known to be vulnerable to XML attacks. Use defused.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.,HIGH,HIGH
+mercurial-4.1.2/mercurial/pycompat.py,32,Unused import pickle,Category.W,unused-import,Consider possible security implications associated with pickle module.,HIGH,LOW
+mercurial-4.1.2/hgext/zeroconf/Zeroconf.py,1328,"Wrong continued indentation (add 19 spaces).
+            socket.inet_aton(_MDNS_ADDR) + socket.inet_aton('0.0.0.0'))
+            ^                  |",Category.C,bad-continuation,Possible binding to all interfaces.,MEDIUM,MEDIUM
+mercurial-4.1.2/hgext/zeroconf/Zeroconf.py,1651,"Wrong continued indentation (add 19 spaces).
+                socket.inet_aton(_MDNS_ADDR) + socket.inet_aton('0.0.0.0'))
+                ^                  |",Category.C,bad-continuation,Possible binding to all interfaces.,MEDIUM,MEDIUM
+mercurial-4.1.2/hgext/zeroconf/Zeroconf.py,901,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/hgext/zeroconf/Zeroconf.py,1308,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/hgext/zeroconf/Zeroconf.py,1323,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/hgext/zeroconf/Zeroconf.py,1533,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/hgext/zeroconf/Zeroconf.py,1638,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/mercurial/revlog.py,122,"Constant name ""_nullhash"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/mercurial/revlog.py,140,"Variable name ""s"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/mercurial/util.py,353,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+mercurial-4.1.2/mercurial/util.py,365,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+mercurial-4.1.2/mercurial/util.py,787,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+mercurial-4.1.2/mercurial/util.py,1023,"Variable name ""rc"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+mercurial-4.1.2/mercurial/util.py,1027,"Variable name ""rc"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+mercurial-4.1.2/mercurial/util.py,1013,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+mercurial-4.1.2/tests/heredoctest.py,18,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+mercurial-4.1.2/hgext/largefiles/lfutil.py,405,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/hgext/fsmonitor/pywatchman/compat.py,54,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+mercurial-4.1.2/contrib/check-code.py,545,"Variable name ""l"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+mercurial-4.1.2/contrib/perf.py,1227,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+mercurial-4.1.2/tests/test-verify-repo-operations.py,10,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/tests/test-verify-repo-operations.py,43,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/tests/test-verify-repo-operations.py,43,"standard import ""import subprocess"" should be placed before ""import silenttestrunner""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/tests/test-verify-repo-operations.py,43,Imports from package subprocess are not grouped,Category.C,ungrouped-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/tests/test-verify-repo-operations.py,43,Reimport 'subprocess' (imported line 10),Category.W,reimported,Consider possible security implications associated with subprocess module.,HIGH,LOW
+mercurial-4.1.2/mercurial/scmutil.py,333,"Variable name ""s"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+mercurial-4.1.2/mercurial/scmutil.py,1341,Access to a protected member _filecache of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

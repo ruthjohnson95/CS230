@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+gitlab_languages-1.2.1/gitlab_languages.py,blacklist,B403,LOW,HIGH,Consider possible security implications associated with pickle module.,6,[6],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b403-import-pickle
+gitlab_languages-1.2.1/gitlab_languages.py,blacklist,B403,LOW,HIGH,Consider possible security implications associated with UnpicklingError module.,8,[8],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b403-import-pickle
+gitlab_languages-1.2.1/gitlab_languages.py,blacklist,B301,MEDIUM,HIGH,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",373,[373],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b301-pickle

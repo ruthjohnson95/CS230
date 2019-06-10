@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+quandl_fund_xlsx-0.2.0/tests/test_quandl_fund_xlsx.py,75,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quandl_fund_xlsx-0.2.0/tests/test_quandl_fund_xlsx.py,77,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quandl_fund_xlsx-0.2.0/tests/test_quandl_fund_xlsx.py,75,Comparison to False should be 'not expr' or 'expr is False',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quandl_fund_xlsx-0.2.0/tests/test_quandl_fund_xlsx.py,77,Comparison to True should be just 'expr' or 'expr is True',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quandl_fund_xlsx-0.2.0/quandl_fund_xlsx/fundamentals.py,569,Line too long (131/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quandl_fund_xlsx-0.2.0/quandl_fund_xlsx/fundamentals.py,569,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

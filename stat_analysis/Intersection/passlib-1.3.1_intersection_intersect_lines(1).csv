@@ -1,0 +1,22 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+passlib-1.3.1/passlib/registry.py,246,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+passlib-1.3.1/passlib/apache.py,338,"Exactly one space required after comma
+        hash = md5(""%s:%s:%s"" % (user,realm,password)).hexdigest()
+                                     ^",Category.C,bad-whitespace,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+passlib-1.3.1/passlib/apache.py,338,"Exactly one space required after comma
+        hash = md5(""%s:%s:%s"" % (user,realm,password)).hexdigest()
+                                           ^",Category.C,bad-whitespace,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+passlib-1.3.1/passlib/apache.py,383,"Exactly one space required after comma
+        return hash == md5(""%s:%s:%s"" % (user,realm,password)).hexdigest()
+                                             ^",Category.C,bad-whitespace,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+passlib-1.3.1/passlib/apache.py,383,"Exactly one space required after comma
+        return hash == md5(""%s:%s:%s"" % (user,realm,password)).hexdigest()
+                                                   ^",Category.C,bad-whitespace,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+passlib-1.3.1/passlib/apache.py,338,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+passlib-1.3.1/passlib/tests/utils.py,165,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+passlib-1.3.1/passlib/handlers/md5_crypt.py,41,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+passlib-1.3.1/passlib/handlers/md5_crypt.py,102,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+passlib-1.3.1/passlib/handlers/sun_md5_crypt.py,169,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+passlib-1.3.1/passlib/utils/__init__.py,46,"Exactly one space required after comma
+assert sys_bits in (32,64), ""unexpected sys_bits value: %r"" % (sys_bits,)
+                      ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

@@ -1,0 +1,19 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-cms-2.1.2/cms/templatetags/cms_admin.py,75,Line too long (134/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+django-cms-2.1.2/cms/templatetags/cms_admin.py,75,Line too long (134/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+django-cms-2.1.2/cms/utils/moderator.py,60,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+django-cms-2.1.2/cms/signals.py,55,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/admin/change_list.py,147,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/admin/pageadmin.py,643,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/link/migrations/0006_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/text/migrations/0004_table_rename.py,19,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/snippet/migrations/0003_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/googlemap/migrations/0002_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/file/migrations/0004_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/file/migrations/0004_table_rename.py,27,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/flash/migrations/0004_table_rename.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/flash/migrations/0004_table_rename.py,27,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/picture/migrations/0005_table_rename.py,16,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/plugins/picture/models.py,32,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-cms-2.1.2/cms/tests/plugins.py,70,Unnecessary parens after u'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+django-cms-2.1.2/cms/tests/plugins.py,72,Unnecessary parens after u'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-envelope-0.4/envelope/tests/views.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'password',49,[49],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+django-envelope-0.4/envelope/tests/views.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'password',62,[62],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+django-envelope-0.4/example_project/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: '',33,[33],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+django-envelope-0.4/example_project/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'n5)bgcx7xwk^fhnv+w&qaap)lryz8in*a293=!d=*!%js7^mdr',74,"[74, 75, 76]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html

@@ -1,0 +1,87 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+tlslite-0.4.8/tlslite/utils/tripledes.py,22,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/utils/tripledes.py,27,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,339,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,340,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,343,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,344,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,344,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,347,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,347,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,348,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,507,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,1182,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,1230,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,1416,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,1591,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/tlsconnection.py,1591,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/utils/pycrypto_rsakey.py,13,Unable to import 'Crypto.PublicKey',Category.E,import-error,The pyCrypto library and its module RSA are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+tlslite-0.4.8/tests/tlstest.py,73,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,74,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,75,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,76,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,109,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,110,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,120,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,129,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,130,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,141,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,142,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,142,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,150,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,179,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,214,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,224,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,258,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,282,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,284,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,286,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,343,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,350,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,357,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,364,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,371,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,378,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,385,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,392,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,399,"Exactly one space required after comma
+    assert server.add(1,2) == 3
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,400,"Exactly one space required after comma
+    assert server.pow(2,4) == 16
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,405,"Exactly one space required after comma
+    assert server.add(1,2) == 3
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,406,"Exactly one space required after comma
+    assert server.pow(2,4) == 16
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,410,"Exactly one space required after comma
+    assert server.add(1,2) == 3
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,411,"Exactly one space required after comma
+    assert server.pow(2,4) == 16
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,474,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,474,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,515,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,576,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,586,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,604,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,604,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,611,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,696,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,538,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,557,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,568,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tlslite-0.4.8/tests/tlstest.py,596,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tlslite-0.4.8/tlslite/utils/pycrypto_tripledes.py,10,Unable to import 'Crypto.Cipher.DES3',Category.E,import-error,The pyCrypto library and its module Crypto.Cipher.DES3 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+tlslite-0.4.8/tlslite/utils/pycrypto_aes.py,10,Unable to import 'Crypto.Cipher.AES',Category.E,import-error,The pyCrypto library and its module Crypto.Cipher.AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+tlslite-0.4.8/tlslite/utils/pycrypto_rc4.py,10,Unable to import 'Crypto.Cipher.ARC4',Category.E,import-error,The pyCrypto library and its module Crypto.Cipher.ARC4 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+tlslite-0.4.8/tlslite/integration/xmlrpcserver.py,34,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tlslite-0.4.8/scripts/tls.py,128,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/utils/aes.py,29,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/utils/aes.py,34,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/utils/cryptomath.py,54,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/utils/cryptomath.py,58,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tlslite-0.4.8/tlslite/utils/cryptomath.py,41,Unused import Crypto.Cipher.AES,Category.W,unused-import,The pyCrypto library and its module Crypto.Cipher.AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH

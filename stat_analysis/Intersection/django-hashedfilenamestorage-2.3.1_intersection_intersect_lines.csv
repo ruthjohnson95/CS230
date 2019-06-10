@@ -1,0 +1,2 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-hashedfilenamestorage-2.3.1/django_hashedfilenamestorage/test_settings.py,1,Missing module docstring,Category.C,missing-docstring,Possible hardcoded password: 'test-secret',MEDIUM,LOW

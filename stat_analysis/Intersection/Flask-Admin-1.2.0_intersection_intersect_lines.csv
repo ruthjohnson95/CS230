@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Flask-Admin-1.2.0/examples/auth/app.py,134,Line too long (104/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Flask-Admin-1.2.0/examples/auth-flask-login/app.py,200,Line too long (129/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Flask-Admin-1.2.0/flask_admin/tests/test_form_upload.py,27,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

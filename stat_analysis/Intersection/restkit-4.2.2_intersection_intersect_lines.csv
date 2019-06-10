@@ -1,0 +1,26 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+restkit-4.2.2/doc/sitemap_gen.py,73,"Import ""import xml.sax"" should be placed at the top of the module",Category.C,wrong-import-position,"Using xml.sax to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,599,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,703,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,1853,"Variable name ""u"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+restkit-4.2.2/doc/sitemap_gen.py,1876,"Variable name ""u"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+restkit-4.2.2/doc/sitemap_gen.py,599,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,703,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,823,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,1520,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,1526,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,1853,"Bad indentation. Found 6 spaces, expected 12",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+restkit-4.2.2/doc/sitemap_gen.py,1876,"Bad indentation. Found 8 spaces, expected 16",Category.W,bad-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+restkit-4.2.2/doc/sitemap_gen.py,1938,"Bad indentation. Found 6 spaces, expected 12",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+restkit-4.2.2/doc/sitemap_gen.py,2036,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Using xml.sax.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+restkit-4.2.2/restkit/util.py,24,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+restkit-4.2.2/bootstrap.py,65,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+restkit-4.2.2/bootstrap.py,65,Use of exec,Category.W,exec-used,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+restkit-4.2.2/bootstrap.py,69,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+restkit-4.2.2/bootstrap.py,69,Use of exec,Category.W,exec-used,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+restkit-4.2.2/restkit/oauth2.py,146,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+restkit-4.2.2/restkit/oauth2.py,151,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+restkit-4.2.2/restkit/conn.py,46,"Exactly one space required after assignment
+        self._life =  time.time() - random.randint(0, 10)
+                   ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+restkit-4.2.2/restkit/conn.py,87,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

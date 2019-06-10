@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-epiced-0.2.1/epiced/fields.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",51,[51],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+django-epiced-0.2.1/epiced/widgets.py,django_mark_safe,B703,MEDIUM,HIGH,Potential XSS on mark_safe function.,85,"[85, 86, 87, 88, 89, 90]",https://bandit.readthedocs.io/en/latest/plugins/b703_django_mark_safe.html
+django-epiced-0.2.1/epiced/widgets.py,blacklist,B308,MEDIUM,HIGH,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,85,"[85, 86, 87, 88, 89, 90]",https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b308-mark-safe

@@ -1,0 +1,2 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+trio-websockets-0.2/setup.py,HIGH,MEDIUM,Use of exec detected.,21,[21],https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html,B102,exec_used

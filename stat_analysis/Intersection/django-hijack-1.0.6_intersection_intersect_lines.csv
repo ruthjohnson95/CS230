@@ -1,0 +1,33 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-hijack-1.0.6/hijack/templatetags/hijack_tags.py,14,Trailing whitespace,Category.C,trailing-whitespace,Potential XSS on mark_safe function.,HIGH,MEDIUM
+django-hijack-1.0.6/hijack/templatetags/hijack_tags.py,14,Trailing whitespace,Category.C,trailing-whitespace,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,40,"Exactly one space required after comma
+        self.assertFalse(self.client.login(username='name',password='pw'))
+                                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,41,"Exactly one space required after comma
+        self.assertTrue(self.client.login(username='Admin',password='Admin pw'))
+                                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Admin pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,42,"Exactly one space required after comma
+        self.assertTrue(self.client.login(username='Test2',password='Test2 pw'))
+                                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Test2 pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,45,"Exactly one space required after comma
+        self.client.login(username='Admin',password='Admin pw')
+                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Admin pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,61,"Exactly one space required after comma
+        self.client.login(username='Admin',password='Admin pw')
+                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Admin pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,66,"Exactly one space required after comma
+        self.client.login(username='Admin',password='Admin pw')
+                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Admin pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,71,"Exactly one space required after comma
+        self.client.login(username='Admin',password='Admin pw')
+                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Admin pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,76,"Exactly one space required after comma
+        self.client.login(username='Admin',password='Admin pw')
+                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Admin pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,85,"Exactly one space required after comma
+        self.client.login(username='Test1',password='Test1 pw')
+                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Test1 pw',MEDIUM,LOW
+django-hijack-1.0.6/hijack/tests/hijack_tests.py,113,"Exactly one space required after comma
+        self.client.login(username='Test2',password='Test2 pw')
+                                          ^",Category.C,bad-whitespace,Possible hardcoded password: 'Test2 pw',MEDIUM,LOW

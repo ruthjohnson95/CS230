@@ -1,0 +1,66 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+newrelic-2.106.0.87/newrelic/hooks/framework_tornado_r4/web.py,23,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/hooks/framework_tornado_r4/web.py,44,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/hooks/framework_tornado_r4/web.py,121,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/hooks/framework_tornado_r4/web.py,130,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/console.py,118,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/console.py,268,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/console.py,444,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/console.py,455,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/bootstrap/sitecustomize.py,131,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/common/object_names.py,354,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/core/thread_utilization.py,37,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/core/thread_utilization.py,85,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/hooks/datastore_redis.py,114,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/admin/local_config.py,30,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/admin/server_config.py,33,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/profile_trace.py,61,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/profile_trace.py,69,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/cat_header_mixin.py,35,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/packages/wrapt/decorators.py,31,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/packages/six.py,365,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/admin/license_key.py,30,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/transaction.py,208,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/transaction.py,973,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/hooks/framework_django.py,177,Consider using ternary (mark_safe(transaction.browser_timing_header()) if transaction else ''),Category.R,consider-using-ternary,Potential XSS on mark_safe function.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/hooks/framework_django.py,177,Consider using ternary (mark_safe(transaction.browser_timing_header()) if transaction else ''),Category.R,consider-using-ternary,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/hooks/framework_django.py,184,Consider using ternary (mark_safe(transaction.browser_timing_footer()) if transaction else ''),Category.R,consider-using-ternary,Potential XSS on mark_safe function.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/hooks/framework_django.py,184,Consider using ternary (mark_safe(transaction.browser_timing_footer()) if transaction else ''),Category.R,consider-using-ternary,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/core/application.py,385,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/core/application.py,542,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/core/application.py,1718,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/core/application.py,1730,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/admin/validate_config.py,73,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/admin/validate_config.py,89,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/admin/validate_config.py,152,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,158,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,291,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,283,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,288,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,334,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,398,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,413,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,650,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,727,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,741,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,755,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/api/web_transaction.py,1259,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/hooks/framework_pyramid.py,46,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/admin/network_config.py,30,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/config.py,1239,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/config.py,1293,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/config.py,1351,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/config.py,1356,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/config.py,1429,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/config.py,1490,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/config.py,1552,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/config.py,1606,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/config.py,1670,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/packages/requests/packages/urllib3/packages/six.py,327,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+newrelic-2.106.0.87/newrelic/common/system_info.py,18,Imports from package subprocess are not grouped,Category.C,ungrouped-imports,Consider possible security implications associated with check_output module.,HIGH,LOW
+newrelic-2.106.0.87/newrelic/common/system_info.py,168,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/common/system_info.py,236,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/platform.py,357,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/setup.py,143,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/common/utilization.py,96,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+newrelic-2.106.0.87/newrelic/common/utilization.py,209,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

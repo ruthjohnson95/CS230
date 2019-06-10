@@ -1,0 +1,22 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+ansible-runner-1.3.0/ansible_runner/display_callback/minimal.py,29,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ansible-runner-1.3.0/test/unit/test_loader.py,61,Access to a protected member _cache of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_loader.py,68,Access to a protected member _cache of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_loader.py,68,Access to a protected member _cache of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ansible-runner-1.3.0/test/unit/test_loader.py,76,Access to a protected member _cache of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_loader.py,76,Access to a protected member _cache of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ansible-runner-1.3.0/test/unit/test_loader.py,83,Access to a protected member _cache of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_loader.py,89,Access to a protected member _cache of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_loader.py,89,Access to a protected member _cache of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ansible-runner-1.3.0/test/unit/test_loader.py,97,Access to a protected member _cache of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_runner_config.py,214,Line too long (124/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_runner_config.py,273,Line too long (107/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_runner_config.py,342,Line too long (103/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_runner_config.py,376,Line too long (117/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_runner_config.py,381,Line too long (103/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ansible-runner-1.3.0/test/unit/test_runner_config.py,381,Line too long (103/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ansible-runner-1.3.0/test/unit/test_runner_config.py,382,Line too long (139/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_runner_config.py,382,Line too long (139/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ansible-runner-1.3.0/test/unit/test_runner_config.py,387,Line too long (109/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+ansible-runner-1.3.0/test/unit/test_runner_config.py,388,Line too long (129/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-runner-1.3.0/test/unit/test_runner_config.py,477,Line too long (106/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+websockets-4.0.1/setup.py,16,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+websockets-4.0.1/websockets/test_framing.py,214,Undefined variable 'OP_TEXT',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+websockets-4.0.1/websockets/extensions/test_permessage_deflate.py,32,Undefined variable 'ClientPerMessageDeflateFactory',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+websockets-4.0.1/websockets/extensions/test_permessage_deflate.py,328,Undefined variable 'ServerPerMessageDeflateFactory',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+markdown2-1.0.1.13/test/test_markdown2.py,256,"Variable name ""o"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+markdown2-1.0.1.13/test/test_markdown2.py,115,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+markdown2-1.0.1.13/test/test_markdown2.py,256,Using deprecated method popen2(),Category.W,deprecated-method,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+markdown2-1.0.1.13/lib/markdown2.py,1731,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+markdown2-1.0.1.13/lib/markdown2.py,1850,"Variable name ""o"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+markdown2-1.0.1.13/Makefile.py,102,"Variable name ""o"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH

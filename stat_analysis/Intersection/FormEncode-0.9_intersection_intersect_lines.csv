@@ -1,0 +1,21 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+FormEncode-0.9/tests/test_htmlfill.py,40,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+FormEncode-0.9/tests/disabled_sqlschema.py,91,"Variable name ""s"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'bar',MEDIUM,LOW
+FormEncode-0.9/formencode/i18n/msgfmt.py,151,"Variable name ""l"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+FormEncode-0.9/formencode/i18n/msgfmt.py,151,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+FormEncode-0.9/tests/test_i18n.py,23,"Bad indentation. Found 6 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_i18n.py,30,"Bad indentation. Found 6 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_i18n.py,45,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_i18n.py,55,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/formencode/util/doctest24.py,1242,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+FormEncode-0.9/tests/test_validators.py,51,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_validators.py,57,Comparison should be result == u'',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_validators.py,76,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_validators.py,77,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_validators.py,119,Comparison to False should be 'not expr' or 'expr is False',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_context.py,33,"Exactly one space required around comparison
+    assert c3.b==2
+               ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+FormEncode-0.9/tests/test_context.py,34,"Exactly one space required around comparison
+    assert c3.a==1
+               ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

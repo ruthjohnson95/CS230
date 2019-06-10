@@ -1,0 +1,3 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+plone.openid-2.0.1/plone/openid/django_random.py,blacklist,B311,LOW,HIGH,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,47,[47],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+plone.openid-2.0.1/plone/openid/django_random.py,blacklist,B311,LOW,HIGH,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,73,[73],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random

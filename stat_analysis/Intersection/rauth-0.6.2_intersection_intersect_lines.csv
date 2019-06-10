@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+rauth-0.6.2/rauth/service.py,284,Too many arguments (7/5),Category.R,too-many-arguments,Possible hardcoded password: 'oauth_token',MEDIUM,LOW
+rauth-0.6.2/setup.py,22,"Constant name ""status"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",HIGH,LOW
+rauth-0.6.2/setup.py,22,"Constant name ""status"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW

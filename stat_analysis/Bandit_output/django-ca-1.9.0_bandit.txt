@@ -1,0 +1,10 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-ca-1.9.0/ca/django_ca/utils.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",413,[413],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+django-ca-1.9.0/ca/django_ca/utils.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",419,[419],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+django-ca-1.9.0/setup.py,blacklist,B404,LOW,HIGH,Consider possible security implications associated with subprocess module.,18,[18],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess
+django-ca-1.9.0/setup.py,start_process_with_partial_path,B607,LOW,HIGH,Starting a process with a partial executable path,159,"[159, 160]",https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html
+django-ca-1.9.0/setup.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,159,"[159, 160]",https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+django-ca-1.9.0/setup.py,start_process_with_partial_path,B607,LOW,HIGH,Starting a process with a partial executable path,165,[165],https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html
+django-ca-1.9.0/setup.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,165,[165],https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+django-ca-1.9.0/setup.py,start_process_with_partial_path,B607,LOW,HIGH,Starting a process with a partial executable path,173,[173],https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html
+django-ca-1.9.0/setup.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,173,[173],https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html

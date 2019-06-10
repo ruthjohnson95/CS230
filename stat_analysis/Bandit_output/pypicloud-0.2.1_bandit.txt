@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+pypicloud-0.2.1/pypicloud/storage/s3.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",62,[62],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+pypicloud-0.2.1/pypicloud/storage/s3.py,blacklist,B310,MEDIUM,HIGH,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,128,[128],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen
+pypicloud-0.2.1/pypicloud/util.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,76,[76],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pypicloud-0.2.1/pypicloud/views/api.py,blacklist,B310,MEDIUM,HIGH,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,56,[56],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen

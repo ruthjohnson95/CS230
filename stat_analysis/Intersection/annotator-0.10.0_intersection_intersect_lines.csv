@@ -1,0 +1,9 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+annotator-0.10.0/tests/test_annotation.py,60,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+annotator-0.10.0/tests/test_auth.py,48,Line too long (103/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+annotator-0.10.0/tests/test_auth.py,48,Undefined variable 'unicode',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+annotator-0.10.0/tests/test_document.py,57,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+annotator-0.10.0/tests/test_store.py,52,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+annotator-0.10.0/tests/test_store.py,115,Line too long (113/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+annotator-0.10.0/tests/test_store.py,204,Line too long (106/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+annotator-0.10.0/tests/test_store.py,243,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

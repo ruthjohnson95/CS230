@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+boss-cli-0.3.0/boss/api/util.py,6,Module 'commands' has no 'getoutput' member,Category.E,no-member,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",HIGH,LOW
+boss-cli-0.3.0/boss/api/util.py,6,Module 'commands' has no 'getoutput' member,Category.E,no-member,Starting a process with a partial executable path,HIGH,LOW
+boss-cli-0.3.0/boss/api/shell.py,12,Module 'commands' has no 'getoutput' member,Category.E,no-member,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",HIGH,LOW
+boss-cli-0.3.0/boss/api/shell.py,12,Module 'commands' has no 'getoutput' member,Category.E,no-member,Starting a process with a partial executable path,HIGH,LOW

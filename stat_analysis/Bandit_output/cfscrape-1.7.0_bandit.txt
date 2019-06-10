@@ -1,0 +1,2 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+cfscrape-1.7.0/cfscrape/__init__.py,blacklist,B311,LOW,HIGH,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,22,[22],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random

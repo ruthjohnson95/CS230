@@ -1,0 +1,498 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+indico-1.2.2/indico/MaKaC/webinterface/pages/errors.py,25,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from flask import session, request""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/RecordingManager/micala.py,229,Line too long (165/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/RecordingManager/micala.py,254,Line too long (114/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/RecordingManager/micala.py,326,Line too long (138/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+indico-1.2.2/indico/tests/python/unit/redis.py,43,Attribute '_redis_process' defined outside __init__,Category.W,attribute-defined-outside-init,subprocess call - check for execution of untrusted input.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conf_calendar.py,63,"Exactly one space required after comma
+            r = random.randint(130,255)
+                                  ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conf_calendar.py,64,"Exactly one space required after comma
+            g = random.randint(130,255)
+                                  ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conf_calendar.py,65,"Exactly one space required after comma
+            b = random.randint(130,255)
+                                  ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conf_calendar.py,63,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conf_calendar.py,64,"Variable name ""g"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conf_calendar.py,65,"Variable name ""b"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/ext/livesync/cern_search/test/unit/system_test.py,66,"Variable name ""xmlDoc"" doesn't conform to snake_case naming style",Category.C,invalid-name,Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.,HIGH,MEDIUM
+indico-1.2.2/indico/ext/livesync/cern_search/test/unit/system_test.py,34,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/EPayment/skipjack/webinterface/rh/__init__.py,31,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/services/implementation/base.py,235,Line too long (114/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/ext/search/invenio/implementation.py,30,"standard import ""from xml.dom import minidom"" should be placed before ""from flask import session""",Category.C,wrong-import-order,"Using minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/cache.py,30,"standard import ""import cPickle as pickle"" should be placed before ""from Configuration import Config""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/indico/modules/oauth/components.py,93,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/meeting.py,39,"standard import ""from xml.sax.saxutils import quoteattr, escape"" should be placed before ""from indico.util.string import safe_upper""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/meeting.py,39,Unused escape imported from xml.sax.saxutils,Category.W,unused-import,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,332,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,332,"No space allowed after bracket
+        assert( not ret )
+              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,332,"No space allowed before bracket
+        assert( not ret )
+                        ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,339,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,339,"No space allowed after bracket
+        assert( not ret )
+              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,339,"No space allowed before bracket
+        assert( not ret )
+                        ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,347,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,347,"No space allowed after bracket
+        assert( not ret )
+              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,347,"No space allowed before bracket
+        assert( not ret )
+                        ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,351,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,351,"No space allowed after bracket
+        assert( not doesPeriodOverlap( p1, p2 ) )
+              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,351,"No space allowed after bracket
+        assert( not doesPeriodOverlap( p1, p2 ) )
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,351,"No space allowed before bracket
+        assert( not doesPeriodOverlap( p1, p2 ) )
+                                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,351,"No space allowed before bracket
+        assert( not doesPeriodOverlap( p1, p2 ) )
+                                                ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,359,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,359,"No space allowed after bracket
+        assert( ret )
+              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,359,"No space allowed before bracket
+        assert( ret )
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,370,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,370,"No space allowed after bracket
+        assert( ret == None )
+              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,370,"No space allowed before bracket
+        assert( ret == None )
+                            ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_tools.py,370,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/services/implementation/conference.py,713,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/Vidyo/options.py,133,"Wrong continued indentation (add 4 spaces).
+                       ""defaultValue"": ""/tmp/suds/""}),
+                       ^   |",Category.C,bad-continuation,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+indico-1.2.2/indico/MaKaC/rb_room.py,599,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_room.py,635,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/bin/utils/zodb/showTransactionDetails.py,24,"Multiple imports on one line (cStringIO, cPickle)",Category.C,multiple-imports,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/showTransactionDetails.py,90,"Variable name ""ob"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+indico-1.2.2/bin/utils/zodb/showTransactionDetails.py,24,"standard import ""import cStringIO, cPickle"" should be placed before ""from ZODB.fstools import prev_txn, TxnHeader""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/showTransactionDetails.py,24,"standard import ""import cStringIO, cPickle"" should be placed before ""from ZODB.fstools import prev_txn, TxnHeader""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/indico/util/struct/queue.py,115,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/util/struct/queue.py,115,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,626,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,635,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,642,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,647,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,653,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,662,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,406,"Variable name ""attrType"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,408,"Variable name ""attrVal"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,337,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,350,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,406,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/RoomBooking/default/room.py,408,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,Too many arguments (11/5),Category.R,too-many-arguments,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,Line too long (169/100),Category.C,line-too-long,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,"No space allowed after bracket
+    def __init__( self, name, owner, conference, modificationDate=None, description='',createdInLocalServer=True, host='', password='', showRoom=False, showPass=False ):
+                ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,"Exactly one space required after comma
+    def __init__( self, name, owner, conference, modificationDate=None, description='',createdInLocalServer=True, host='', password='', showRoom=False, showPass=False ):
+                                                                                      ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,"No space allowed before bracket
+    def __init__( self, name, owner, conference, modificationDate=None, description='',createdInLocalServer=True, host='', password='', showRoom=False, showPass=False ):
+                                                                                                                                                                       ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,"Argument name ""modificationDate"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,"Argument name ""createdInLocalServer"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,"Argument name ""showRoom"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/chatroom.py,31,"Argument name ""showPass"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/web/http_api/metadata/ical.py,23,Unable to import 'lxml',Category.E,import-error,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/consoleScripts/indicoCtl.py,25,Line too long (115/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/consoleScripts/indicoCtl.py,25,Line too long (115/100),Category.C,line-too-long,Starting a process with a partial executable path,HIGH,LOW
+indico-1.2.2/indico/web/http_api/metadata/xml.py,21,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/setup.py,396,"Variable name ""webFile"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/EPayment/worldPay/webinterface/rh/__init__.py,31,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/authors.py,21,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from flask import request""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/authors.py,21,Unused quoteattr imported from xml.sax.saxutils,Category.W,unused-import,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/modules/scheduler/daemon_script.py,54,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/consoleScripts/installBase.py,293,Line too long (145/100),Category.C,line-too-long,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+indico-1.2.2/indico/ext/livesync/cern_search/agent.py,124,"Variable name ""xmlDoc"" doesn't conform to snake_case naming style",Category.C,invalid-name,Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.,HIGH,MEDIUM
+indico-1.2.2/indico/ext/livesync/cern_search/agent.py,30,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/last_transactions_information.py,24,"Multiple imports on one line (cStringIO, cPickle)",Category.C,multiple-imports,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/last_transactions_information.py,24,"standard import ""import cStringIO, cPickle"" should be placed before ""from ZODB.fstools import prev_txn, TxnHeader""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/last_transactions_information.py,24,"standard import ""import cStringIO, cPickle"" should be placed before ""from ZODB.fstools import prev_txn, TxnHeader""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/migration/migrate.py,1091,Line too long (121/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/bin/migration/migrate.py,459,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/migrate.py,887,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/migrate.py,891,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/EPayment/yellowPay/webinterface/pages/ePayments.py,23,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from MaKaC.webinterface.pages import conferences""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/EPayment/payPal/webinterface/pages/ePayments.py,23,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""import MaKaC.webinterface.pages.conferences as conferences""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/ravem.py,39,Line too long (117/100),Category.C,line-too-long,"Requests call with verify=False disabling SSL certificate checks, security issue.",HIGH,HIGH
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/Vidyo/tests/python/unit/options_test.py,36,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/Vidyo/tests/python/unit/options_test.py,37,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/Vidyo/tests/python/unit/options_test.py,38,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/ext/livesync/invenio/test/unit/system_test.py,66,"Variable name ""xmlDoc"" doesn't conform to snake_case naming style",Category.C,invalid-name,Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.,HIGH,MEDIUM
+indico-1.2.2/indico/ext/livesync/invenio/test/unit/system_test.py,34,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/fileRepository.py,85,"Exactly one space required around assignment
+            id=str(random.randint(0,sys.maxint))
+              ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/fileRepository.py,85,"Exactly one space required after comma
+            id=str(random.randint(0,sys.maxint))
+                                   ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/fileRepository.py,85,"Variable name ""id"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/fileRepository.py,85,Redefining built-in 'id',Category.W,redefined-builtin,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/material.py,20,Unused quoteattr imported from xml.sax.saxutils,Category.W,unused-import,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/material.py,20,Unused escape imported from xml.sax.saxutils,Category.W,unused-import,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/logger.py,163,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/common/logger.py,173,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/webcast.py,340,"No space allowed before comma
+                answer = urlopen(url , timeout=10).read(100000).strip()
+                                     ^",Category.C,bad-whitespace,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+indico-1.2.2/indico/util/mdx_latex.py,74,"standard import ""import xml.dom.minidom"" should be placed before ""import markdown""",Category.C,wrong-import-order,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/bin/legacy/sendEmail2SubmittersUsingTPL.py,36,"Constant name ""errorlogfile"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+indico-1.2.2/bin/legacy/sendEmail2SubmittersUsingTPL.py,37,"Constant name ""logfile"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/handlers.py,313,Unused variable 'document',Category.W,unused-variable,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/common/output.py,170,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/output.py,1624,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/output.py,29,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/bin/recovery/recovery.py,485,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/modules/scheduler/server.py,303,Instance of 'DummyType' has no 'awol_tasks_check_probability' member,Category.E,no-member,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/modules/upcoming.py,23,"Multiple imports on one line (os, datetime, pickle, operator, time)",Category.C,multiple-imports,Consider possible security implications associated with pickle module.,HIGH,LOW
+indico-1.2.2/indico/modules/upcoming.py,23,Unused import pickle,Category.W,unused-import,Consider possible security implications associated with pickle module.,HIGH,LOW
+indico-1.2.2/indico/modules/upcoming.py,23,Unused import os,Category.W,unused-import,Consider possible security implications associated with pickle module.,HIGH,LOW
+indico-1.2.2/indico/modules/upcoming.py,23,Unused import time,Category.W,unused-import,Consider possible security implications associated with pickle module.,HIGH,LOW
+indico-1.2.2/indico/tests/python/unit/MaKaC_tests/common_tests/calendarDateIndex.py,71,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/tests/python/unit/MaKaC_tests/common_tests/calendarDateIndex.py,79,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/tests/python/unit/MaKaC_tests/common_tests/calendarDateIndex.py,87,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/tests/python/unit/MaKaC_tests/common_tests/calendarDateIndex.py,95,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/tests/python/unit/MaKaC_tests/common_tests/calendarDateIndex.py,103,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/tests/python/unit/MaKaC_tests/common_tests/calendarDateIndex.py,111,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/tests/python/unit/MaKaC_tests/common_tests/calendarDateIndex.py,119,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/tests/python/unit/MaKaC_tests/common_tests/calendarDateIndex.py,127,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/EVO/common.py,72,Line too long (154/100),Category.C,line-too-long,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/webinterface/wcomponents.py,1343,Line too long (105/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/wcomponents.py,1343,"Exactly one space required after comma
+            assert(type(c.getStartDate()) == datetime),""Not all dates are present for the contributions!""
+                                                      ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/wcomponents.py,1343,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/wcomponents.py,4064,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/wcomponents.py,38,"standard import ""from xml.sax.saxutils import escape, quoteattr"" should be placed before ""import pkg_resources""",Category.C,wrong-import-order,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/wcomponents.py,4064,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/wcomponents.py,4121,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/wcomponents.py,33,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/user.py,1307,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/simple_event.py,32,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from MaKaC.plugins.base import Observable""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/evaluationDisplay.py,59,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/webinterface/rh/evaluationDisplay.py,61,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/api/operations.py,100,"No space allowed after bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                         ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/api/operations.py,100,"No space allowed before bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                                        ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/api/operations.py,169,"No space allowed after bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                         ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/api/operations.py,169,"No space allowed before bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                                        ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/api/operations.py,198,"No space allowed after bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                         ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/api/operations.py,198,"No space allowed before bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                                        ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/webinterface/rh/conferenceDisplay.py,382,Unused variable 'lxml',Category.W,unused-variable,Using lxml to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/conferenceDisplay.py,449,Unused variable 'lxml',Category.W,unused-variable,Using lxml to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/conferenceDisplay.py,382,Unable to import 'lxml',Category.E,import-error,Using lxml to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/conferenceDisplay.py,449,Unable to import 'lxml',Category.E,import-error,Using lxml to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/bin/legacy/setSubmissionPrivileges.py,30,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/bin/legacy/setSubmissionPrivileges.py,30,"Exactly one space required around comparison
+                assert (len(contrib.getSubmitterList())&gt;=1)
+                                                       ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/reviewingModif.py,172,"Exactly one space required after comma
+        self._id = str(random.random()*random.randint(1,32768))
+                                                       ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/reviewingModif.py,172,"Exactly one space required after comma
+        self._id = str(random.random()*random.randint(1,32768))
+                                                       ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/reviewingModif.py,172,Attribute '_id' defined outside __init__,Category.W,attribute-defined-outside-init,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/reviewingModif.py,172,Attribute '_id' defined outside __init__,Category.W,attribute-defined-outside-init,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/common.py,45,"No space allowed after bracket
+    conn = httplib.HTTPSConnection( getWebExOptionValueByName(""WEhttpServerLocation"") )
+                                  ^",Category.C,bad-whitespace,"Use of HTTPSConnection on older versions of Python prior to 2.7.9 and 3.4.3 do not provide security, see https://wiki.openstack.org/wiki/OSSN/OSSN-0033",HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/common.py,45,"No space allowed before bracket
+    conn = httplib.HTTPSConnection( getWebExOptionValueByName(""WEhttpServerLocation"") )
+                                                                                      ^",Category.C,bad-whitespace,"Use of HTTPSConnection on older versions of Python prior to 2.7.9 and 3.4.3 do not provide security, see https://wiki.openstack.org/wiki/OSSN/OSSN-0033",HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/CERNMCU/mcu.py,25,"standard import ""import xmlrpclib"" should be placed before ""from MaKaC.plugins.Collaboration.CERNMCU.common import getCERNMCUOptionValueByName, secondsToWait""",Category.C,wrong-import-order,Using xmlrpclib to parse untrusted XML data is known to be vulnerable to XML attacks. Use defused.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.,HIGH,HIGH
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/RecordingManager/common.py,726,Line too long (114/100),Category.C,line-too-long,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/RecordingManager/common.py,610,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/RecordingManager/common.py,733,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/RecordingManager/common.py,798,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/ext/code.py,109,"Variable name ""e"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/ext/code.py,109,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/InstantMessaging/XMPP/ext/code.py,109,Unused variable 'e',Category.W,unused-variable,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/epayments.py,28,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from MaKaC import epayment""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6457,"Exactly one space required around assignment
+            r=g=b = random.randint(130,255)
+             ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6457,"Exactly one space required around assignment
+            r=g=b = random.randint(130,255)
+               ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6457,"Exactly one space required after comma
+            r=g=b = random.randint(130,255)
+                                      ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6459,"Exactly one space required after comma
+            r = random.randint(130,255)
+                                  ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6460,"Exactly one space required after comma
+            g = random.randint(130,255)
+                                  ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6461,"Exactly one space required after comma
+            b = random.randint(130,255)
+                                  ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6457,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6457,"Variable name ""g"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6457,"Variable name ""b"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6459,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6460,"Variable name ""g"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,6461,"Variable name ""b"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/conferences.py,29,"standard import ""from xml.sax.saxutils import quoteattr, escape"" should be placed before ""from flask import session, request""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/abstracts.py,21,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from flask import session""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/EPayment/yellowPay/webinterface/rh/__init__.py,31,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/utils/zodb/sizeIncreasing_stats.py,27,"Multiple imports on one line (cStringIO, cPickle)",Category.C,multiple-imports,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/sizeIncreasing_stats.py,27,"standard import ""import cStringIO, cPickle"" should be placed before ""from ZODB.fstools import prev_txn, TxnHeader""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/sizeIncreasing_stats.py,27,"standard import ""import cStringIO, cPickle"" should be placed before ""from ZODB.fstools import prev_txn, TxnHeader""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/resetTimezone.py,49,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,174,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,217,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,222,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,232,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,244,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,248,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,252,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,256,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,260,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,266,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,270,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,274,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,288,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,292,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,296,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,302,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,317,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,321,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,325,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/migration/TZMigration.py,360,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/evaluations.py,25,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from flask import session""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/evaluations.py,25,Unused quoteattr imported from xml.sax.saxutils,Category.W,unused-import,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/registrationForm.py,28,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from flask import session, request""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/CERNMCU/collaboration.py,30,"standard import ""from xmlrpclib import Fault"" should be placed before ""from MaKaC.common.timezoneUtils import nowutc, setAdjustedDate, getAdjustedDate""",Category.C,wrong-import-order,Using Fault to parse untrusted XML data is known to be vulnerable to XML attacks. Use defused.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.,HIGH,HIGH
+indico-1.2.2/bin/utils/convert-templates.py,31,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/services/interface/rpc/description.py,74,"Variable name ""shaObj"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+indico-1.2.2/indico/ext/livesync/invenio/test/upload_benchmark.py,171,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/EPayment/skipjack/webinterface/pages/ePayments.py,23,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""import MaKaC.webinterface.pages.conferences as conferences""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/util/string.py,26,Unable to import 'lxml',Category.E,import-error,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/common/tools.py,21,"standard import ""from xml.sax.saxutils import unescape"" should be placed before ""from MaKaC.common.logger import Logger""",Category.C,wrong-import-order,"Using unescape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace unescape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/common/timezones.py,26,"standard import ""from xml.sax.saxutils import quoteattr, escape"" should be placed before ""from pytz import timezone""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/base.py,2383,"Attribute name ""uniqueIdHash"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/common/ContextHelp.py,438,"Exactly one space required before assignment
+        doc  = etree.parse(StringIO.StringIO(html), parser)
+             ^",Category.C,bad-whitespace,Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/common/ContextHelp.py,24,"standard import ""import xml.sax"" should be placed before ""from lxml import etree, builder, html as lhtml""",Category.C,wrong-import-order,"Using xml.sax to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/ContextHelp.py,25,"standard import ""import xml.sax.saxutils as saxutils"" should be placed before ""from lxml import etree, builder, html as lhtml""",Category.C,wrong-import-order,"Using xml.sax.saxutils to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax.saxutils with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/ContextHelp.py,21,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/registrants.py,27,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""import MaKaC.webinterface.pages.registrationForm as registrationForm""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/registrants.py,39,"standard import ""from xml.sax.saxutils import escape"" should be placed before ""import MaKaC.webinterface.pages.registrationForm as registrationForm""",Category.C,wrong-import-order,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/tests/runners.py,33,"Multiple imports on one line (commands, os, socket, subprocess, tempfile, threading, multiprocessing)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+indico-1.2.2/indico/tests/runners.py,376,"Variable name ""pylintProcess"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+indico-1.2.2/indico/tests/runners.py,427,"Variable name ""genOutput"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+indico-1.2.2/indico/tests/runners.py,496,"Variable name ""jsDryRun"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+indico-1.2.2/indico/tests/runners.py,539,"Variable name ""jsTest"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+indico-1.2.2/indico/tests/runners.py,649,"Variable name ""statusOutput"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",HIGH,LOW
+indico-1.2.2/indico/tests/runners.py,649,"Variable name ""statusOutput"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+indico-1.2.2/indico/tests/runners.py,539,Unused variable 'jsTest',Category.W,unused-variable,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+indico-1.2.2/indico/tests/runners.py,33,Unused import threading,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+indico-1.2.2/indico/tests/runners.py,33,Unused import socket,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/category.py,22,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from flask import session""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/services/implementation/category.py,85,"Variable name ""e"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/services/implementation/category.py,141,"Variable name ""e"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/services/implementation/category.py,85,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/services/implementation/category.py,85,Unused variable 'e',Category.W,unused-variable,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/services/implementation/category.py,141,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/services/implementation/category.py,141,Unused variable 'e',Category.W,unused-variable,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/PDFinterface/base.py,44,"standard import ""import subprocess"" should be placed before ""from reportlab.platypus import SimpleDocTemplate, PageTemplate, Table""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/PDFinterface/base.py,569,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1738,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1740,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1742,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1744,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1754,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1756,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1758,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1764,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1766,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1772,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1774,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1780,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1782,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1784,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1790,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1792,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1794,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1796,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1799,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1800,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1823,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1827,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1831,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1838,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1842,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1846,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1858,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1863,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1543,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/rb_reservation.py,1542,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/EPayment/worldPay/webinterface/pages/ePayments.py,23,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""import MaKaC.webinterface.pages.conferences as conferences""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/webFactoryRegistry.py,67,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/abstractReviewing.py,23,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""import MaKaC.webinterface.wcomponents as wcomponents""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,313,"Exactly one space required after comma
+    length = randint(minSize,maxSize)
+                            ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,321,"No space allowed after bracket
+    fakename = uppers[ randint(0,upperIndexMax) ]
+                     ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,321,"Exactly one space required after comma
+    fakename = uppers[ randint(0,upperIndexMax) ]
+                                ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,321,"No space allowed before bracket
+    fakename = uppers[ randint(0,upperIndexMax) ]
+                                                ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,326,"No space allowed after bracket
+            fakename += consonants[ randint(0,consonantIndexMax) ]
+                                  ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,326,"Exactly one space required after comma
+            fakename += consonants[ randint(0,consonantIndexMax) ]
+                                             ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,326,"No space allowed before bracket
+            fakename += consonants[ randint(0,consonantIndexMax) ]
+                                                                 ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,329,"No space allowed after bracket
+            fakename += vowels[ randint(0,vowelIndexMax) ]
+                              ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,329,"Exactly one space required after comma
+            fakename += vowels[ randint(0,vowelIndexMax) ]
+                                         ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,329,"No space allowed before bracket
+            fakename += vowels[ randint(0,vowelIndexMax) ]
+                                                         ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,346,"No space allowed after bracket
+        key += table[ randint(0,indexMax) ]
+                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,346,"Exactly one space required after comma
+        key += table[ randint(0,indexMax) ]
+                               ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,346,"No space allowed before bracket
+        key += table[ randint(0,indexMax) ]
+                                          ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/utils.py,351,"Exactly one space required after comma
+    from xml.dom.minidom import Element,Text
+                                       ^",Category.C,bad-whitespace,"Using Element to parse untrusted XML data is known to be vulnerable to XML attacks. Replace Element with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/TemplateExec.py,35,"standard import ""import xml.sax.saxutils"" should be placed before ""import pkg_resources""",Category.C,wrong-import-order,"Using xml.sax.saxutils to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax.saxutils with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/EPayment/payPal/webinterface/rh/__init__.py,31,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,282,"No space allowed after bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                         ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,282,"No space allowed before bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                                        ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,470,"No space allowed after bracket
+            dom = xml.dom.minidom.parseString( response_xml )
+                                             ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,470,"No space allowed before bracket
+            dom = xml.dom.minidom.parseString( response_xml )
+                                                            ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,504,"No space allowed after bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                         ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,504,"No space allowed before bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                                        ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,573,"No space allowed after bracket
+            dom = xml.dom.minidom.parseString( response_xml )
+                                             ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,573,"No space allowed before bracket
+            dom = xml.dom.minidom.parseString( response_xml )
+                                                            ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,593,"No space allowed after bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                         ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/plugins/Collaboration/WebEx/collaboration.py,593,"No space allowed before bracket
+        dom = xml.dom.minidom.parseString( response_xml )
+                                                        ^",Category.C,bad-whitespace,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/common/search.py,50,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/maintenance/indexes/reindexusers.py,32,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/maintenance/indexes/reindexusers.py,36,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/maintenance/indexes/reindexusers.py,40,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/maintenance/indexes/reindexusers.py,44,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/maintenance/indexes/reindexusers.py,48,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/common/info.py,302,"No space allowed after bracket
+    def setRoomBookingDBPassword( self, password = """" ):
+                                ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/common/info.py,302,"No space allowed around keyword argument assignment
+    def setRoomBookingDBPassword( self, password = """" ):
+                                                 ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/common/info.py,302,"No space allowed before bracket
+    def setRoomBookingDBPassword( self, password = """" ):
+                                                      ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/common/info.py,302,"Method name ""setRoomBookingDBPassword"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/common/info.py,302,Missing method docstring,Category.C,missing-docstring,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,179,"Bad indentation. Found 6 spaces, expected 8",Category.W,bad-indentation,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,52,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,56,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,60,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,72,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,76,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,80,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,84,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,91,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,96,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,104,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,108,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,130,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,134,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,138,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,149,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,153,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,157,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,165,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,169,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,173,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/legacy/chdatetime.py,179,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/maintenance/indexes/reindexcalendars.py,42,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/bin/utils/check_uh.py,21,Access to a protected member _endpoint of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/base.py,518,Line too long (133/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/base.py,52,"standard import ""from xml.sax.saxutils import escape"" should be placed before ""from flask import request, session""",Category.C,wrong-import-order,"Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/sessions.py,20,Unused escape imported from xml.sax.saxutils,Category.W,unused-import,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/bin/utils/zodb/mostUsedClasses.py,24,"Multiple imports on one line (cStringIO, cPickle)",Category.C,multiple-imports,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/mostUsedClasses.py,24,"standard import ""import cStringIO, cPickle"" should be placed before ""from ZODB.fstools import prev_txn, TxnHeader""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/bin/utils/zodb/mostUsedClasses.py,24,"standard import ""import cStringIO, cPickle"" should be placed before ""from ZODB.fstools import prev_txn, TxnHeader""",Category.C,wrong-import-order,Consider possible security implications associated with cPickle module.,HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/evaluationModif.py,31,"Exactly one space required after comma
+from xml.dom.minidom          import parseString,Element
+                                                ^",Category.C,bad-whitespace,"Using parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace parseString with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/evaluationModif.py,31,"standard import ""from xml.dom.minidom import parseString, Element"" should be placed before ""from flask import session""",Category.C,wrong-import-order,"Using parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace parseString with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/rh/evaluationModif.py,157,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/conference.py,11011,"No space allowed before bracket
+    @Updates (['MaKaC.conference.Material',
+             ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+indico-1.2.2/indico/MaKaC/conference.py,11254,"Variable name ""tmpFileName"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+indico-1.2.2/indico/MaKaC/conference.py,1960,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/subContributions.py,29,"standard import ""from xml.sax.saxutils import quoteattr"" should be placed before ""from MaKaC.common.TemplateExec import render""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+indico-1.2.2/indico/MaKaC/webinterface/pages/subContributions.py,29,Unused quoteattr imported from xml.sax.saxutils,Category.W,unused-import,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW

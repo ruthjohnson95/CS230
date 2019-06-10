@@ -1,0 +1,24 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Yaybu-0.1.13/yaybu/core/argument.py,137,"Exactly one space required after comma
+        return random.randint(0,sys.maxint)
+                               ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Yaybu-0.1.13/yaybu/core/argument.py,95,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Yaybu-0.1.13/yaybu/core/argument.py,117,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Yaybu-0.1.13/yaybu/core/runcontext.py,146,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+Yaybu-0.1.13/yaybu/core/runcontext.py,146,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+Yaybu-0.1.13/yaybu/core/remote.py,92,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+Yaybu-0.1.13/yaybu/providers/tests/test_git.py,22,"Variable name ""CLONED_REPO"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Yaybu-0.1.13/yaybu/providers/tests/test_git.py,39,"Variable name ""CLONED_REPO"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Yaybu-0.1.13/yaybu/providers/tests/test_git.py,74,"Variable name ""CLONED_REPO"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Yaybu-0.1.13/yaybu/providers/tests/test_git.py,95,"Variable name ""CLONED_REPO"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Yaybu-0.1.13/yaybu/providers/tests/test_git.py,128,"Variable name ""CLONED_REPO"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Yaybu-0.1.13/yaybu/providers/tests/test_git.py,159,"Variable name ""CLONED_REPO"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Yaybu-0.1.13/yaybu/providers/tests/test_git.py,2,"standard import ""import subprocess"" should be placed before ""from yaybu.harness import FakeChrootTestCase""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+Yaybu-0.1.13/yaybu/providers/tests/test_git.py,2,Unused import subprocess,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+Yaybu-0.1.13/yaybu/harness/fakechroot.py,15,"Multiple imports on one line (os, signal, shlex, subprocess, tempfile, time, shutil, StringIO)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+Yaybu-0.1.13/yaybu/harness/fakechroot.py,111,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+Yaybu-0.1.13/yaybu/harness/fakechroot.py,141,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+Yaybu-0.1.13/yaybu/harness/fakechroot.py,141,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+Yaybu-0.1.13/yaybu/harness/fakechroot.py,15,Unused import shutil,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+Yaybu-0.1.13/yaybu/harness/fakechroot.py,15,Unused import StringIO,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+Yaybu-0.1.13/yaybu/core/runner.py,19,Unused import subprocess,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW

@@ -1,0 +1,3 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+hug-2.2.0/hug/types.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",235,[235],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+hug-2.2.0/setup.py,blacklist,B404,LOW,HIGH,Consider possible security implications associated with subprocess module.,25,[25],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess

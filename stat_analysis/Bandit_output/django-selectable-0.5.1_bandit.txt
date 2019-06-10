@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-selectable-0.5.1/selectable/forms/widgets.py,django_mark_safe,B703,MEDIUM,HIGH,Potential XSS on mark_safe function.,171,[171],https://bandit.readthedocs.io/en/latest/plugins/b703_django_mark_safe.html
+django-selectable-0.5.1/selectable/forms/widgets.py,blacklist,B308,MEDIUM,HIGH,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,171,[171],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b308-mark-safe
+django-selectable-0.5.1/selectable/tests/base.py,blacklist,B311,LOW,HIGH,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,35,[35],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random

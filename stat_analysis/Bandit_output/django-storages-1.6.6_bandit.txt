@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-storages-1.6.6/storages/backends/ftp.py,blacklist,B402,HIGH,HIGH,A FTP-related module is being imported.  FTP is considered insecure. Use SSH/SFTP/SCP or some other encrypted protocol.,17,[17],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b402-import-ftplib
+django-storages-1.6.6/storages/backends/ftp.py,blacklist,B321,HIGH,HIGH,FTP-related functions are being called. FTP is considered insecure. Use SSH/SFTP/SCP or some other encrypted protocol.,86,[86],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b321-ftplib
+django-storages-1.6.6/tests/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'hailthesunshine',30,"[30, 31]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+django-storages-1.6.6/tests/test_ftp.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'b@r',15,[15],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html

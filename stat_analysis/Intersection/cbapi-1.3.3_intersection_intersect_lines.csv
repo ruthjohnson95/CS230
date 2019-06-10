@@ -1,0 +1,37 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+cbapi-1.3.3/examples/legacy/toggle_tamper_protection.py,10,"Constant name ""bit9"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: 'XXXX',MEDIUM,LOW
+cbapi-1.3.3/examples/response/dump_all_binaries.py,24,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/examples/response/dump_all_binaries.py,38,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/examples/response/dump_all_binaries.py,61,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/examples/response/event/watchlist_automation.py,80,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/examples/response/sensor_group_operations.py,28,Line too long (119/100),Category.C,line-too-long,Possible binding to all interfaces.,MEDIUM,MEDIUM
+cbapi-1.3.3/src/cbapi/connection.py,95,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/defense/cblr.py,45,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/defense/models.py,38,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/defense/models.py,99,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/example_helpers.py,11,"standard import ""import subprocess"" should be placed before ""from cbapi.response import CbEnterpriseResponseAPI""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+cbapi-1.3.3/src/cbapi/legacy/util/messaging_helpers.py,82,"Exactly one space required after comma
+        return str(random.randint(0,10000)) + ""-"" + str(random.randint(0,100000))
+                                   ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+cbapi-1.3.3/src/cbapi/legacy/util/messaging_helpers.py,82,"Exactly one space required after comma
+        return str(random.randint(0,10000)) + ""-"" + str(random.randint(0,100000))
+                                   ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+cbapi-1.3.3/src/cbapi/legacy/util/messaging_helpers.py,82,"Exactly one space required after comma
+        return str(random.randint(0,10000)) + ""-"" + str(random.randint(0,100000))
+                                                                        ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+cbapi-1.3.3/src/cbapi/legacy/util/messaging_helpers.py,82,"Exactly one space required after comma
+        return str(random.randint(0,10000)) + ""-"" + str(random.randint(0,100000))
+                                                                        ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+cbapi-1.3.3/src/cbapi/live_response_api.py,48,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/live_response_api.py,587,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/models.py,368,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/response/cblr.py,44,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/response/event.py,79,Line too long (103/100),Category.C,line-too-long,"ssl.wrap_socket call with no SSL/TLS protocol version specified, the default SSLv23 could be insecure, possible security issue.",MEDIUM,LOW
+cbapi-1.3.3/src/cbapi/response/event.py,79,"No space allowed before bracket
+            self.httpd.socket = ssl.wrap_socket (self.httpd.socket, certfile=certfile, keyfile=keyfile,
+                                                ^",Category.C,bad-whitespace,"ssl.wrap_socket call with no SSL/TLS protocol version specified, the default SSLv23 could be insecure, possible security issue.",MEDIUM,LOW
+cbapi-1.3.3/src/cbapi/response/event.py,47,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/response/models.py,912,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/response/models.py,1717,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/response/models.py,2886,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cbapi-1.3.3/src/cbapi/six.py,699,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM

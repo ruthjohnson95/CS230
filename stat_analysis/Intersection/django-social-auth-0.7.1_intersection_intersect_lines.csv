@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-social-auth-0.7.1/social_auth/utils.py,36,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+django-social-auth-0.7.1/social_auth/backends/facebook.py,104,Using deprecated method parse_qs(),Category.W,deprecated-method,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+django-social-auth-0.7.1/social_auth/backends/contrib/vkontakte.py,91,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+django-social-auth-0.7.1/social_auth/backends/contrib/bitbucket.py,97,Redefinition of response type from str to urllib.addinfourl,Category.R,redefined-variable-type,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM

@@ -1,0 +1,28 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+tweepy-2.3.0/examples/oauth.py,11,"Exactly one space required around assignment
+consumer_secret=""""
+               ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/oauth.py,16,"Exactly one space required around assignment
+access_token=""""
+            ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/oauth.py,17,"Exactly one space required around assignment
+access_token_secret=""""
+                   ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/oauth.py,11,"Constant name ""consumer_secret"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/oauth.py,16,"Constant name ""access_token"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/oauth.py,17,"Constant name ""access_token_secret"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/tweepy/oauth.py,65,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tweepy-2.3.0/tweepy/oauth.py,69,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tweepy-2.3.0/tweepy/oauth.py,227,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tweepy-2.3.0/examples/streaming.py,8,"Exactly one space required around assignment
+consumer_secret=""""
+               ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/streaming.py,12,"Exactly one space required around assignment
+access_token=""""
+            ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/streaming.py,13,"Exactly one space required around assignment
+access_token_secret=""""
+                   ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/streaming.py,8,"Constant name ""consumer_secret"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/streaming.py,12,"Constant name ""access_token"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW
+tweepy-2.3.0/examples/streaming.py,13,"Constant name ""access_token_secret"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: '',MEDIUM,LOW

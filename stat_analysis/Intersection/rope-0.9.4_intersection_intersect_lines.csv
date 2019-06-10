@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+rope-0.9.4/rope/base/oi/doa.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with cPickle module.,HIGH,LOW
+rope-0.9.4/rope/base/oi/doa.py,44,Attribute 'process' defined outside __init__,Category.W,attribute-defined-outside-init,subprocess call - check for execution of untrusted input.,HIGH,LOW
+rope-0.9.4/rope/base/project.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with cPickle module.,HIGH,LOW
+rope-0.9.4/rope/base/project.py,178,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+rope-0.9.4/rope/contrib/generate.py,13,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM

@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+pyramid_weblayer-0.11.4/src/pyramid_weblayer/patch.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",31,[31],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+pyramid_weblayer-0.11.4/src/pyramid_weblayer/tests/test_csrf.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",10,[10],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyramid_weblayer-0.11.4/src/pyramid_weblayer/tests/test_integration.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",10,[10],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyramid_weblayer-0.11.4/src/pyramid_weblayer/utils.py,blacklist,B311,LOW,HIGH,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,116,[116],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random

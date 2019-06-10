@@ -1,0 +1,4 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+ricloud-2.3.7/ricloud/asmaster_listener.py,HIGH,MEDIUM,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",200,[200],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5,B303,blacklist
+ricloud-2.3.7/ricloud/object_store.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,72,"[72, 73]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used
+ricloud-2.3.7/ricloud/samples/native_sample.py,MEDIUM,LOW,Possible hardcoded password: 'johnapple',10,[10],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html,B105,hardcoded_password_string

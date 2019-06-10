@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+kuber-1.8.0/kuber_maker/documenting.py,17,Module 'subprocess' has no 'run' member,Category.E,no-member,subprocess call - check for execution of untrusted input.,HIGH,LOW
+kuber-1.8.0/kuber_maker/documenting.py,26,Module 'subprocess' has no 'run' member,Category.E,no-member,subprocess call - check for execution of untrusted input.,HIGH,LOW
+kuber-1.8.0/kuber_maker/packaging.py,20,Module 'subprocess' has no 'run' member,Category.E,no-member,subprocess call - check for execution of untrusted input.,HIGH,LOW

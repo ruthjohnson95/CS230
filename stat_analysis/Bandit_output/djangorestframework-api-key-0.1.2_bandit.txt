@@ -1,0 +1,2 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+djangorestframework-api-key-0.1.2/tests/test_has_api_key_or_is_authenticated.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'bar',21,[21],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html

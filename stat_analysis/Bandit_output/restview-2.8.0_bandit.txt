@@ -1,0 +1,5 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+restview-2.8.0/setup.py,HIGH,MEDIUM,Use of exec detected.,15,[15],https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html,B102,exec_used
+restview-2.8.0/src/restview/restviewhttp.py,HIGH,LOW,Consider possible security implications associated with subprocess module.,28,[28],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess,B404,blacklist
+restview-2.8.0/src/restview/restviewhttp.py,HIGH,HIGH,"subprocess call with shell=True identified, security issue.",209,"[209, 210]",https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html,B602,subprocess_popen_with_shell_equals_true
+restview-2.8.0/src/restview/tests.py,MEDIUM,MEDIUM,Possible binding to all interfaces.,900,[900],https://bandit.readthedocs.io/en/latest/plugins/b104_hardcoded_bind_all_interfaces.html,B104,hardcoded_bind_all_interfaces

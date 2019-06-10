@@ -1,0 +1,270 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+tendenci-7.5.2/tendenci/apps/profiles/utils.py,213,Unused variable 'x',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/site_settings/views.py,45,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/site_settings/views.py,93,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/social_auth/backends/facebook.py,74,Using deprecated method parse_qs(),Category.W,deprecated-method,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/directories/forms.py,39,Line too long (120/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/directories/forms.py,39,Line too long (120/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/pages/forms.py,23,Line too long (108/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/pages/forms.py,24,Line too long (110/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/pages/forms.py,134,Line too long (148/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/pages/forms.py,134,Line too long (148/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/articles/views.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/memberships/views.py,8,"standard import ""import subprocess"" should be placed before ""from dateutil.parser import parse""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/perms/utils.py,355,Line too long (120/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/profiles/models.py,470,Line too long (113/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/apps/profiles/models.py,460,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/payments/stripe/widgets.py,22,Line too long (108/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/payments/stripe/widgets.py,22,Line too long (108/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/events/forms.py,891,"Wrong continued indentation (add 18 spaces).
+            mark_safe('&lt;img style=""width:25px; height:25px"" src=""/event-logs/colored-image/%s/"" /&gt;'
+            ^                 |",Category.C,bad-continuation,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/events/forms.py,891,"Wrong continued indentation (add 18 spaces).
+            mark_safe('&lt;img style=""width:25px; height:25px"" src=""/event-logs/colored-image/%s/"" /&gt;'
+            ^                 |",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/events/forms.py,1413,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/events/forms.py,1613,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/setup.py,124,Line too long (102/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tendenci-7.5.2/setup.py,124,Line too long (102/100),Category.C,line-too-long,Starting a process with a partial executable path,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/articles/forms.py,56,Line too long (114/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/articles/forms.py,56,Line too long (114/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/articles/forms.py,57,Line too long (116/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/articles/forms.py,57,Line too long (116/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/management/commands/load_base_defaults.py,53,"Variable name ""x"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/load_base_defaults.py,55,"Variable name ""x"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/load_base_defaults.py,126,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/exports/models.py,4,Unable to import 'picklefield.fields',Category.E,import-error,Consider possible security implications associated with PickledObjectField module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/donations/forms.py,125,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/metrics/models.py,36,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/metrics/models.py,43,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/metrics/models.py,50,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/metrics/models.py,57,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/metrics/models.py,68,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/auto_update.py,93,"Wrong continued indentation (add 4 spaces).
+                                            stderr=subprocess.STDOUT, shell=True)
+                                            ^   |",Category.C,bad-continuation,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/management/commands/auto_update.py,95,"Wrong continued indentation (add 4 spaces).
+                                            stderr=subprocess.STDOUT, shell=True)
+                                            ^   |",Category.C,bad-continuation,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/management/commands/auto_update.py,3,Unused import xmlrpclib,Category.W,unused-import,Using xmlrpclib to parse untrusted XML data is known to be vulnerable to XML attacks. Use defused.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.,HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/site_settings/management/commands/set_setting.py,47,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/site_settings/management/commands/set_setting.py,56,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/events/management/commands/send_event_reminders.py,102,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/stories/management/commands/story_photos_to_files.py,16,Line too long (107/100),Category.C,line-too-long,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+tendenci-7.5.2/tendenci/libs/styled_forms/templatetags/styled_forms.py,63,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/site_settings/crypt.py,3,Unable to import 'Crypto.Cipher',Category.E,import-error,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/utils.py,869,Line too long (117/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/utils.py,880,Line too long (108/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/utils.py,593,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/update_tendenci.py,56,Line too long (135/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/management/commands/update_tendenci.py,66,Line too long (115/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/management/commands/update_tendenci.py,77,"Wrong continued indentation (add 4 spaces).
+                                    stderr=subprocess.STDOUT, shell=True)
+                                    ^   |",Category.C,bad-continuation,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/management/commands/update_tendenci.py,89,"Wrong continued indentation (add 4 spaces).
+                                    stderr=subprocess.STDOUT, shell=True)
+                                    ^   |",Category.C,bad-continuation,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/management/commands/update_tendenci.py,2,"Multiple imports on one line (os, subprocess, sys, xmlrpclib)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/update_tendenci.py,2,Unused import sys,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/jobs/forms.py,26,Line too long (119/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/donations/utils.py,72,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/versions/models.py,40,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/campaign_monitor/utils.py,32,Line too long (116/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tendenci-7.5.2/tendenci/libs/model_report/forms.py,130,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/memberships/models.py,675,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/models.py,680,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/files/models.py,37,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/directories/views.py,2,"Multiple imports on one line (subprocess, time)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/directories/views.py,508,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/list_tables.py,24,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/imports/models.py,5,Unused PickledObjectField imported from picklefield.fields,Category.W,unused-import,Consider possible security implications associated with PickledObjectField module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/imports/models.py,5,Unable to import 'picklefield.fields',Category.E,import-error,Consider possible security implications associated with PickledObjectField module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/search/forms.py,243,"Variable name ""e"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/search/forms.py,243,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/search/forms.py,243,Unused variable 'e',Category.W,unused-variable,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/load_creative_defaults.py,53,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/exports/utils.py,73,Line too long (108/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/exports/utils.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/invoices/models.py,239,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/dashboard/migrations/0002_auto_20160519_1705.py,18,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/memberships/utils.py,179,"Variable name ""pk"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/utils.py,179,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/management/commands/convert_pg_timestamp_to_tz.py,49,Line too long (111/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/management/commands/convert_pg_timestamp_to_tz.py,53,Line too long (164/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/management/commands/convert_pg_timestamp_to_tz.py,95,Line too long (176/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/management/commands/convert_pg_timestamp_to_tz.py,49,Access to a protected member _meta of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/management/commands/convert_pg_timestamp_to_tz.py,53,Access to a protected member _meta of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/apps/base/management/commands/convert_pg_timestamp_to_tz.py,95,Access to a protected member _meta of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,112,"Wrong hanging indentation (remove 22 spaces).
+                                  (""1"", mark_safe(""%s day(s) at signup month"" %
+            |                     ^",Category.C,bad-continuation,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,112,"Wrong hanging indentation (remove 22 spaces).
+                                  (""1"", mark_safe(""%s day(s) at signup month"" %
+            |                     ^",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,135,"Wrong hanging indentation (remove 22 spaces).
+                                  (""1"", mark_safe(""%s day(s) at signup month"" %
+            |                     ^",Category.C,bad-continuation,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,135,"Wrong hanging indentation (remove 22 spaces).
+                                  (""1"", mark_safe(""%s day(s) at signup month"" %
+            |                     ^",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,137,"Wrong hanging indentation (remove 22 spaces).
+                                  (""2"", mark_safe(""%s day(s) at renewal month"" %
+            |                     ^",Category.C,bad-continuation,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,137,"Wrong hanging indentation (remove 22 spaces).
+                                  (""2"", mark_safe(""%s day(s) at renewal month"" %
+            |                     ^",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,186,"Wrong hanging indentation (remove 22 spaces).
+                                  (""0"", mark_safe(""%s %s %s"" % (rendered_fixed_option1_month,
+            |                     ^",Category.C,bad-continuation,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,186,"Wrong hanging indentation (remove 22 spaces).
+                                  (""0"", mark_safe(""%s %s %s"" % (rendered_fixed_option1_month,
+            |                     ^",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,189,"Wrong hanging indentation (remove 22 spaces).
+                                  (""1"", mark_safe(""%s %s of current/next year"" %
+            |                     ^",Category.C,bad-continuation,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,189,"Wrong hanging indentation (remove 22 spaces).
+                                  (""1"", mark_safe(""%s %s of current/next year"" %
+            |                     ^",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,372,"Wrong hanging indentation (remove 14 spaces).
+                          (""custom"", mark_safe('%s %s' %
+            |             ^",Category.C,bad-continuation,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,372,"Wrong hanging indentation (remove 14 spaces).
+                          (""custom"", mark_safe('%s %s' %
+            |             ^",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,410,Line too long (109/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,410,Line too long (109/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/memberships/widgets.py,161,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/remove_npo_defaults.py,83,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/libs/model_report/report.py,287,"Variable name ""e"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/libs/model_report/report.py,882,"Variable name ""qs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of extra potential SQL attack vector.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/libs/model_report/report.py,287,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/libs/model_report/report.py,287,Unused variable 'e',Category.W,unused-variable,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/libs/model_report/report.py,322,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/libs/model_report/report.py,336,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/photos/views.py,590,Unused variable 'cache_image',Category.W,unused-variable,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/registry/cache.py,3,"standard import ""import pickle"" should be placed before ""from django.core.cache import cache""",Category.C,wrong-import-order,Consider possible security implications associated with pickle module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/registry/cache.py,3,Unused import pickle,Category.W,unused-import,Consider possible security implications associated with pickle module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/wp_importer/utils.py,60,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/wp_importer/utils.py,134,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/events/ics/migrations/0001_initial.py,6,Unable to import 'picklefield.fields',Category.E,import-error,Consider possible security implications associated with picklefield.fields module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/news/forms.py,29,Line too long (108/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/news/forms.py,30,Line too long (110/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/recurring_payments/authnet/views.py,141,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/recurring_payments/authnet/views.py,141,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/forums/migrations/0001_initial.py,118,Line too long (106/100),Category.C,line-too-long,Possible binding to all interfaces.,MEDIUM,MEDIUM
+tendenci-7.5.2/tendenci/apps/perms/fields.py,190,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/perms/fields.py,274,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/perms/fields.py,359,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/forums/profiles.py,70,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/profiles/views.py,1189,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/profiles/views.py,1193,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/profiles/views.py,1195,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/dashboard/management/commands/update_dashboard_stats.py,193,"Wrong continued indentation (remove 4 spaces).
+                               ""forms_formentry.create_dt &gt;= TIMESTAMP '%s'"" % dt})
+                           |   ^",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+tendenci-7.5.2/tendenci/apps/navs/templatetags/nav_tags.py,51,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/navs/templatetags/nav_tags.py,128,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/navs/templatetags/nav_tags.py,167,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/navs/templatetags/nav_tags.py,277,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/exports/migrations/0001_initial.py,5,Unable to import 'picklefield.fields',Category.E,import-error,Consider possible security implications associated with picklefield.fields module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/events/views.py,164,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/events/views.py,1736,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/events/views.py,3886,Redefining built-in 'id',Category.W,redefined-builtin,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+tendenci-7.5.2/tendenci/apps/wp_exporter/views.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,107,Line too long (102/100),Category.C,line-too-long,Possible hardcoded password: 'user2',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,894,Line too long (106/100),Category.C,line-too-long,Possible hardcoded password: 'user2',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,895,Line too long (103/100),Category.C,line-too-long,Possible hardcoded password: 'user3',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,936,Line too long (106/100),Category.C,line-too-long,Possible hardcoded password: 'user2',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,937,Line too long (106/100),Category.C,line-too-long,Possible hardcoded password: 'user3',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,972,Line too long (106/100),Category.C,line-too-long,Possible hardcoded password: 'user2',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,973,Line too long (106/100),Category.C,line-too-long,Possible hardcoded password: 'user3',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,45,Missing method docstring,Category.C,missing-docstring,Possible hardcoded password: 'zeus',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,936,Unused variable 'user2',Category.W,unused-variable,Possible hardcoded password: 'user2',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/forums/tests.py,972,Unused variable 'user2',Category.W,unused-variable,Possible hardcoded password: 'user2',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/base/views.py,10,"standard import ""import subprocess"" should be placed before ""from PIL import Image as Pil""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/views.py,12,"standard import ""import xmlrpclib"" should be placed before ""from PIL import Image as Pil""",Category.C,wrong-import-order,Using xmlrpclib to parse untrusted XML data is known to be vulnerable to XML attacks. Use defused.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.,HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/views.py,12,Unused import xmlrpclib,Category.W,unused-import,Using xmlrpclib to parse untrusted XML data is known to be vulnerable to XML attacks. Use defused.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.,HIGH,HIGH
+tendenci-7.5.2/tendenci/apps/base/management/commands/fake_initials.py,16,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/fake_initials.py,26,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/events/management/commands/serparate_registrant_names.py,84,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/accounts/forms.py,41,Line too long (129/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/accounts/forms.py,41,Line too long (129/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/accounts/forms.py,72,Line too long (143/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/accounts/forms.py,72,Line too long (143/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/accounts/forms.py,72,"No space allowed before bracket
+                raise forms.ValidationError(mark_safe(_(""The password does not meet the requirements: %(p)s"" % {'p': password_requirements })))
+                                                                                                                                           ^",Category.C,bad-whitespace,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/accounts/forms.py,72,"No space allowed before bracket
+                raise forms.ValidationError(mark_safe(_(""The password does not meet the requirements: %(p)s"" % {'p': password_requirements })))
+                                                                                                                                           ^",Category.C,bad-whitespace,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/accounts/forms.py,206,Line too long (189/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/accounts/forms.py,206,Line too long (189/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/photos/models.py,349,Line too long (166/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/photos/models.py,528,Line too long (166/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/photos/models.py,326,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/photos/models.py,339,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/photos/models.py,405,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/photos/models.py,420,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/photos/models.py,619,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/make_payments/forms.py,74,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/notifications/management/commands/migrate_notifications_data.py,17,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/notifications/management/commands/migrate_notifications_data.py,24,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/notifications/management/commands/migrate_notifications_data.py,31,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/notifications/management/commands/migrate_notifications_data.py,38,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/notifications/management/commands/migrate_notifications_data.py,45,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/notifications/management/commands/migrate_notifications_data.py,52,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/profiles/forms.py,673,Line too long (141/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/profiles/forms.py,673,Line too long (141/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/site_settings/forms.py,116,Line too long (149/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/site_settings/forms.py,116,Line too long (149/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/events/ics/models.py,4,Unable to import 'picklefield.fields',Category.E,import-error,Consider possible security implications associated with PickledObjectField module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/reports/management/commands/process_report_run.py,61,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/reports/management/commands/process_report_run.py,87,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/load_npo_defaults.py,53,"Variable name ""x"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/load_npo_defaults.py,55,"Variable name ""x"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/load_npo_defaults.py,126,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/corporate_memberships/views.py,190,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/theme_editor/management/commands/install_theme.py,64,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/helpdesk/tests/helpers.py,11,Missing function docstring,Category.C,missing-docstring,Possible hardcoded password: 'password',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/base/templatetags/base_tags.py,158,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/templatetags/base_tags.py,175,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/templatetags/base_tags.py,429,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/reports/models.py,114,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/campaign_monitor/management/commands/setup_campaign_monitor.py,46,Too many local variables (23/15),Category.R,too-many-locals,Possible hardcoded password: '',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/campaign_monitor/management/commands/setup_campaign_monitor.py,46,Missing function docstring,Category.C,missing-docstring,Possible hardcoded password: '',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/perms/models.py,109,"Variable name ""e"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/perms/models.py,109,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/perms/models.py,109,Unused variable 'e',Category.W,unused-variable,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/files/utils.py,427,"Wrong hanging indentation (add 8 spaces).
+                                    urllib2.urlopen(t4_url).read()))
+                                    ^       |",Category.C,bad-continuation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/campaign_monitor/models.py,226,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/campaign_monitor/models.py,241,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/campaign_monitor/models.py,349,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/categories/forms.py,22,"Wrong continued indentation (add 21 spaces).
+        mark_safe('''
+        ^                    |",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/categories/forms.py,27,"Wrong continued indentation (add 21 spaces).
+        mark_safe('''
+        ^                    |",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/categories/forms.py,38,"Wrong continued indentation (add 21 spaces).
+        mark_safe('''
+        ^                    |",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/categories/forms.py,43,"Wrong continued indentation (add 21 spaces).
+        mark_safe('''
+        ^                    |",Category.C,bad-continuation,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/helpdesk/akismet.py,100,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+tendenci-7.5.2/tendenci/apps/user_groups/views.py,2,"Multiple imports on one line (subprocess, os)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/user_groups/views.py,2,Unused import os,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/managers.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/managers.py,10,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+tendenci-7.5.2/tendenci/apps/perms/backend.py,173,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/social_services/views.py,69,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/educations/models.py,41,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/events/utils.py,1678,Line too long (114/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+tendenci-7.5.2/tendenci/apps/events/management/commands/fill_out_registrant_amount.py,32,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/base/management/commands/run_nightly_commands.py,37,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+tendenci-7.5.2/tendenci/apps/profiles/management/commands/password_converter.py,14,"No space allowed around keyword argument assignment
+        users = User.objects.exclude(password__regex = r'.{22}.*')
+                                                     ^",Category.C,bad-whitespace,Possible hardcoded password: '.{22}.*',MEDIUM,LOW
+tendenci-7.5.2/tendenci/apps/theme_editor/utils.py,279,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

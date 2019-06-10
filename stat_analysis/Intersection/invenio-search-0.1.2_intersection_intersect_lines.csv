@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+invenio-search-0.1.2/invenio_search/jsonext/parsers/aggregation_parser.py,61,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+invenio-search-0.1.2/invenio_search/jsonext/parsers/aggregation_parser.py,62,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+invenio-search-0.1.2/invenio_search/searchext/services/MathCalculatorService.py,66,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+invenio-search-0.1.2/setup.py,92,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+invenio-search-0.1.2/docs/conf.py,81,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM

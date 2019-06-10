@@ -1,0 +1,17 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+dulwich-0.9.9/setup.py,38,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+dulwich-0.9.9/setup.py,39,"Invalid constant name ""p""",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+dulwich-0.9.9/setup.py,38,"standard import ""import subprocess"" comes before ""from setuptools import setup, Extension""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+dulwich-0.9.9/dulwich/patch.py,54,"Invalid variable name ""p""",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+dulwich-0.9.9/dulwich/patch.py,54,"Invalid variable name ""p""",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+dulwich-0.9.9/dulwich/tests/compat/utils.py,130,"Invalid variable name ""p""",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+dulwich-0.9.9/dulwich/tests/compat/test_client.py,298,"Invalid variable name ""p""",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+dulwich-0.9.9/dulwich/tests/test_pack.py,278,"Wrong hanging indentation (add 2 spaces).
+          sha1('1234').hexdigest(),
+          ^ |",Category.C,bad-continuation,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+dulwich-0.9.9/dulwich/client.py,45,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+dulwich-0.9.9/dulwich/client.py,45,"standard import ""import subprocess"" comes before ""import dulwich""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+dulwich-0.9.9/dulwich/client.py,643,Redefining name 'subprocess' from outer scope (line 45),Category.W,redefined-outer-name,Consider possible security implications associated with subprocess module.,HIGH,LOW
+dulwich-0.9.9/dulwich/client.py,643,Reimport 'subprocess' (imported line 45),Category.W,reimported,Consider possible security implications associated with subprocess module.,HIGH,LOW
+dulwich-0.9.9/dulwich/client.py,751,Redefining name 'subprocess' from outer scope (line 45),Category.W,redefined-outer-name,Consider possible security implications associated with subprocess module.,HIGH,LOW
+dulwich-0.9.9/dulwich/client.py,751,Reimport 'subprocess' (imported line 45),Category.W,reimported,Consider possible security implications associated with subprocess module.,HIGH,LOW

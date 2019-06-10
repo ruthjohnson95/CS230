@@ -1,0 +1,15 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+PasteScript-1.7.4.2/paste/script/util/logging_config.py,153,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+PasteScript-1.7.4.2/paste/script/util/logging_config.py,157,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+PasteScript-1.7.4.2/paste/script/util/logging_config.py,286,Redefining built-in 'file',Category.W,redefined-builtin,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+PasteScript-1.7.4.2/paste/script/templates.py,49,Instance of 'Template' has no '_template_dir' member; maybe 'template_dir'?,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+PasteScript-1.7.4.2/paste/script/util/subprocess24.py,1138,"Variable name ""p1"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+PasteScript-1.7.4.2/paste/script/util/subprocess24.py,880,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+PasteScript-1.7.4.2/paste/script/copydir.py,415,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+PasteScript-1.7.4.2/paste/script/copydir.py,423,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+PasteScript-1.7.4.2/paste/script/command.py,725,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+PasteScript-1.7.4.2/paste/script/grep.py,152,Undefined variable 'startswith',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+PasteScript-1.7.4.2/paste/script/grep.py,159,Undefined variable 'startswith',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+PasteScript-1.7.4.2/tests/test_logging_config.py,133,"Variable name ""fn"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+PasteScript-1.7.4.2/tests/test_logging_config.py,209,"Variable name ""fn"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of insecure and deprecated function (mktemp).,HIGH,MEDIUM
+PasteScript-1.7.4.2/paste/script/util/secret.py,19,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW

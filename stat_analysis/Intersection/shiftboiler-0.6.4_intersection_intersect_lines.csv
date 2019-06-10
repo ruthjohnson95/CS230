@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+shiftboiler-0.6.4/boiler/user/models.py,194,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+shiftboiler-0.6.4/boiler/user/models.py,194,Method 'email' has no 'encode' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+shiftboiler-0.6.4/boiler/user/models.py,194,Method 'email' has no 'encode' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+shiftboiler-0.6.4/boiler/cli/cli.py,25,Redefining built-in 'reload',Category.W,redefined-builtin,Possible binding to all interfaces.,MEDIUM,MEDIUM

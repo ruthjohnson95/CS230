@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+pynoorm-0.4.0/pynoorm/linker.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,182,[182],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pynoorm-0.4.0/pynoorm/linker.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,331,[331],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pynoorm-0.4.0/setup.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,63,[63],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pynoorm-0.4.0/setup.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,64,[64],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html

@@ -1,0 +1,12 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+httplib2-0.9.2/python2/httplib2test.py,23,"standard import ""import pickle"" should be placed before ""import httplib2""",Category.C,wrong-import-order,Consider possible security implications associated with pickle module.,HIGH,LOW
+httplib2-0.9.2/python2/httplib2test.py,574,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+httplib2-0.9.2/python2/httplib2test.py,581,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+httplib2-0.9.2/python2/httplib2test.py,1280,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+httplib2-0.9.2/python3/httplib2test.py,22,"standard import ""import pickle"" should be placed before ""import httplib2""",Category.C,wrong-import-order,Consider possible security implications associated with pickle module.,HIGH,LOW
+httplib2-0.9.2/python3/httplib2test.py,1204,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+httplib2-0.9.2/python2/httplib2/__init__.py,451,Line too long (111/100),Category.C,line-too-long,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+httplib2-0.9.2/python2/httplib2/__init__.py,451,Line too long (111/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+httplib2-0.9.2/python2/httplib2/__init__.py,529,"Variable name ""H"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+httplib2-0.9.2/python2/httplib2/__init__.py,451,Unused variable 'i',Category.W,unused-variable,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+httplib2-0.9.2/python2/httplib2/__init__.py,451,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW

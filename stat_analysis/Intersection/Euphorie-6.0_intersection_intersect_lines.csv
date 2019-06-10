@@ -1,0 +1,35 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Euphorie-6.0/src/euphorie/content/api/tests/test_authentication.py,54,"Wrong hanging indentation (remove 4 spaces).
+                    self.generate_token(Sector(login='jane', password=u'john')),
+                |   ^",Category.C,bad-continuation,Possible hardcoded password: 'john',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/content/api/tests/test_authentication.py,55,"Wrong hanging indentation (remove 4 spaces).
+                    self.generate_token(Sector(login='lucy', password=u'john')))
+                |   ^",Category.C,bad-continuation,Possible hardcoded password: 'john',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/content/api/tests/test_authentication.py,65,"Wrong hanging indentation (remove 4 spaces).
+                    self.generate_token(Sector(login='jane', password=u'john')),
+                |   ^",Category.C,bad-continuation,Possible hardcoded password: 'john',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/content/api/tests/test_authentication.py,66,"Wrong hanging indentation (remove 4 spaces).
+                    self.generate_token(Sector(login='jane', password=u'dave')))
+                |   ^",Category.C,bad-continuation,Possible hardcoded password: 'dave',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/content/tests/test_functional_upload.py,1,Missing module docstring,Category.C,missing-docstring,Using objectify to parse untrusted XML data is known to be vulnerable to XML attacks. Replace objectify with the equivalent defusedxml package.,HIGH,LOW
+Euphorie-6.0/src/euphorie/content/tests/test_functional_sector.py,114,"Wrong hanging indentation (remove 4 spaces).
+                auth.authenticateCredentials(dict(password=""s3cr3t"")), None)
+            |   ^",Category.C,bad-continuation,Possible hardcoded password: 's3cr3t',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/content/tests/test_functional_sector.py,117,"Wrong hanging indentation (remove 4 spaces).
+                auth.authenticateCredentials(dict(password=""s3cr3t"")),
+            |   ^",Category.C,bad-continuation,Possible hardcoded password: 's3cr3t',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/decorators.py,13,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Euphorie-6.0/src/euphorie/client/publish.py,68,Class 'ISector' has no 'providedBy' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Euphorie-6.0/src/euphorie/client/api/tests/test_authentication.py,42,"Wrong continued indentation (add 8 spaces).
+                    self.generate_token(Account(id=5, loginname='john',
+                    ^       |",Category.C,bad-continuation,Possible hardcoded password: 'jane',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/client/tests/test_report.py,182,"Wrong hanging indentation (remove 4 spaces).
+                account=Account(loginname=loginname, password=u'john'),
+            |   ^",Category.C,bad-continuation,Possible hardcoded password: 'john',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/client/tests/utils.py,4,"Invalid function name ""addAccount""",Category.C,invalid-name,Possible hardcoded password: 'Øle',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/client/tests/utils.py,4,Missing function docstring,Category.C,missing-docstring,Possible hardcoded password: 'Øle',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/client/tests/test_functional_authentication.py,8,Method could be a function,Category.R,no-self-use,Possible hardcoded password: 'jane',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/client/tests/test_functional_authentication.py,8,"Invalid method name ""createAccount""",Category.C,invalid-name,Possible hardcoded password: 'jane',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/client/tests/test_functional_authentication.py,8,Missing method docstring,Category.C,missing-docstring,Possible hardcoded password: 'jane',MEDIUM,LOW
+Euphorie-6.0/src/euphorie/deployment/upgrade/v5.py,17,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW
+Euphorie-6.0/src/euphorie/deployment/upgrade/v5.py,32,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW

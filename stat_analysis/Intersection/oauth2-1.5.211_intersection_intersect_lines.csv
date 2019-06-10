@@ -1,0 +1,24 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+oauth2-1.5.211/oauth2/__init__.py,167,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oauth2-1.5.211/oauth2/__init__.py,172,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oauth2-1.5.211/tests/test_oauth.py,1165,"Exactly one space required after comma
+        boundary = '---Boundary-%d' % random.randint(1,1000)
+                                                      ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oauth2-1.5.211/tests/test_oauth.py,1233,"Exactly one space required after comma
+        random_result = random.randint(1,100)
+                                        ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oauth2-1.5.211/tests/test_oauth.py,1236,"Exactly one space required after comma
+            'rand-%d'%random.randint(1,100):random.randint(1,100),
+                                      ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oauth2-1.5.211/tests/test_oauth.py,1236,"Exactly one space required after comma
+            'rand-%d'%random.randint(1,100):random.randint(1,100),
+                                      ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oauth2-1.5.211/tests/test_oauth.py,1236,"Exactly one space required after comma
+            'rand-%d'%random.randint(1,100):random.randint(1,100),
+                                                            ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oauth2-1.5.211/tests/test_oauth.py,1236,"Exactly one space required after comma
+            'rand-%d'%random.randint(1,100):random.randint(1,100),
+                                                            ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oauth2-1.5.211/tests/test_oauth.py,1264,"Exactly one space required after comma
+        random_result = random.randint(1,100)
+                                        ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW

@@ -1,0 +1,22 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+quilt-2.9.13/quilt/test/test_build.py,388,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_build.py,475,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_build.py,476,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_build.py,130,Access to a protected member _keys of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_build.py,178,Access to a protected member _keys of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_build.py,179,Access to a protected member _keys of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_build.py,477,Access to a protected member _meta of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_build.py,479,Access to a protected member _meta of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/tools/command.py,536,TODO?,Category.W,fixme,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/tools/command.py,539,TODO?,Category.W,fixme,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/tools/command.py,542,TODO?,Category.W,fixme,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_checks.py,45,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+quilt-2.9.13/quilt/nodes.py,242,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_cli.py,894,"Exactly one space required after comma
+                assert argpath[0].startswith('-'),  ""bug in test, not in tested code""
+                                                 ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_cli.py,928,Line too long (108/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_cli.py,97,"standard import ""from subprocess import check_output, CalledProcessError, Popen, PIPE"" should be placed before ""import pkg_resources""",Category.C,wrong-import-order,Consider possible security implications associated with check_output module.,HIGH,LOW
+quilt-2.9.13/quilt/test/test_install.py,268,"Exactly one space required after comma
+        assert (self.getmtime('foo','bar', contents_hash1) &lt;=
+                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

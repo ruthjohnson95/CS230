@@ -1,0 +1,20 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+guillotina-4.5.7/guillotina/tests/test_oid.py,16,Access to a protected member _p_oid of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+guillotina-4.5.7/guillotina/db/reader.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with pickle module.,HIGH,LOW
+guillotina-4.5.7/guillotina/jose.py,5,Unable to import 'Crypto.Cipher',Category.E,import-error,The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/jose.py,6,Unable to import 'Crypto.Cipher',Category.E,import-error,The pyCrypto library and its module PKCS1_OAEP are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/jose.py,7,Unable to import 'Crypto.Hash',Category.E,import-error,The pyCrypto library and its module HMAC are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/jose.py,8,Unable to import 'Crypto.Hash',Category.E,import-error,The pyCrypto library and its module SHA256 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/jose.py,9,Unable to import 'Crypto.Hash',Category.E,import-error,The pyCrypto library and its module SHA384 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/jose.py,10,Unable to import 'Crypto.Hash',Category.E,import-error,The pyCrypto library and its module SHA512 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/jose.py,11,Unable to import 'Crypto.PublicKey',Category.E,import-error,The pyCrypto library and its module RSA are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/jose.py,12,Unable to import 'Crypto.Random',Category.E,import-error,The pyCrypto library and its module get_random_bytes are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/jose.py,13,Unable to import 'Crypto.Signature',Category.E,import-error,The pyCrypto library and its module PKCS1_v1_5 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+guillotina-4.5.7/guillotina/component/tests/test__declaration.py,87,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+guillotina-4.5.7/guillotina/component/tests/test__declaration.py,92,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+guillotina-4.5.7/guillotina/component/tests/test__declaration.py,147,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+guillotina-4.5.7/guillotina/component/_compat.py,19,Unused pickle imported as _pickle,Category.W,unused-import,Consider possible security implications associated with pickle module.,HIGH,LOW
+guillotina-4.5.7/guillotina/schema/tests/test_equality.py,30,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+guillotina-4.5.7/guillotina/schema/tests/test_equality.py,30,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+guillotina-4.5.7/guillotina/schema/tests/test_equality.py,30,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+guillotina-4.5.7/guillotina/schema/tests/test_equality.py,30,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM

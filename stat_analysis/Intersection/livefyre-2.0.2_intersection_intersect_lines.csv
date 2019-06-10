@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+livefyre-2.0.2/livefyre/tests/__init__.py,40,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+livefyre-2.0.2/livefyre/src/utils/__init__.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with pickle module.,HIGH,LOW
+livefyre-2.0.2/livefyre/src/utils/__init__.py,1,"Multiple imports on one line (re, pickle)",Category.C,multiple-imports,Consider possible security implications associated with pickle module.,HIGH,LOW
+livefyre-2.0.2/livefyre/src/core/network/__init__.py,49,Line too long (122/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+livefyre-2.0.2/livefyre/src/api/personalizedstream.py,77,Line too long (125/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

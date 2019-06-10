@@ -1,0 +1,15 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+locustio-0.6.2/locust/rpc/zmqrpc.py,40,Final newline missing,Category.C,missing-final-newline,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+locustio-0.6.2/locust/runners.py,331,Line too long (108/100),Category.C,line-too-long,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+locustio-0.6.2/locust/runners.py,331,Line too long (108/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+locustio-0.6.2/locust/runners.py,331,"Exactly one space required after comma
+        self.client_id = socket.gethostname() + ""_"" + md5(str(time() + random.randint(0,10000))).hexdigest()
+                                                                                       ^",Category.C,bad-whitespace,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+locustio-0.6.2/locust/runners.py,331,"Exactly one space required after comma
+        self.client_id = socket.gethostname() + ""_"" + md5(str(time() + random.randint(0,10000))).hexdigest()
+                                                                                       ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+locustio-0.6.2/locust/rpc/socketrpc.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with pickle module.,HIGH,LOW
+locustio-0.6.2/locust/rpc/socketrpc.py,1,"Multiple imports on one line (struct, pickle)",Category.C,multiple-imports,Consider possible security implications associated with pickle module.,HIGH,LOW
+locustio-0.6.2/locust/rpc/socketrpc.py,28,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+locustio-0.6.2/locust/rpc/socketrpc.py,55,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+locustio-0.6.2/locust/rpc/socketrpc.py,107,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

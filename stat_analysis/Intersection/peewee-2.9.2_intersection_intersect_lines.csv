@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+peewee-2.9.2/playhouse/kv.py,2,Unused import pickle,Category.W,unused-import,Consider possible security implications associated with pickle module.,HIGH,LOW
+peewee-2.9.2/peewee.py,144,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+peewee-2.9.2/examples/twitter/app.py,66,Instance of 'CharField' has no 'strip' member,Category.E,no-member,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+peewee-2.9.2/examples/analytics/app.py,47,TODO: change me.,Category.W,fixme,Possible hardcoded password: 'secret - change me',MEDIUM,LOW
+peewee-2.9.2/playhouse/sqlite_udf.py,191,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+ddtrace-0.10.1/ddtrace/commands/ddtrace_run.py,start_process_with_no_shell,B606,LOW,MEDIUM,Starting a process without a shell.,78,[78],https://bandit.readthedocs.io/en/latest/plugins/b606_start_process_with_no_shell.html
+ddtrace-0.10.1/ddtrace/contrib/elasticsearch/patch.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",77,[77],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+ddtrace-0.10.1/ddtrace/contrib/pylibmc/client.py,blacklist,B311,LOW,HIGH,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,154,[154],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+ddtrace-0.10.1/ddtrace/writer.py,blacklist,B311,LOW,HIGH,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,234,[234],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random

@@ -1,0 +1,9 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-ucamlookup-1.8/ucamlookup/ibisclient/connection.py,110,"No space allowed around keyword argument assignment
+                                        ssl_version = ssl.PROTOCOL_TLSv1)
+                                                    ^",Category.C,bad-whitespace,"ssl.wrap_socket call with insecure SSL/TLS protocol version identified, security issue.",HIGH,HIGH
+django-ucamlookup-1.8/ucamlookup/ibisclient/connection.py,140,"No space allowed around keyword argument assignment
+                                        ssl_version = ssl.PROTOCOL_TLSv1)
+                                                    ^",Category.C,bad-whitespace,"ssl.wrap_socket call with insecure SSL/TLS protocol version identified, security issue.",HIGH,HIGH
+django-ucamlookup-1.8/ucamlookup/ibisclient/connection.py,110,Module 'ssl' has no 'PROTOCOL_TLSv1' member,Category.E,no-member,"ssl.wrap_socket call with insecure SSL/TLS protocol version identified, security issue.",HIGH,HIGH
+django-ucamlookup-1.8/ucamlookup/ibisclient/connection.py,140,Module 'ssl' has no 'PROTOCOL_TLSv1' member,Category.E,no-member,"ssl.wrap_socket call with insecure SSL/TLS protocol version identified, security issue.",HIGH,HIGH

@@ -1,0 +1,2 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+plone.app.users-1.0.4/plone/app/users/browser/register.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,262,"[262, 263]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html

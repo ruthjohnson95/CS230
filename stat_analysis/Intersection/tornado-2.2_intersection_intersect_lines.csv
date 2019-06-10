@@ -1,0 +1,21 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+tornado-2.2/tornado/httpclient.py,205,Too many arguments (28/5),Category.R,too-many-arguments,Possible hardcoded password: '',MEDIUM,LOW
+tornado-2.2/tornado/httpclient.py,205,Too many local variables (29/15),Category.R,too-many-locals,Possible hardcoded password: '',MEDIUM,LOW
+tornado-2.2/tornado/test/web_test.py,212,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tornado-2.2/tornado/test/web_test.py,214,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tornado-2.2/tornado/test/web_test.py,216,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tornado-2.2/tornado/test/web_test.py,217,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tornado-2.2/tornado/test/web_test.py,275,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tornado-2.2/tornado/template.py,246,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+tornado-2.2/tornado/template.py,585,Access to a protected member _indent of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tornado-2.2/tornado/websocket.py,377,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+tornado-2.2/demos/blog/markdown.py,1731,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tornado-2.2/demos/blog/markdown.py,1850,"Variable name ""o"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+tornado-2.2/demos/benchmark/benchmark.py,23,"standard import ""import subprocess"" should be placed before ""from tornado.ioloop import IOLoop""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+tornado-2.2/tornado/wsgi.py,92,Access to a protected member _finished of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tornado-2.2/demos/s3server/s3server.py,111,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+tornado-2.2/demos/appengine/markdown.py,1731,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+tornado-2.2/demos/appengine/markdown.py,1850,"Variable name ""o"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+tornado-2.2/tornado/options.py,344,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+tornado-2.2/tornado/autoreload.py,96,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+tornado-2.2/tornado/autoreload.py,214,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM

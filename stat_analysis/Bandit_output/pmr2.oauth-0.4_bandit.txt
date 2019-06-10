@@ -1,0 +1,7 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+pmr2.oauth-0.4/pmr2/oauth/consumer.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,44,[44],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pmr2.oauth-0.4/pmr2/oauth/consumer.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,83,[83],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pmr2.oauth-0.4/pmr2/oauth/scope.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,262,[262],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pmr2.oauth-0.4/pmr2/oauth/token.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'dummy',36,"[36, 37, 38]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+pmr2.oauth-0.4/pmr2/oauth/token.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,78,[78],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pmr2.oauth-0.4/pmr2/oauth/token.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,227,[227],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html

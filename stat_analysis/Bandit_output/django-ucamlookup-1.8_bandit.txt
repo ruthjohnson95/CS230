@@ -1,0 +1,7 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-ucamlookup-1.8/ucamlookup/ibisclient/connection.py,ssl_with_bad_version,B502,HIGH,HIGH,"ssl.wrap_socket call with insecure SSL/TLS protocol version identified, security issue.",110,"[107, 108, 109, 110]",https://bandit.readthedocs.io/en/latest/plugins/b502_ssl_with_bad_version.html
+django-ucamlookup-1.8/ucamlookup/ibisclient/connection.py,ssl_with_bad_version,B502,HIGH,HIGH,"ssl.wrap_socket call with insecure SSL/TLS protocol version identified, security issue.",140,"[137, 138, 139, 140]",https://bandit.readthedocs.io/en/latest/plugins/b502_ssl_with_bad_version.html
+django-ucamlookup-1.8/ucamlookup/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'test',107,[107],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+django-ucamlookup-1.8/ucamlookup/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'test',108,[108],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+django-ucamlookup-1.8/ucamlookup/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'test',122,[122],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+django-ucamlookup-1.8/ucamlookup/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'test',123,[123],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html

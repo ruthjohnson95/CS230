@@ -1,0 +1,32 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+suds-0.4/suds/sudsobject.py,375,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/sudsobject.py,388,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/servicedefinition.py,230,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/mx/typer.py,121,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/tests/jasper.py,42,"Constant name ""client"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: 'ortel',MEDIUM,LOW
+suds-0.4/suds/sax/parser.py,111,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Using xml.sax.make_parser to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax.make_parser with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+suds-0.4/suds/sax/parser.py,37,"standard import ""from xml.sax import make_parser, InputSource, ContentHandler"" should be placed before ""import suds.metrics""",Category.C,wrong-import-order,"Using make_parser to parse untrusted XML data is known to be vulnerable to XML attacks. Replace make_parser with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+suds-0.4/suds/sax/parser.py,38,"standard import ""from xml.sax.handler import feature_external_ges"" should be placed before ""import suds.metrics""",Category.C,wrong-import-order,"Using feature_external_ges to parse untrusted XML data is known to be vulnerable to XML attacks. Replace feature_external_ges with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+suds-0.4/suds/xsd/deplist.py,126,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/tests/axis2.py,179,"No space allowed after bracket
+    assert ( isinstance(result, list) and len(result) == n )
+           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+suds-0.4/tests/axis2.py,179,"No space allowed before bracket
+    assert ( isinstance(result, list) and len(result) == n )
+                                                           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+suds-0.4/suds/sax/element.py,215,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/sax/__init__.py,79,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/sax/__init__.py,87,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/sax/__init__.py,99,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/sax/__init__.py,107,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/tests/axis1.py,304,"No space allowed after bracket
+        assert ( isinstance(result, list) and len(result) == n )
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+suds-0.4/tests/axis1.py,304,"No space allowed before bracket
+        assert ( isinstance(result, list) and len(result) == n )
+                                                               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+suds-0.4/tests/axis1.py,36,"Constant name ""credentials"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Possible hardcoded password: 'abc123',MEDIUM,LOW
+suds-0.4/suds/cache.py,219,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/cache.py,227,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/cache.py,257,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+suds-0.4/suds/resolver.py,465,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

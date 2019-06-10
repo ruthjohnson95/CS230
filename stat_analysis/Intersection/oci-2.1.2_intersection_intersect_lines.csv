@@ -1,0 +1,14 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+oci-2.1.2/src/oci/retry/retry_sleep_utils.py,8,Line too long (128/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+oci-2.1.2/src/oci/_vendor/six.py,709,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+oci-2.1.2/src/oci/_vendor/urllib3/packages/six.py,703,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+oci-2.1.2/src/oci/object_storage/transfer/internal/multipart_object_assembler.py,394,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+oci-2.1.2/src/oci/_vendor/urllib3/util/connection.py,126,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+oci-2.1.2/src/oci/fips.py,72,Unused variable 'digest',Category.W,unused-variable,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+oci-2.1.2/src/oci/fips.py,98,Unused variable 'digest',Category.W,unused-variable,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+oci-2.1.2/src/oci/_vendor/jwt/contrib/algorithms/pycrypto.py,1,Missing module docstring,Category.C,missing-docstring,The pyCrypto library and its module Crypto.Hash.SHA256 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+oci-2.1.2/src/oci/_vendor/jwt/contrib/algorithms/pycrypto.py,1,Unable to import 'Crypto.Hash.SHA256',Category.E,import-error,The pyCrypto library and its module Crypto.Hash.SHA256 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+oci-2.1.2/src/oci/_vendor/jwt/contrib/algorithms/pycrypto.py,2,Unable to import 'Crypto.Hash.SHA384',Category.E,import-error,The pyCrypto library and its module Crypto.Hash.SHA384 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+oci-2.1.2/src/oci/_vendor/jwt/contrib/algorithms/pycrypto.py,3,Unable to import 'Crypto.Hash.SHA512',Category.E,import-error,The pyCrypto library and its module Crypto.Hash.SHA512 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+oci-2.1.2/src/oci/_vendor/jwt/contrib/algorithms/pycrypto.py,5,Unable to import 'Crypto.PublicKey',Category.E,import-error,The pyCrypto library and its module RSA are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH
+oci-2.1.2/src/oci/_vendor/jwt/contrib/algorithms/pycrypto.py,6,Unable to import 'Crypto.Signature',Category.E,import-error,The pyCrypto library and its module PKCS1_v1_5 are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.,HIGH,HIGH

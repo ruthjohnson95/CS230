@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+splash-2.0/splash/tests/utils.py,76,Attribute 'proc' defined outside __init__,Category.W,attribute-defined-outside-init,subprocess call - check for execution of untrusted input.,HIGH,LOW
+splash-2.0/splash/tests/utils.py,106,Attribute 'proc' defined outside __init__,Category.W,attribute-defined-outside-init,subprocess call - check for execution of untrusted input.,HIGH,LOW
+splash-2.0/splash/tests/utils.py,4,Unused PIPE imported from subprocess,Category.W,unused-import,Consider possible security implications associated with Popen module.,HIGH,LOW
+splash-2.0/splash/tests/test_render.py,898,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Requests call with verify=False disabling SSL certificate checks, security issue.",HIGH,HIGH
+splash-2.0/splash/tests/test_render.py,898,Instance of 'TestTestSetup' has no 'ts' member,Category.E,no-member,"Requests call with verify=False disabling SSL certificate checks, security issue.",HIGH,HIGH

@@ -1,0 +1,2 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+alexandra-0.3.3/alexandra/util.py,blacklist,B310,MEDIUM,HIGH,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,171,[171],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen

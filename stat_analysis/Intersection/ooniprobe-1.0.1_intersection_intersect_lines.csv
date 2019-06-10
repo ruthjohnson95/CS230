@@ -1,0 +1,12 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+ooniprobe-1.0.1/ooni/nettests/blocking/bridge_reachability.py,4,Unused import subprocess,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+ooniprobe-1.0.1/ooni/nettest.py,303,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ooniprobe-1.0.1/ooni/tests/test_txscapy.py,20,Comparison to True should be just 'expr' or 'expr is True',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ooniprobe-1.0.1/ooni/utils/net.py,166,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ooniprobe-1.0.1/ooni/nettests/manipulation/captiveportal.py,60,"Wrong continued indentation (add 4 spaces).
+                 ['user-agent', 'u', random.choice(net.userAgents),
+                 ^   |",Category.C,bad-continuation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ooniprobe-1.0.1/ooni/tests/test_oonibclient.py,29,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+ooniprobe-1.0.1/ooni/tests/test_oonibclient.py,29,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ooniprobe-1.0.1/ooni/tests/test_oonibclient.py,105,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ooniprobe-1.0.1/ooni/utils/txscapy.py,115,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

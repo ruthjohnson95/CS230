@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+opentaxii-0.1.10/docs/conf.py,55,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+opentaxii-0.1.10/setup.py,5,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+opentaxii-0.1.10/opentaxii/taxii/utils.py,5,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW

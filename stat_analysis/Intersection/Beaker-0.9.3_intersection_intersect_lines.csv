@@ -1,0 +1,10 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Beaker-0.9.3/beaker/crypto/pbkdf2.py,141,Comparison should be i &gt;= 1,Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Beaker-0.9.3/beaker/ext/database.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with cPickle module.,HIGH,LOW
+Beaker-0.9.3/beaker/ext/database.py,1,Unable to import 'cPickle',Category.E,import-error,Consider possible security implications associated with cPickle module.,HIGH,LOW
+Beaker-0.9.3/beaker/session.py,122,Trailing whitespace,Category.C,trailing-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Beaker-0.9.3/beaker/session.py,122,"No space allowed before bracket
+            md5.new(""%f%s%f%d"" % (time.time(), id({}), random.random(), os.getpid()) ).hexdigest(), 
+                                                                                     ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Beaker-0.9.3/beaker/session.py,22,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Beaker-0.9.3/beaker/session.py,2,Unable to import 'cPickle',Category.E,import-error,Consider possible security implications associated with cPickle module.,HIGH,LOW

@@ -1,0 +1,4 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+rsa-1.3.3/rsa/__init__.py,HIGH,LOW,Consider possible security implications associated with dumps module.,21,[21],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b403-import-pickle,B403,blacklist
+rsa-1.3.3/rsa/__init__.py,HIGH,LOW,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,124,[124],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random,B311,blacklist
+rsa-1.3.3/rsa/__init__.py,HIGH,MEDIUM,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",364,[364],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b301-pickle,B301,blacklist

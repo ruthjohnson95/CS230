@@ -1,0 +1,54 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+aiida-core-0.12.2/aiida/utils/calculation.py,38,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+aiida-core-0.12.2/aiida/plugins/utils.py,60,Unable to import 'cPickle',Category.E,import-error,Consider possible security implications associated with dump module.,HIGH,LOW
+aiida-core-0.12.2/aiida/plugins/utils.py,73,Unable to import 'cPickle',Category.E,import-error,Consider possible security implications associated with load module.,HIGH,LOW
+aiida-core-0.12.2/aiida/plugins/registry.py,110,Unused variable 'pload',Category.W,unused-variable,Consider possible security implications associated with load module.,HIGH,LOW
+aiida-core-0.12.2/aiida/plugins/registry.py,110,Unable to import 'cPickle',Category.E,import-error,Consider possible security implications associated with load module.,HIGH,LOW
+aiida-core-0.12.2/aiida/transport/plugins/local.py,18,"Multiple imports on one line (os, shutil, subprocess)",Category.C,multiple-imports,Consider possible security implications associated with subprocess module.,HIGH,LOW
+aiida-core-0.12.2/aiida/backends/djsite/db/testbase.py,70,"Wrong continued indentation (add 1 space).
+                                workdir='/tmp/aiida')
+                                ^|",Category.C,bad-continuation,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+aiida-core-0.12.2/aiida/backends/tests/export_and_import.py,852,Line too long (112/100),Category.C,line-too-long,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+aiida-core-0.12.2/aiida/backends/tests/export_and_import.py,852,"Exactly one space required after comma
+            trial_dict.update({str(k):''.join(random.choice(chars) for _ in range(size)) for k in range(20,30)})
+                                                                                                          ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+aiida-core-0.12.2/aiida/backends/tests/computer.py,28,"Wrong continued indentation (remove 4 spaces).
+                                workdir='/tmp/aiida')
+                            |   ^",Category.C,bad-continuation,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+aiida-core-0.12.2/aiida/backends/tests/parsers.py,183,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+aiida-core-0.12.2/aiida/work/persistence.py,399,"Variable name ""cp"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+aiida-core-0.12.2/aiida/work/persistence.py,29,"standard import ""import pickle"" should be placed before ""import uritools""",Category.C,wrong-import-order,Consider possible security implications associated with pickle module.,HIGH,LOW
+aiida-core-0.12.2/aiida/work/legacy/job_process.py,92,Access to a protected member _is_running of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+aiida-core-0.12.2/aiida/work/process.py,488,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+aiida-core-0.12.2/aiida/orm/data/array/bands.py,1122,"invalid syntax (&lt;string&gt;, line 1122)",Category.E,syntax-error,Use of exec detected.,HIGH,MEDIUM
+aiida-core-0.12.2/aiida/orm/utils.py,116,"Exactly one space required after comma
+        assert True,  ""Neither pk  nor uuid was provided""
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+aiida-core-0.12.2/aiida/orm/implementation/general/calculation/job/__init__.py,1814,"invalid token (&lt;string&gt;, line 1814)",Category.E,syntax-error,Chmod setting a permissive mask 0755 on file (NOT PARSED).,HIGH,MEDIUM
+aiida-core-0.12.2/aiida/scheduler/plugins/sge.py,310,Redefining name 'xml' from outer scope (line 19),Category.W,redefined-outer-name,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+aiida-core-0.12.2/aiida/tests/util.py,44,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+aiida-core-0.12.2/aiida/tests/util.py,110,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+aiida-core-0.12.2/aiida/tools/data/array/kpoints/legacy.py,1003,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+aiida-core-0.12.2/aiida/tools/data/array/kpoints/legacy.py,1008,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+aiida-core-0.12.2/aiida/tools/data/array/kpoints/__init__.py,126,Line too long (108/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+aiida-core-0.12.2/aiida/tools/data/array/kpoints/__init__.py,164,Line too long (108/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+aiida-core-0.12.2/aiida/tools/dbimporters/plugins/test_icsd.py,73,"No space allowed around keyword argument assignment
+        db = MySQLdb.connect(host = self.host, user =""dba"", passwd = ""sql"", db = ""icsd"", port=3306)
+                                  ^",Category.C,bad-whitespace,Possible hardcoded password: 'sql',MEDIUM,LOW
+aiida-core-0.12.2/aiida/tools/dbimporters/plugins/test_icsd.py,73,"No space allowed before keyword argument assignment
+        db = MySQLdb.connect(host = self.host, user =""dba"", passwd = ""sql"", db = ""icsd"", port=3306)
+                                                    ^",Category.C,bad-whitespace,Possible hardcoded password: 'sql',MEDIUM,LOW
+aiida-core-0.12.2/aiida/tools/dbimporters/plugins/test_icsd.py,73,"No space allowed around keyword argument assignment
+        db = MySQLdb.connect(host = self.host, user =""dba"", passwd = ""sql"", db = ""icsd"", port=3306)
+                                                                   ^",Category.C,bad-whitespace,Possible hardcoded password: 'sql',MEDIUM,LOW
+aiida-core-0.12.2/aiida/tools/dbimporters/plugins/test_icsd.py,73,"No space allowed around keyword argument assignment
+        db = MySQLdb.connect(host = self.host, user =""dba"", passwd = ""sql"", db = ""icsd"", port=3306)
+                                                                               ^",Category.C,bad-whitespace,Possible hardcoded password: 'sql',MEDIUM,LOW
+aiida-core-0.12.2/aiida/tools/dbimporters/plugins/test_icsd.py,73,"Variable name ""db"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'sql',MEDIUM,LOW
+aiida-core-0.12.2/aiida/tools/dbimporters/plugins/test_icsd.py,65,Unused variable 'html',Category.W,unused-variable,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+aiida-core-0.12.2/aiida/tools/dbimporters/plugins/icsd.py,601,Trailing whitespace,Category.C,trailing-whitespace,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+aiida-core-0.12.2/aiida/common/graph.py,188,Line too long (103/100),Category.C,line-too-long,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+aiida-core-0.12.2/aiida/common/test_extendeddicts.py,276,"Variable name ""d2"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+aiida-core-0.12.2/aiida/common/test_extendeddicts.py,283,"Variable name ""d2"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+aiida-core-0.12.2/aiida/common/test_extendeddicts.py,312,"Variable name ""b"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+aiida-core-0.12.2/aiida/common/test_folders.py,45,"Variable name ""fd"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM

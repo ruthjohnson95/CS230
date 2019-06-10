@@ -1,0 +1,364 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_slides.py,28,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_slides.py,36,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/kernel/adapter.py,184,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/adapter.py,326,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/magics/config.py,153,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/oinspect.py,714,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/oinspect.py,735,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/oinspect.py,140,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/oinspect.py,338,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/oinspect.py,714,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/oinspect.py,726,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/oinspect.py,735,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/oinspect.py,763,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/ipengineapp.py,371,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/pickleshare.py,310,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/pickleshare.py,310,Unused variable 'data',Category.W,unused-variable,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/magic.py,391,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/core/ultratb.py,740,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/ultratb.py,843,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/ultratb.py,852,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/kernel/connect.py,415,"Attribute name ""ip"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible binding to all interfaces.,MEDIUM,MEDIUM
+ipython-3.2.1/IPython/qt/console/completion_plain.py,26,Access to a protected member _control of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/testing/iptestcontroller.py,24,"standard import ""import subprocess"" should be placed before ""import requests""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+ipython-3.2.1/IPython/testing/iptestcontroller.py,39,Imports from package subprocess are not grouped,Category.C,ungrouped-imports,Consider possible security implications associated with TimeoutExpired module.,HIGH,LOW
+ipython-3.2.1/IPython/testing/iptestcontroller.py,126,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/testing/iptestcontroller.py,355,Attribute 'server' defined outside __init__,Category.W,attribute-defined-outside-init,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_rst.py,35,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/filters/strings.py,85,"Variable name ""h"" doesn't conform to snake_case naming style",Category.C,invalid-name,Using xml.etree.ElementTree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.fromstring with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_notebook.py,26,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/setupegg.py,7,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/pickleutil.py,156,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/pickleutil.py,58,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW
+ipython-3.2.1/IPython/extensions/cythonmagic.py,28,"No space allowed before :
+except :
+       ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/extensions/cythonmagic.py,28,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/ipclusterapp.py,200,"Exactly one space required after comma
+                p = check_call(['taskkill', '-pid', str(pid), '-t', '-f'], stdout=PIPE,stderr=PIPE)
+                                                                                      ^",Category.C,bad-whitespace,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/ipclusterapp.py,200,"Exactly one space required after comma
+                p = check_call(['taskkill', '-pid', str(pid), '-t', '-f'], stdout=PIPE,stderr=PIPE)
+                                                                                      ^",Category.C,bad-whitespace,Starting a process with a partial executable path,HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/ipclusterapp.py,200,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/ipclusterapp.py,200,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/ipclusterapp.py,200,Unused variable 'p',Category.W,unused-variable,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/ipclusterapp.py,200,Unused variable 'p',Category.W,unused-variable,Starting a process with a partial executable path,HIGH,LOW
+ipython-3.2.1/IPython/kernel/tests/test_kernel.py,27,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_html.py,30,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_html.py,38,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_html.py,46,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_html.py,69,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/magics/execution.py,1025,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/magics/execution.py,1162,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/magics/execution.py,1166,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/magics/execution.py,1343,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/sphinxext/ipython_directive.py,676,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/sphinxext/ipython_directive.py,781,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/zmq/iostream.py,186,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/terminal/tests/test_embed.py,86,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/terminal/tests/test_embed.py,89,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/terminal/tests/test_embed.py,103,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/terminal/tests/test_embed.py,106,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/terminal/tests/test_embed.py,112,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/terminal/tests/test_embed.py,115,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/terminal/tests/test_embed.py,121,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/terminal/tests/test_embed.py,124,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/_tokenize_py3.py,515,"Wrong continued indentation before block (add 4 spaces).
+                    (initial == '.' and token != '.' and token != '...')):
+                    ^   |",Category.C,bad-continuation,Possible hardcoded password: '.',MEDIUM,LOW
+ipython-3.2.1/IPython/utils/_tokenize_py3.py,515,"Wrong continued indentation before block (add 4 spaces).
+                    (initial == '.' and token != '.' and token != '...')):
+                    ^   |",Category.C,bad-continuation,Possible hardcoded password: '...',MEDIUM,LOW
+ipython-3.2.1/IPython/external/path/_path.py,1201,Module 'os' has no 'startfile' member,Category.E,no-member,Starting a process without a shell.,MEDIUM,LOW
+ipython-3.2.1/IPython/utils/tests/test_traitlets.py,1341,"Variable name ""c2"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/tests/test_traitlets.py,1348,"Variable name ""c2"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+ipython-3.2.1/IPython/lib/backgroundjobs.py,392,"Exactly one space required after comma
+            assert hasattr(self,attr), ""Missing attribute &lt;%s&gt;"" % attr
+                               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/lib/backgroundjobs.py,465,"Exactly one space required after comma
+        return eval(self.code,self.glob,self.loc)
+                             ^",Category.C,bad-whitespace,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/lib/backgroundjobs.py,465,"Exactly one space required after comma
+        return eval(self.code,self.glob,self.loc)
+                                       ^",Category.C,bad-whitespace,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/lib/backgroundjobs.py,465,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/external/pexpect/_pexpect.py,543,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/html/services/sessions/tests/test_sessions_api.py,30,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/preprocessors/tests/test_highlightmagics.py,35,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/preprocessors/tests/test_highlightmagics.py,50,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/config/application.py,215,"Exactly one space required after comma
+            assert len(value) == 2, ""Bad flag: %r:%s""%(key,value)
+                                                          ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/config/application.py,216,"Exactly one space required after comma
+            assert isinstance(value[0], (dict, Config)), ""Bad flag: %r:%s""%(key,value)
+                                                                               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/config/application.py,217,"Exactly one space required after comma
+            assert isinstance(value[1], string_types), ""Bad flag: %r:%s""%(key,value)
+                                                                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/docs/source/conf.py,35,Line too long (110/100),Category.C,line-too-long,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/docs/source/conf.py,35,"Exactly one space required after comma
+exec(compile(open('../../IPython/core/release.py').read(), '../../IPython/core/release.py', 'exec'),iprelease)
+                                                                                                   ^",Category.C,bad-whitespace,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/docs/source/conf.py,35,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/display.py,490,"Variable name ""x"" doesn't conform to snake_case naming style",Category.C,invalid-name,Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/frame.py,86,"Exactly one space required after comma
+                                   eval(expr,cf.f_globals,cf.f_locals)))
+                                            ^",Category.C,bad-whitespace,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/frame.py,86,"Exactly one space required after comma
+                                   eval(expr,cf.f_globals,cf.f_locals)))
+                                                         ^",Category.C,bad-whitespace,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/frame.py,86,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/tests/test_history.py,178,"Variable name ""hm"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/core/tests/test_history.py,178,Undefined variable 'get_ipython',Category.E,undefined-variable,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/html/allow76.py,251,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+ipython-3.2.1/IPython/parallel/apps/launcher.py,1257,"Exactly one space required after comma
+        p = Popen(piped_cmd, shell=True,env=os.environ,stdout=PIPE)
+                                       ^",Category.C,bad-whitespace,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ipython-3.2.1/IPython/parallel/apps/launcher.py,1257,"Exactly one space required after comma
+        p = Popen(piped_cmd, shell=True,env=os.environ,stdout=PIPE)
+                                                      ^",Category.C,bad-whitespace,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ipython-3.2.1/IPython/parallel/apps/launcher.py,37,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/launcher.py,1134,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/launcher.py,1257,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ipython-3.2.1/IPython/utils/_process_common.py,72,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_templateexporter.py,45,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_templateexporter.py,57,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/filters/markdown.py,91,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/nbformat/validator.py,125,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/lib/clipboard.py,38,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/lib/clipboard.py,38,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+ipython-3.2.1/IPython/parallel/apps/ipcontrollerapp.py,486,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/docs/gh-pages.py,48,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ipython-3.2.1/docs/gh-pages.py,61,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ipython-3.2.1/IPython/qt/console/mainwindow.py,296,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/qt/console/mainwindow.py,296,"Exactly one space required around comparison
+        assert(len(master_widget)&lt;=1 )
+                                 ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/qt/console/mainwindow.py,296,"No space allowed before bracket
+        assert(len(master_widget)&lt;=1 )
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/tests/test_inputsplitter.py,365,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/tests/test_text.py,42,"Exactly one space required after comma
+    for nitems in [random.randint(2,70) for i in range(2,20)]:
+                                   ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_text.py,42,"Exactly one space required after comma
+    for nitems in [random.randint(2,70) for i in range(2,20)]:
+                                                        ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_text.py,43,"Exactly one space required after comma
+        displaywidth = random.randint(20,200)
+                                        ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_text.py,44,"Exactly one space required after comma
+        rand_len = [random.randint(2,displaywidth) for i in range(nitems)]
+                                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_text.py,42,Unused variable 'i',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/html/widgets/interaction.py,111,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_markdown.py,40,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_markdown.py,40,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/controller/dependency.py,88,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/parallel/tests/clienttest.py,51,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/_process_win32.py,86,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/threaded.py,64,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/threaded.py,189,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/html/services/kernels/tests/test_kernels_api.py,21,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/setupbase.py,219,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/setupbase.py,719,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/setupbase.py,55,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/timing.py,86,"Exactly one space required after comparison
+    assert reps &gt;=1, 'reps must be &gt;= 1'
+                ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/client/magics.py,172,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/parallel/client/magics.py,176,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/consoleapp.py,70,"No space allowed around keyword argument assignment
+    shell = 'IPythonConsoleApp.shell_port',
+          ^",Category.C,bad-whitespace,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/parallel/client/remotefunction.py,61,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/parallel/client/remotefunction.py,65,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/testing/tools.py,385,Line too long (101/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/testing/tools.py,413,"Exactly one space required after comma
+                    assert not s.search(printed),printed_msg.format(
+                                                ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/testing/tools.py,226,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/testing/tools.py,298,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/tests/test_interactiveshell.py,156,Line too long (104/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/tests/test_interactiveshell.py,159,Line too long (105/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/sphinxext/custom_doctests.py,79,"Variable name ""a"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/sphinxext/custom_doctests.py,79,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/debugger.py,487,"Variable name ""x"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/debugger.py,487,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/docs/sphinxext/apigen.py,219,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/magics/script.py,187,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/core/magics/script.py,263,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/magics/script.py,270,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/magics/script.py,277,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/utils/encoding.py,57,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/pdf.py,78,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/core/prompts.py,269,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/lib/tests/test_security.py,26,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_io.py,71,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/core/crashhandler.py,197,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/zmq/serialize.py,162,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+ipython-3.2.1/IPython/qt/console/completion_html.py,135,Access to a protected member _control of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/lib/pretty.py,609,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/lib/pretty.py,640,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_script.py,27,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,12,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,13,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,14,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,15,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,25,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,38,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,39,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,52,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_dir2.py,80,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/pylabtools.py,305,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/pylabtools.py,310,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/extensions/tests/test_autoreload.py,52,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/dir2.py,81,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/parallel/engine/engine.py,249,Line too long (101/100),Category.C,line-too-long,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_latex.py,37,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_latex.py,46,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_latex.py,55,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_latex.py,64,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_latex.py,101,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/interactiveshell.py,1678,"Exactly one space required around comparison
+        assert type(exc_tuple)==type(()) , \
+                              ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/interactiveshell.py,1678,"No space allowed before comma
+        assert type(exc_tuple)==type(()) , \
+                                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/interactiveshell.py,2062,"Attribute name ""Completer"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/core/interactiveshell.py,1678,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/interactiveshell.py,2378,"Variable name ""ec"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+ipython-3.2.1/IPython/core/interactiveshell.py,2396,"Variable name ""ec"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ipython-3.2.1/IPython/core/interactiveshell.py,1380,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/interactiveshell.py,1511,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/interactiveshell.py,1887,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/interactiveshell.py,2564,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/interactiveshell.py,2577,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/interactiveshell.py,2585,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/interactiveshell.py,3035,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/interactiveshell.py,3184,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/interactiveshell.py,3333,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/path.py,213,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/external/decorator/_decorator.py,172,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/tests/test_oinspect.py,288,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/completer.py,847,"Variable name ""namedArgs"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/completer.py,383,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/completer.py,386,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/completer.py,399,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/completer.py,427,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/completer.py,849,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/completer.py,847,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/completer.py,907,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/completer.py,910,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/py3compat.py,116,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/py3compat.py,207,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/py3compat.py,220,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/external/decorators/_decorators.py,26,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/tests/test_magic.py,562,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/tests/test_magic.py,785,"Variable name ""sm"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/core/tests/test_magic.py,831,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/tests/test_magic.py,616,Undefined variable '_ip',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/lib/demo.py,425,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/nbconvert/utils/pandoc.py,66,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/kernel/zmq/ipkernel.py,65,Trailing whitespace,Category.C,trailing-whitespace,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/kernel/zmq/ipkernel.py,147,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/kernel/zmq/ipkernel.py,318,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/sysinfo.py,129,"Exactly one space required after comma
+    p = subprocess.Popen(['sysctl','-n','hw.ncpu'],stdout=subprocess.PIPE)
+                                  ^",Category.C,bad-whitespace,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/utils/sysinfo.py,129,"Exactly one space required after comma
+    p = subprocess.Popen(['sysctl','-n','hw.ncpu'],stdout=subprocess.PIPE)
+                                  ^",Category.C,bad-whitespace,Starting a process with a partial executable path,HIGH,LOW
+ipython-3.2.1/IPython/utils/sysinfo.py,129,"Exactly one space required after comma
+    p = subprocess.Popen(['sysctl','-n','hw.ncpu'],stdout=subprocess.PIPE)
+                                       ^",Category.C,bad-whitespace,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/utils/sysinfo.py,129,"Exactly one space required after comma
+    p = subprocess.Popen(['sysctl','-n','hw.ncpu'],stdout=subprocess.PIPE)
+                                       ^",Category.C,bad-whitespace,Starting a process with a partial executable path,HIGH,LOW
+ipython-3.2.1/IPython/utils/sysinfo.py,129,"Exactly one space required after comma
+    p = subprocess.Popen(['sysctl','-n','hw.ncpu'],stdout=subprocess.PIPE)
+                                                  ^",Category.C,bad-whitespace,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/utils/sysinfo.py,129,"Exactly one space required after comma
+    p = subprocess.Popen(['sysctl','-n','hw.ncpu'],stdout=subprocess.PIPE)
+                                                  ^",Category.C,bad-whitespace,Starting a process with a partial executable path,HIGH,LOW
+ipython-3.2.1/IPython/utils/sysinfo.py,129,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+ipython-3.2.1/IPython/utils/sysinfo.py,129,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+ipython-3.2.1/IPython/core/magics/code.py,412,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/core/magics/code.py,485,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/utils/text.py,528,"Variable name ""v"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/text.py,528,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/utils/text.py,583,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/html/tests/launchnotebook.py,116,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/extensions/autoreload.py,516,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/zmq/session.py,865,Instance of 'Message' has no 'x' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/kernel/zmq/session.py,869,Instance of 'Message' has no 'y' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/tests/test_prefilter.py,64,"Variable name ""ac"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_pdf.py,35,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/traitlets.py,577,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/utils/traitlets.py,853,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/parallel/client/view.py,125,"Consider changing ""not self.__class__ is View"" to ""self.__class__ is not View""",Category.C,unneeded-not,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/client/view.py,619,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/client/view.py,1120,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/terminal/ipapp.py,115,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/tests/utils.py,9,Unused PIPE imported from subprocess,Category.W,unused-import,Consider possible security implications associated with PIPE module.,HIGH,LOW
+ipython-3.2.1/IPython/config/tests/test_loader.py,282,Access to a protected member _has_section of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/config/tests/test_loader.py,286,Access to a protected member _has_section of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/html/base/handlers.py,296,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/magics/history.py,268,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/parallel/tests/test_view.py,464,"Exactly one space required after comma
+            assert a.encode('utf8') == check, ""%s != %s""%(a,check)
+                                                           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/displayhook.py,265,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/core/displayhook.py,265,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/parallel/util.py,127,"Exactly one space required after comma
+    assert proto in ['tcp','pgm','epgm','ipc','inproc'], ""Invalid protocol: %r""%proto
+                          ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/util.py,127,"Exactly one space required after comma
+    assert proto in ['tcp','pgm','epgm','ipc','inproc'], ""Invalid protocol: %r""%proto
+                                ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/util.py,127,"Exactly one space required after comma
+    assert proto in ['tcp','pgm','epgm','ipc','inproc'], ""Invalid protocol: %r""%proto
+                                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/util.py,127,"Exactly one space required after comma
+    assert proto in ['tcp','pgm','epgm','ipc','inproc'], ""Invalid protocol: %r""%proto
+                                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/util.py,256,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/parallel/util.py,264,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/parallel/util.py,266,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+ipython-3.2.1/IPython/parallel/util.py,271,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/parallel/util.py,25,Unused import pickle,Category.W,unused-import,Consider possible security implications associated with pickle module.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/controller/scheduler.py,55,"Exactly one space required after comma
+    return randint(0,n-1)
+                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/controller/scheduler.py,74,"Exactly one space required after comma
+    a = randint(0,n-1)
+                 ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/controller/scheduler.py,75,"Exactly one space required after comma
+    b = randint(0,n-1)
+                 ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/controller/scheduler.py,74,"Variable name ""a"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/controller/scheduler.py,75,"Variable name ""b"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/controller/scheduler.py,87,"Variable name ""x"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/parallel/controller/scheduler.py,88,"Variable name ""y"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/preprocessors/tests/test_csshtmlheader.py,47,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/config/loader.py,518,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/config/loader.py,774,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+ipython-3.2.1/IPython/qt/console/rich_ipython_widget.py,284,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/utils/tests/test_decorators.py,10,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/kernel/blocking/channels.py,77,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/channels.py,188,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/parallel/tests/test_db.py,313,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/kernel/zmq/pylab/config.py,33,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ipython-3.2.1/IPython/testing/tests/test_decorators.py,154,"Exactly one space required around comparison
+    assert dtargsr==dtargs, \
+                  ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_export.py,36,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_export.py,46,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_export.py,55,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_export.py,63,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_export.py,71,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/nbconvert/exporters/tests/test_export.py,79,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ipython-3.2.1/IPython/core/tests/test_prompts.py,20,"Attribute name ""pm"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM

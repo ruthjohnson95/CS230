@@ -1,0 +1,26 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+kalliope-0.5.2.1/kalliope/neurons/script/script.py,40,Line too long (108/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+kalliope-0.5.2.1/kalliope/neurons/script/script.py,1,Missing module docstring,Category.C,missing-docstring,Consider possible security implications associated with subprocess module.,HIGH,LOW
+kalliope-0.5.2.1/kalliope/neurons/script/script.py,40,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+kalliope-0.5.2.1/Tests/test_tts_module.py,41,Line too long (108/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,127,Line too long (109/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,132,Line too long (106/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,137,Line too long (106/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,142,Line too long (110/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,147,Line too long (109/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,127,Access to a protected member _get_target_folder of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,132,Access to a protected member _get_target_folder of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,137,Access to a protected member _get_target_folder of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,142,Access to a protected member _get_target_folder of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/Tests/test_resources_manager.py,147,Access to a protected member _get_target_folder of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/kalliope/neurons/shell/shell.py,51,Line too long (106/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+kalliope-0.5.2.1/kalliope/neurons/shell/shell.py,51,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+kalliope-0.5.2.1/kalliope/core/TTS/TTSModule.py,5,Unused import subprocess,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW
+kalliope-0.5.2.1/Tests/test_utils.py,138,Line too long (114/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/kalliope/core/RestAPI/FlaskAPI.py,118,Line too long (104/100),Category.C,line-too-long,"A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.",MEDIUM,HIGH
+kalliope-0.5.2.1/kalliope/core/RestAPI/FlaskAPI.py,118,Line too long (104/100),Category.C,line-too-long,Possible binding to all interfaces.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/kalliope/core/RestAPI/FlaskAPI.py,366,Line too long (116/100),Category.C,line-too-long,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+kalliope-0.5.2.1/Tests/test_models.py,216,Line too long (101/100),Category.C,line-too-long,Possible hardcoded password: 'password',MEDIUM,LOW
+kalliope-0.5.2.1/Tests/test_models.py,222,Line too long (101/100),Category.C,line-too-long,Possible hardcoded password: 'password',MEDIUM,LOW
+kalliope-0.5.2.1/Tests/test_models.py,303,Line too long (941/100),Category.C,line-too-long,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+kalliope-0.5.2.1/kalliope/tts/espeak/espeak.py,4,"standard import ""import subprocess"" should be placed before ""from kalliope.core.TTS.TTSModule import TTSModule, MissingTTSParameter""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW

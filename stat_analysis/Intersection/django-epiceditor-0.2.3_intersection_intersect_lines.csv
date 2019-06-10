@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-epiceditor-0.2.3/setup.py,18,Line too long (111/100),Category.C,line-too-long,Starting a process with a partial executable path,HIGH,LOW
+django-epiceditor-0.2.3/setup.py,18,Line too long (111/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+django-epiceditor-0.2.3/setup.py,4,"standard import ""from subprocess import check_call"" comes before ""from setuptools import setup""",Category.C,wrong-import-order,Consider possible security implications associated with check_call module.,HIGH,LOW

@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+mollie-api-python-2.0.3/tests/test_shipments.py,31,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mollie-api-python-2.0.3/tests/test_methods.py,24,Line too long (104/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mollie-api-python-2.0.3/tests/test_issuers.py,16,Line too long (109/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+mollie-api-python-2.0.3/tests/test_issuers.py,17,Line too long (114/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

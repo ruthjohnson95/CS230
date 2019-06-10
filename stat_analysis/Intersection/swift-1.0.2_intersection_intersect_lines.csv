@@ -1,0 +1,30 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+swift-1.0.2/test/unit/common/test_auth.py,54,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/test/unit/common/test_db.py,189,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/test/unit/common/test_db.py,233,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/test/unit/common/test_db.py,396,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/test/unit/common/test_db.py,1154,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/test/unit/proxy/test_server.py,164,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/test/unit/common/test_utils.py,65,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/swift/common/client.py,75,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+swift-1.0.2/test/unit/container/test_server.py,390,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+swift-1.0.2/test/unit/container/test_server.py,401,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+swift-1.0.2/test/unit/container/test_server.py,412,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+swift-1.0.2/swift/auth/server.py,191,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/swift/common/ring/builder.py,427,"Wrong continued indentation (add 13 spaces).
+                                    dev['parts_wanted'], randint(0, 0xffff))
+                                    ^            |",Category.C,bad-continuation,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+swift-1.0.2/test/functional/tests.py,92,Unused variable 'x',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+swift-1.0.2/test/functional/tests.py,199,Redefining built-in 'bytes',Category.W,redefined-builtin,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+swift-1.0.2/test/probe/common.py,30,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/test/unit/obj/test_server.py,228,Using deprecated method assertEquals(),Category.W,deprecated-method,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+swift-1.0.2/test/unit/obj/test_server.py,260,Using deprecated method assertEquals(),Category.W,deprecated-method,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+swift-1.0.2/test/unit/obj/test_server.py,306,Using deprecated method assertEquals(),Category.W,deprecated-method,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+swift-1.0.2/swift/account/server.py,31,"standard import ""from xml.sax import saxutils"" should be placed before ""from swift.common.utils import get_logger""",Category.C,wrong-import-order,"Using saxutils to parse untrusted XML data is known to be vulnerable to XML attacks. Replace saxutils with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+swift-1.0.2/test/functional/swift.py,27,"standard import ""from xml.dom import minidom"" should be placed before ""import simplejson as json""",Category.C,wrong-import-order,"Using minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+swift-1.0.2/swift/common/db.py,636,"Wrong continued indentation (remove 3 spaces).
+                                deleted) = pickle.loads(entry.decode('base64'))
+                             |  ^",Category.C,bad-continuation,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+swift-1.0.2/swift/common/db.py,288,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+swift-1.0.2/swift/obj/auditor.py,16,Unused cPickle imported as pickle,Category.W,unused-import,Consider possible security implications associated with cPickle module.,HIGH,LOW
+swift-1.0.2/test/unit/account/test_server.py,23,"standard import ""import xml.dom.minidom"" should be placed before ""import simplejson""",Category.C,wrong-import-order,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW

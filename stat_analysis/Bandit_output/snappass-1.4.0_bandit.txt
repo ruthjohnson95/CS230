@@ -1,0 +1,3 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+snappass-1.4.0/snappass/main.py,MEDIUM,LOW,Possible hardcoded password: '~',19,"[19, 20, 21, 22]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html,B105,hardcoded_password_string
+snappass-1.4.0/snappass/main.py,MEDIUM,MEDIUM,Possible binding to all interfaces.,193,[193],https://bandit.readthedocs.io/en/latest/plugins/b104_hardcoded_bind_all_interfaces.html,B104,hardcoded_bind_all_interfaces

@@ -1,0 +1,72 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+cinder-14.0.0/api-ref/source/conf.py,146,"Constant name ""html_last_updated_fmt"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/ibm/ibm_storage/certificate.py,62,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/ibm/ibm_storage/ds8k_proxy.py,912,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/ibm/ibm_storage/ds8k_proxy.py,925,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/ibm/ibm_storage/ds8k_proxy.py,1041,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/ibm/ibm_storage/ds8k_proxy.py,1050,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/fujitsu/eternus_dx/eternus_dx_common.py,1177,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+cinder-14.0.0/cinder/volume/drivers/fujitsu/eternus_dx/eternus_dx_common.py,1472,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/solidfire.py,598,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/zfssa/restclient.py,282,Access to a protected member _create_unverified_context of a client class,Category.W,protected-access,"By default, Python will create a secure, verified ssl context for use in such classes as HTTPSConnection. However, it still allows using an insecure context via the _create_unverified_context that reverts to the previous behavior that does not validate certificates or perform hostname checks.",HIGH,MEDIUM
+cinder-14.0.0/cinder/volume/drivers/zfssa/zfssarest.py,1363,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/dell_emc/powermax/masking.py,949,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/dell_emc/powermax/utils.py,285,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+cinder-14.0.0/cinder/volume/drivers/dell_emc/powermax/utils.py,302,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,3519,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,3916,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,4055,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,4062,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,4068,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,4081,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,4410,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,4419,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_3par_common.py,4539,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_lefthand_iscsi.py,1587,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_lefthand_iscsi.py,1873,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_lefthand_iscsi.py,2022,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_lefthand_iscsi.py,2032,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/hpe/hpe_lefthand_iscsi.py,2042,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/netapp/utils.py,407,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/netapp/utils.py,413,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/netapp/utils.py,419,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/netapp/utils.py,435,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/netapp/utils.py,441,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/netapp/dataontap/nfs_cmode.py,414,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/netapp/dataontap/nfs_cmode.py,676,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/drivers/netapp/dataontap/client/api.py,27,"third party import ""from lxml import etree"" should be placed before ""from eventlet import greenthread""",Category.C,wrong-import-order,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+cinder-14.0.0/cinder/volume/targets/spdknvmf.py,63,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/volume/flows/manager/create_volume.py,171,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/cmd/manage.py,225,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+cinder-14.0.0/cinder/service.py,405,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/service.py,411,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/api/v2/volumes.py,153,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/api/v2/volumes.py,169,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/interface/util.py,37,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/db/sqlalchemy/migrate_repo/versions/097_cinder_init.py,813,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/objects/cleanable.py,221,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/backup/drivers/ceph.py,559,"Variable name ""p1"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+cinder-14.0.0/cinder/backup/drivers/ceph.py,573,"Variable name ""p2"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+cinder-14.0.0/cinder/common/sqlalchemyutils.py,101,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cinder-14.0.0/cinder/common/sqlalchemyutils.py,111,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+cinder-14.0.0/cinder/test.py,357,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/huawei/test_huawei_drivers.py,25,"standard import ""from xml.dom import minidom"" should be placed before ""import requests""",Category.C,wrong-import-order,"Using minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/huawei/test_huawei_drivers.py,26,"standard import ""from xml.etree import ElementTree"" should be placed before ""import requests""",Category.C,wrong-import-order,"Using ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/nexenta/test_nexenta.py,492,Access to a protected member _create_sparsed_file of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+cinder-14.0.0/cinder/tests/unit/volume/drivers/nexenta/test_nexenta.py,497,Access to a protected member _create_regular_file of a client class,Category.W,protected-access,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+cinder-14.0.0/cinder/tests/unit/volume/drivers/ibm/test_xiv_proxy.py,18,"standard import ""from xml.etree import ElementTree"" should be placed before ""import six""",Category.C,wrong-import-order,"Using ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/ibm/test_ds8k_proxy.py,1791,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+cinder-14.0.0/cinder/tests/unit/volume/drivers/ibm/test_ds8k_proxy.py,1871,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+cinder-14.0.0/cinder/tests/unit/volume/drivers/ibm/test_ds8k_proxy.py,1919,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+cinder-14.0.0/cinder/tests/unit/volume/drivers/ibm/test_ds8k_proxy.py,1948,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+cinder-14.0.0/cinder/tests/unit/volume/drivers/solidfire/test_solidfire.py,2483,"Variable name ""ep"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'nunyabiz',MEDIUM,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/solidfire/test_solidfire.py,2494,"Variable name ""ep"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'nunyabiz',MEDIUM,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/solidfire/test_solidfire.py,589,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/solidfire/test_solidfire.py,2390,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/solidfire/test_solidfire.py,2483,Access to a protected member _build_endpoint_info of a client class,Category.W,protected-access,Possible hardcoded password: 'nunyabiz',MEDIUM,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/solidfire/test_solidfire.py,2494,Access to a protected member _build_endpoint_info of a client class,Category.W,protected-access,Possible hardcoded password: 'nunyabiz',MEDIUM,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/netapp/dataontap/client/test_api.py,22,"third party import ""from lxml import etree"" should be placed before ""import ddt""",Category.C,wrong-import-order,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/volume/drivers/netapp/dataontap/client/test_client_cmode.py,22,"third party import ""from lxml import etree"" should be placed before ""import ddt""",Category.C,wrong-import-order,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/image/fake.py,230,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/backup/fake_swift_client2.py,61,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+cinder-14.0.0/cinder/tests/unit/backup/fake_google_client2.py,40,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW

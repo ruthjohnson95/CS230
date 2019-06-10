@@ -1,0 +1,23 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+IM-1.4.8/IM/recipe.py,52,Line too long (114/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+IM-1.4.8/IM/ConfManager.py,259,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/ConfManager.py,279,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/ansible/ansible_launcher.py,97,Line too long (120/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+IM-1.4.8/IM/ansible/ansible_launcher.py,90,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/IM/xmlobject.py,129,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/IM/auth.py,162,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/IM/connectors/Azure.py,787,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/connectors/Azure.py,866,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/IM/connectors/Azure.py,871,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/IM/connectors/EC2.py,264,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/connectors/EC2.py,815,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/IM/connectors/EC2.py,992,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/IM/connectors/GCE.py,205,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/CloudInfo.py,106,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/im_service.py,330,Line too long (116/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+IM-1.4.8/im_service.py,266,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/VirtualMachine.py,591,"Variable name ""t"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/VirtualMachine.py,591,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/connectors/OpenStack.py,96,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+IM-1.4.8/IM/connectors/LibCloud.py,55,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+IM-1.4.8/IM/connectors/LibCloud.py,116,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM

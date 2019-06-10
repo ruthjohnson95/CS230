@@ -1,0 +1,9 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+will-0.5.3/will/main.py,323,Module 'will.settings' has no 'HTTPSERVER_PORT' member,Category.E,no-member,Possible binding to all interfaces.,MEDIUM,MEDIUM
+will-0.5.3/will/mixins/storage.py,5,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW
+will-0.5.3/fabfile.py,19,"Exactly one space required after comma
+    assert all([os.path.exists(os.path.join(root_dir,f)) for f in SANITY_CHECK_PROJECT_FILES])
+                                                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+will-0.5.3/fabfile.py,35,"Exactly one space required after comma
+    assert all([os.path.exists(os.path.join(root_dir,f)) for f in SANITY_CHECK_BUILD_FILES])
+                                                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

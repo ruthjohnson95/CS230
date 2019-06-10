@@ -1,0 +1,2 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+oci-cli-2.4.9/src/oci_cli/cli_setup.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",234,[234],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5

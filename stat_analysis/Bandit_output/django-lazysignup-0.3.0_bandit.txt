@@ -1,0 +1,7 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-lazysignup-0.3.0/lazysignup/middleware.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,16,"[16, 17, 18]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+django-lazysignup-0.3.0/lazysignup/middleware.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,65,[65],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+django-lazysignup-0.3.0/lazysignup/test_settings.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: '',7,[7],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+django-lazysignup-0.3.0/lazysignup/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'test',49,[49],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+django-lazysignup-0.3.0/lazysignup/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'dummy',203,[203],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+django-lazysignup-0.3.0/lazysignup/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'dummy',213,[213],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html

@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+bok_choy-0.5.0/bok_choy/web_app_test.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",178,[178],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+bok_choy-0.5.0/bok_choy/web_app_test.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",183,[183],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+bok_choy-0.5.0/bok_choy/web_app_test.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",191,[191],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html

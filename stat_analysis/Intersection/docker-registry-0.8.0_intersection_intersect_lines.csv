@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+docker-registry-0.8.0/setup.py,15,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+docker-registry-0.8.0/docker_registry/lib/rqueue.py,46,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+docker-registry-0.8.0/docker_registry/lib/xtarfile.py,46,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+docker-registry-0.8.0/docker_registry/lib/xtarfile.py,52,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+docker-registry-0.8.0/docker_registry/images.py,416,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+docker-registry-0.8.0/docker_registry/tags.py,47,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW

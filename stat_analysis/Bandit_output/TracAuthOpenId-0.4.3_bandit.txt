@@ -1,0 +1,4 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+TracAuthOpenId-0.4.3/authopenid/authopenid.py,HIGH,LOW,Consider possible security implications associated with cPickle module.,19,[19],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b403-import-pickle,B403,blacklist
+TracAuthOpenId-0.4.3/authopenid/authopenid.py,HIGH,MEDIUM,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",345,[345],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b301-pickle,B301,blacklist
+TracAuthOpenId-0.4.3/authopenid/authopenid.py,HIGH,MEDIUM,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,596,[596],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen,B310,blacklist

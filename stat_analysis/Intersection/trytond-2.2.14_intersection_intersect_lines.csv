@@ -1,0 +1,74 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+trytond-2.2.14/trytond/server.py,227,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/model/modelstorage.py,306,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/backend/sqlite/table.py,52,"Wrong continued indentation (add 8 spaces).
+                    '(' + ','.join(columns) + ') '
+                    ^       |",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/backend/sqlite/table.py,60,"Wrong continued indentation (add 8 spaces).
+                    '(' + ','.join(columns) + ') '
+                    ^       |",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/backend/postgresql/database.py,213,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+trytond-2.2.14/trytond/report/report.py,26,"Import ""import lxml.etree"" should be placed at the top of the module",Category.C,wrong-import-position,Using lxml.etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree with the equivalent defusedxml package.,HIGH,LOW
+trytond-2.2.14/trytond/report/report.py,26,Unable to import 'lxml.etree',Category.E,import-error,Using lxml.etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree with the equivalent defusedxml package.,HIGH,LOW
+trytond-2.2.14/trytond/backend/fields.py,100,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trytond-2.2.14/trytond/backend/fields.py,122,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trytond-2.2.14/trytond/backend/fields.py,143,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trytond-2.2.14/trytond/ir/rule.py,175,"Wrong continued indentation.
+                    ""AND g.perm_"" + mode + "" ""
+                |   ^  |",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/ir/rule.py,171,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/ir/rule.py,173,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/ir/rule.py,178,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/ir/rule.py,221,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/ir/rule.py,221,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/ir/rule.py,222,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/ir/rule.py,227,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/res/user.py,195,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/translation.py,12,"standard import ""from xml.dom import minidom"" should be placed before ""import polib""",Category.C,wrong-import-order,"Using minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+trytond-2.2.14/trytond/ir/translation.py,12,Unused minidom imported from xml.dom,Category.W,unused-import,"Using minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+trytond-2.2.14/trytond/backend/sqlite/database.py,207,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+trytond-2.2.14/trytond/tests/test_tryton.py,15,"Import ""from lxml import etree"" should be placed at the top of the module",Category.C,wrong-import-position,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+trytond-2.2.14/trytond/tests/test_tryton.py,15,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+trytond-2.2.14/trytond/backend/mysql/database.py,157,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+trytond-2.2.14/trytond/protocols/jsonrpc.py,119,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/action.py,133,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/action.py,145,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/action.py,159,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/action.py,167,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/protocols/xmlrpc.py,13,"standard import ""import xmlrpclib"" should be placed before ""from trytond.protocols.sslsocket import SSLSocket""",Category.C,wrong-import-order,Using xmlrpclib to parse untrusted XML data is known to be vulnerable to XML attacks. Use defused.xmlrpc.monkey_patch() function to monkey-patch xmlrpclib and mitigate XML vulnerabilities.,HIGH,HIGH
+trytond-2.2.14/trytond/protocols/xmlrpc.py,105,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+trytond-2.2.14/trytond/protocols/xmlrpc.py,140,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/model.py,293,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/model.py,305,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/model.py,317,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/model.py,415,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/model.py,427,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/model.py,439,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/webdav/webdav.py,346,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/webdav/webdav.py,467,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/pyson.py,362,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trytond-2.2.14/trytond/pyson.py,393,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trytond-2.2.14/trytond/pyson.py,399,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trytond-2.2.14/trytond/pyson.py,401,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trytond-2.2.14/trytond/pyson.py,403,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trytond-2.2.14/trytond/model/modelsql.py,1213,"Wrong hanging indentation (remove 4 spaces).
+                'SELECT ' + ','.join(select_fields) + ' FROM ' + \
+            |   ^",Category.C,bad-continuation,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+trytond-2.2.14/trytond/model/modelsql.py,1084,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/model/modelsql.py,1097,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+trytond-2.2.14/trytond/model/modelsql.py,1705,Access to a protected member _table of a client class,Category.W,protected-access,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM
+trytond-2.2.14/trytond/model/browse.py,331,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/protocols/dispatcher.py,293,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/tools/misc.py,73,Using deprecated method popen2(),Category.W,deprecated-method,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+trytond-2.2.14/trytond/tools/misc.py,414,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+trytond-2.2.14/trytond/convert.py,509,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/model/fields/reference.py,62,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Continue detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/ui/view.py,194,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/ui/view.py,205,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/ui/view.py,216,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/ui/view.py,424,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/ui/view.py,437,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/ui/view.py,450,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/ui/view.py,458,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+trytond-2.2.14/trytond/ir/ui/view.py,5,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+trytond-2.2.14/trytond/model/modelview.py,3,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW

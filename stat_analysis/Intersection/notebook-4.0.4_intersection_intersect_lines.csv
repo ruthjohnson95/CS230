@@ -1,0 +1,14 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+notebook-4.0.4/notebook/services/kernels/tests/test_kernels_api.py,23,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+notebook-4.0.4/notebook/auth/tests/test_security.py,25,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+notebook-4.0.4/notebook/allow76.py,251,"Variable name ""m"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+notebook-4.0.4/notebook/services/sessions/tests/test_sessions_api.py,30,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+notebook-4.0.4/notebook/tests/launchnotebook.py,140,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+notebook-4.0.4/notebook/base/handlers.py,291,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+notebook-4.0.4/notebook/jstest.py,21,"standard import ""import subprocess"" should be placed before ""import requests""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+notebook-4.0.4/notebook/jstest.py,38,Imports from package subprocess are not grouped,Category.C,ungrouped-imports,Consider possible security implications associated with TimeoutExpired module.,HIGH,LOW
+notebook-4.0.4/notebook/jstest.py,179,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+notebook-4.0.4/notebook/jstest.py,324,Attribute 'server' defined outside __init__,Category.W,attribute-defined-outside-init,subprocess call - check for execution of untrusted input.,HIGH,LOW
+notebook-4.0.4/docs/source/conf.py,30,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+notebook-4.0.4/setupbase.py,190,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+notebook-4.0.4/setupbase.py,50,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM

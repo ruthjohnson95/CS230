@@ -1,0 +1,5 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+trash-cli-0.17.1.12/trashcli/list_mount_points.py,HIGH,LOW,Consider possible security implications associated with subprocess module.,14,[14],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess,B404,blacklist
+trash-cli-0.17.1.12/trashcli/list_mount_points.py,HIGH,LOW,subprocess call - check for execution of untrusted input.,15,[15],https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html,B603,subprocess_without_shell_equals_true
+trash-cli-0.17.1.12/trashcli/list_mount_points.py,HIGH,LOW,Starting a process with a partial executable path,15,[15],https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html,B607,start_process_with_partial_path
+trash-cli-0.17.1.12/trashcli/put.py,HIGH,LOW,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,451,[451],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random,B311,blacklist

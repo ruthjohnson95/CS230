@@ -1,0 +1,145 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+SOAPpy-0.12.5/src/SOAPpy/GSIServer.py,68,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/GSIServer.py,68,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/storageTest.py,21,"Exactly one space required around assignment
+PASSWORD=""mypasswd""
+        ^",Category.C,bad-whitespace,Possible hardcoded password: 'mypasswd',MEDIUM,LOW
+SOAPpy-0.12.5/src/SOAPpy/Utilities.py,150,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Utilities.py,150,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/testleak.py,15,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/testleak.py,15,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,25,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,25,"No space allowed after bracket
+assert( x==y[0] )
+      ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,25,"Exactly one space required around comparison
+assert( x==y[0] )
+         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,25,"No space allowed before bracket
+assert( x==y[0] )
+                ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,29,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,29,"No space allowed after bracket
+assert( x[0] == y[0] )
+      ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,29,"No space allowed before bracket
+assert( x[0] == y[0] )
+                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,30,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,30,"No space allowed after bracket
+assert( x[1] == y[1] )
+      ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,30,"No space allowed before bracket
+assert( x[1] == y[1] )
+                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,41,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,41,"No space allowed after bracket
+  assert( x[key] == y[0][key] )
+        ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,41,"No space allowed before bracket
+  assert( x[key] == y[0][key] )
+                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug916265.py,41,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/TCtest.py,85,"Exactly one space required around comparison
+        assert y.param[1]=='23'
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/TCtest.py,88,"Exactly one space required around comparison
+        assert y.param[1]==23
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/TCtest.py,116,"Exactly one space required around comparison
+        assert y.param[0]==12
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/TCtest.py,117,"Exactly one space required around comparison
+        assert y.param[1]=='23'
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/TCtest.py,118,"Exactly one space required around comparison
+        assert y.param[2]==float(0)
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/TCtest.py,119,"Exactly one space required around comparison
+        assert y.param[3]==-31
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/SOAPBuilder.py,310,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/SOAPBuilder.py,310,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,27,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,27,"Exactly one space required around comparison
+    assert(result_integer==original_integer)
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,34,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,34,"Exactly one space required around comparison
+    assert(result_string==original_string)
+                        ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,41,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,41,"Exactly one space required around comparison
+    assert(result_float==original_float)
+                       ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,48,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,48,"Exactly one space required around comparison
+    assert(tuple(result_tuple)==original_tuple)
+                              ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,55,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,55,"Exactly one space required around comparison
+    assert(result_list==original_list)
+                      ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,68,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/esj_test_client.py,68,"Exactly one space required around comparison
+    assert(result_dictionary==original_dictionary)
+                            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Client.py,91,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Client.py,491,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Server.py,65,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Server.py,65,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/Bug918216.py,35,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug918216.py,35,"Exactly one space required around comparison
+assert(z.__class__==faultType)
+                  ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug918216.py,36,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug918216.py,36,"Exactly one space required around comparison
+assert(z.faultstring==""Exception thrown on Server"")
+                    ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug918216.py,37,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug918216.py,37,"Exactly one space required around comparison
+assert(z.detail.loginFailureFault.description=='Login failure (504):Unknown User')
+                                             ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,950,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1005,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1027,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1049,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1081,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1118,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1243,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1336,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1597,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,1689,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,3547,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,3560,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,3573,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,3586,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,3599,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,3612,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,3625,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/SOAPtest.py,3640,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Parser.py,13,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Parser.py,412,More than one statement on a single line,Category.C,multiple-statements,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Parser.py,9,"standard import ""import xml.sax"" should be placed before ""from Config import Config""",Category.C,wrong-import-order,"Using xml.sax to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Parser.py,13,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Parser.py,412,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Parser.py,463,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/src/SOAPpy/Parser.py,985,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,58,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,61,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,61,"Exactly one space required around comparison
+  assert(kw1[key]==keyword1[key])
+                 ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,64,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,64,"Exactly one space required around comparison
+  assert(kw2[key]==keyword2[key])
+                 ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,69,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,70,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,61,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/Bug1001646.py,64,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+SOAPpy-0.12.5/tests/speedTest.py,62,"Exactly one space required after comma
+    xml.sax.parseString(inxml,y)
+                             ^",Category.C,bad-whitespace,Using xml.sax.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+SOAPpy-0.12.5/src/SOAPpy/WSDL.py,48,Line too long (123/100),Category.C,line-too-long,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+SOAPpy-0.12.5/src/SOAPpy/WSDL.py,74,Line too long (120/100),Category.C,line-too-long,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM

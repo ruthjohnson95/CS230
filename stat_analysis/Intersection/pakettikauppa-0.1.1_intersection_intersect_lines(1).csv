@@ -1,0 +1,3 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+pakettikauppa-0.1.1/tests/test_common.py,2,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+pakettikauppa-0.1.1/pakettikauppa/merchant.py,23,Unable to import 'lxml',Category.E,import-error,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW

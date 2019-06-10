@@ -1,0 +1,19 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+ansible-1.2.2/lib/ansible/runner/connection_plugins/fireball.py,141,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ansible-1.2.2/lib/ansible/runner/connection_plugins/local.py,55,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ansible-1.2.2/lib/ansible/runner/connection_plugins/local.py,55,Undefined variable 'basestring',Category.E,undefined-variable,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ansible-1.2.2/lib/ansible/runner/connection_plugins/chroot.py,73,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ansible-1.2.2/lib/ansible/runner/connection_plugins/chroot.py,73,Undefined variable 'basestring',Category.E,undefined-variable,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ansible-1.2.2/lib/ansible/runner/lookup_plugins/password.py,61,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+ansible-1.2.2/lib/ansible/runner/lookup_plugins/lines.py,32,Line too long (115/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ansible-1.2.2/lib/ansible/runner/lookup_plugins/lines.py,32,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ansible-1.2.2/lib/ansible/runner/lookup_plugins/random_choice.py,40,"No space allowed after bracket
+        return [ random.choice(terms) ]
+               ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ansible-1.2.2/lib/ansible/runner/lookup_plugins/random_choice.py,40,"No space allowed before bracket
+        return [ random.choice(terms) ]
+                                      ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+ansible-1.2.2/lib/ansible/runner/lookup_plugins/pipe.py,35,Line too long (115/100),Category.C,line-too-long,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ansible-1.2.2/lib/ansible/runner/lookup_plugins/pipe.py,35,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,"subprocess call with shell=True identified, security issue.",HIGH,HIGH
+ansible-1.2.2/lib/ansible/playbook/__init__.py,454,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+ansible-1.2.2/lib/ansible/playbook/__init__.py,463,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

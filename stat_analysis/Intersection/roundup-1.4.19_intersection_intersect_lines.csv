@@ -1,0 +1,16 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+roundup-1.4.19/roundup/cgi/TAL/XMLParser.py,87,Module 'urllib' has no 'urlopen' member,Category.E,no-member,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+roundup-1.4.19/roundup/backends/sessions_rdbms.py,40,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+roundup-1.4.19/roundup/backends/sessions_rdbms.py,50,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+roundup-1.4.19/roundup/backends/sessions_rdbms.py,60,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+roundup-1.4.19/roundup/backends/sessions_rdbms.py,22,Instance of 'BasicDatabase' has no 'name' member,Category.E,no-member,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+roundup-1.4.19/roundup/backends/sessions_rdbms.py,82,Instance of 'BasicDatabase' has no 'name' member,Category.E,no-member,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+roundup-1.4.19/roundup/backends/sessions_rdbms.py,89,Instance of 'BasicDatabase' has no 'name' member,Category.E,no-member,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+roundup-1.4.19/roundup/backends/sessions_rdbms.py,89,Instance of 'BasicDatabase' has no 'name' member,Category.E,no-member,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+roundup-1.4.19/roundup/backends/sessions_rdbms.py,98,Instance of 'BasicDatabase' has no 'name' member,Category.E,no-member,Possible SQL injection vector through string-based query construction.,MEDIUM,MEDIUM
+roundup-1.4.19/roundup/backends/blobfiles.py,285,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+roundup-1.4.19/roundup/backends/sessions_dbm.py,77,"Variable name ""d"" doesn't conform to snake_case naming style",Category.C,invalid-name,Deserialization with the marshal module is possibly dangerous.,HIGH,MEDIUM
+roundup-1.4.19/scripts/import_sf.py,96,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+roundup-1.4.19/scripts/import_sf.py,337,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+roundup-1.4.19/scripts/import_sf.py,355,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+roundup-1.4.19/scripts/import_sf.py,396,"Variable name ""f"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM

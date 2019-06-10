@@ -1,0 +1,53 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+apache-airflow-1.9.0/airflow/bin/cli.py,879,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/airflow/bin/cli.py,879,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+apache-airflow-1.9.0/airflow/bin/cli.py,889,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/airflow/bin/cli.py,889,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+apache-airflow-1.9.0/airflow/bin/cli.py,280,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/airflow/configuration.py,24,"standard import ""import subprocess"" should be placed before ""import six""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/contrib/auth/backends/ldap_auth.py,60,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/airflow/contrib/hooks/gcp_mlengine_hook.py,246,Comparison to literal,Category.R,literal-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+apache-airflow-1.9.0/airflow/contrib/hooks/gcp_mlengine_hook.py,257,Comparison to literal,Category.R,literal-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+apache-airflow-1.9.0/airflow/contrib/hooks/spark_submit_hook.py,270,Line too long (102/100),Category.C,line-too-long,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/airflow/contrib/hooks/sqoop_hook.py,90,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/airflow/contrib/operators/mlengine_operator_utils.py,22,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/contrib/operators/mlengine_prediction_summary.py,101,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/executors/dask_executor.py,16,"standard import ""import subprocess"" should be placed before ""import distributed""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/hooks/hive_hooks.py,203,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/airflow/hooks/hive_hooks.py,23,"standard import ""import subprocess"" should be placed before ""from six.moves import zip""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/hooks/pig_hook.py,66,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/airflow/logging_config.py,51,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+apache-airflow-1.9.0/airflow/migrations/versions/bdaa763e6c56_make_xcom_value_column_a_large_binary.py,29,"Import ""import dill"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with dill module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/migrations/versions/bdaa763e6c56_make_xcom_value_column_a_large_binary.py,29,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/models.py,28,"Import ""import dill"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with dill module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/models.py,39,"Import ""import pickle"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with pickle module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/models.py,39,"standard import ""import pickle"" should be placed before ""import jinja2""",Category.C,wrong-import-order,Consider possible security implications associated with pickle module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/models.py,703,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/airflow/models.py,1236,Redefining built-in 'hash',Category.W,redefined-builtin,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+apache-airflow-1.9.0/airflow/models.py,28,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/operators/bash_operator.py,89,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/airflow/operators/bash_operator.py,89,"Variable name ""sp"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+apache-airflow-1.9.0/airflow/operators/python_operator.py,19,"standard import ""import pickle"" should be placed before ""import dill""",Category.C,wrong-import-order,Consider possible security implications associated with pickle module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/operators/python_operator.py,20,"standard import ""import subprocess"" should be placed before ""import dill""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/operators/python_operator.py,16,Unable to import 'dill',Category.E,import-error,Consider possible security implications associated with dill module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/settings.py,145,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/airflow/utils/helpers.py,30,"standard import ""import subprocess"" should be placed before ""import psutil""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW
+apache-airflow-1.9.0/airflow/utils/log/gcs_task_handler.py,121,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/airflow/utils/log/s3_task_handler.py,115,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/airflow/www/views.py,2633,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/airflow/www/views.py,2648,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,61,"Import ""from lxml import html"" should be placed at the top of the module",Category.C,wrong-import-position,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.,HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,1503,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,1503,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,1518,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,1518,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,Starting a process with a partial executable path,HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,2220,"Variable name ""c"" doesn't conform to snake_case naming style",Category.C,invalid-name,Possible hardcoded password: 'airflow',MEDIUM,LOW
+apache-airflow-1.9.0/tests/core.py,61,"third party import ""from lxml import html"" should be placed before ""import mock""",Category.C,wrong-import-order,Using html to parse untrusted XML data is known to be vulnerable to XML attacks. Replace html with the equivalent defusedxml package.,HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,424,Unused variable 'subprocess',Category.W,unused-variable,Consider possible security implications associated with subprocess module.,HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,938,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,942,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,1596,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,1933,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/tests/core.py,2017,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/tests/www/api/experimental/test_kerberos_endpoints.py,35,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+apache-airflow-1.9.0/tests/www/api/experimental/test_kerberos_endpoints.py,42,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

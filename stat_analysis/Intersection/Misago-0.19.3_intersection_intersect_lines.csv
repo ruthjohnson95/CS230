@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Misago-0.19.3/misago/faker/management/commands/createfakebans.py,30,"Unnecessary ""else"" after ""return""",Category.R,no-else-return,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Misago-0.19.3/misago/users/avatars/uploaded.py,66,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+Misago-0.19.3/misago/users/tests/test_social_pipeline.py,24,Missing function docstring,Category.C,missing-docstring,Possible binding to all interfaces.,MEDIUM,MEDIUM
+Misago-0.19.3/misago/users/tests/test_user_changeemail_api.py,125,Unused variable 'new_password',Category.W,unused-variable,Possible hardcoded password: ' N3wP@55w0rd ',MEDIUM,LOW

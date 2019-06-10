@@ -1,0 +1,188 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+pyarmor-5.1.1/src/benchmark.py,blacklist,B404,LOW,HIGH,Consider possible security implications associated with subprocess module.,30,[30],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess
+pyarmor-5.1.1/src/benchmark.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,66,[66],https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+pyarmor-5.1.1/src/examples/helloworld/foo.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",27,[27],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",16,[16],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",20,[20],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",24,[24],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",28,[28],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",32,[32],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",36,[36],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",40,[40],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",44,[44],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",66,[66],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",70,[70],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",74,[74],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",78,[78],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",82,[82],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",86,[86],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",90,[90],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",94,[94],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",98,[98],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",102,[102],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",107,[107],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",111,[111],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",115,[115],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",119,[119],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",123,[123],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",127,[127],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",131,[131],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",135,[135],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",139,[139],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",143,[143],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",149,[149],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",153,[153],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",157,[157],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",161,[161],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",165,[165],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",169,[169],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",173,[173],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",177,[177],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",181,[181],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",185,[185],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",191,[191],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",195,[195],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",199,[199],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",203,[203],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",207,[207],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",211,[211],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",215,[215],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",219,[219],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",223,[223],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",227,[227],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",233,[233],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",237,[237],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",241,[241],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",245,[245],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",249,[249],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",253,[253],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",257,[257],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",261,[261],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",265,[265],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",269,[269],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",274,[274],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",278,[278],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",282,[282],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",286,[286],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",290,[290],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",294,[294],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",298,[298],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",302,[302],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",306,[306],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",310,[310],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",315,[315],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",319,[319],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",323,[323],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",327,[327],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",331,[331],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",335,[335],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",339,[339],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",343,[343],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",347,[347],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",351,[351],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",357,[357],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",361,[361],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",365,[365],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",369,[369],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",373,[373],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",377,[377],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",381,[381],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",385,[385],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",389,[389],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",393,[393],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",399,[399],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",403,[403],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",407,[407],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",411,[411],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",415,[415],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",419,[419],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",423,[423],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",427,[427],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",431,[431],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",435,[435],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",441,[441],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",445,[445],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",449,[449],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",453,[453],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",457,[457],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",461,[461],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",465,[465],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",469,[469],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",473,[473],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",477,[477],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",482,[482],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",486,[486],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",490,[490],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",494,[494],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",498,[498],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",502,[502],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",506,[506],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",510,[510],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",514,[514],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",518,[518],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",523,[523],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",527,[527],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",531,[531],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",535,[535],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",539,[539],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",543,[543],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",547,[547],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",551,[551],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",555,[555],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",559,[559],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",565,[565],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",569,[569],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",573,[573],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",577,[577],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",581,[581],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",585,[585],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",589,[589],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",593,[593],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",597,[597],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",601,[601],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",607,[607],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",611,[611],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",615,[615],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",619,[619],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",623,[623],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",627,[627],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",631,[631],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",635,[635],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",639,[639],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",643,[643],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",649,[649],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",653,[653],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",657,[657],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",661,[661],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",665,[665],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",669,[669],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",673,[673],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",677,[677],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",681,[681],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/Exceptions.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",685,[685],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/examples/pybench/pybench.py,blacklist,B403,LOW,HIGH,Consider possible security implications associated with cPickle module.,42,[42],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b403-import-pickle
+pyarmor-5.1.1/src/examples/pybench/pybench.py,blacklist,B403,LOW,HIGH,Consider possible security implications associated with pickle module.,45,[45],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b403-import-pickle
+pyarmor-5.1.1/src/examples/pybench/pybench.py,blacklist,B301,MEDIUM,HIGH,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",875,[875],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b301-pickle
+pyarmor-5.1.1/src/examples/pybench/pybench.py,blacklist,B301,MEDIUM,HIGH,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",888,[888],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b301-pickle
+pyarmor-5.1.1/src/packer.py,blacklist,B404,LOW,HIGH,Consider possible security implications associated with subprocess module.,42,[42],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess
+pyarmor-5.1.1/src/packer.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,115,"[115, 116]",https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+pyarmor-5.1.1/src/packer.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,136,[136],https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+pyarmor-5.1.1/src/packer.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,206,"[206, 207]",https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+pyarmor-5.1.1/src/packer.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,244,"[244, 245, 246]",https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+pyarmor-5.1.1/src/polyfills/argparse.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,193,[193],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/polyfills/argparse.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,331,[331],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/polyfills/argparse.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,332,"[332, 333, 334]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/polyfills/argparse.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,1856,[1856],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/project.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,89,[89],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/project.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,90,[90],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/project.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,91,"[91, 92]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/project.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,93,[93],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/project.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,96,[96],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+pyarmor-5.1.1/src/pyarmor-deprecated.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",55,[55],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+pyarmor-5.1.1/src/pyarmor.py,blacklist,B404,LOW,HIGH,Consider possible security implications associated with subprocess module.,33,[33],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess
+pyarmor-5.1.1/src/pyarmor.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,518,"[518, 519, 520, 521]",https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+pyarmor-5.1.1/src/pyarmor.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,527,"[527, 528]",https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+pyarmor-5.1.1/src/utils.py,set_bad_file_permissions,B103,MEDIUM,HIGH,Chmod setting a permissive mask 0755 on file (filename).,211,[211],https://bandit.readthedocs.io/en/latest/plugins/b103_set_bad_file_permissions.html
+pyarmor-5.1.1/src/webui/_project.py,blacklist,B404,LOW,HIGH,Consider possible security implications associated with subprocess module.,7,[7],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess
+pyarmor-5.1.1/src/webui/_project.py,subprocess_without_shell_equals_true,B603,LOW,HIGH,subprocess call - check for execution of untrusted input.,26,"[26, 27]",https://bandit.readthedocs.io/en/latest/plugins/b603_subprocess_without_shell_equals_true.html
+pyarmor-5.1.1/src/webui/server.py,try_except_pass,B110,LOW,HIGH,"Try, Except, Pass detected.",225,[225],https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html

@@ -1,0 +1,2 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+flashfocus-1.1.2/test/helpers.py,76,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

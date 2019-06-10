@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+PyJWT-0.4.3/setup.py,start_process_with_a_shell,B605,LOW,HIGH,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",16,[16],https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html
+PyJWT-0.4.3/setup.py,start_process_with_partial_path,B607,LOW,HIGH,Starting a process with a partial executable path,16,[16],https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html
+PyJWT-0.4.3/setup.py,start_process_with_a_shell,B605,LOW,HIGH,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",17,[17],https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html
+PyJWT-0.4.3/setup.py,start_process_with_partial_path,B607,LOW,HIGH,Starting a process with a partial executable path,17,[17],https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html

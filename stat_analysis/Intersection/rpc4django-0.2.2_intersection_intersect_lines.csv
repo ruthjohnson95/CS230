@@ -1,0 +1,3 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+rpc4django-0.2.2/setup.py,8,Unused Popen imported from subprocess,Category.W,unused-import,Consider possible security implications associated with Popen module.,HIGH,LOW
+rpc4django-0.2.2/setup.py,8,Unused PIPE imported from subprocess,Category.W,unused-import,Consider possible security implications associated with Popen module.,HIGH,LOW

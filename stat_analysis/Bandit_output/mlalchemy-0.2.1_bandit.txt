@@ -1,0 +1,2 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+mlalchemy-0.2.1/mlalchemy/parser.py,yaml_load,B506,MEDIUM,HIGH,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,36,[36],https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html

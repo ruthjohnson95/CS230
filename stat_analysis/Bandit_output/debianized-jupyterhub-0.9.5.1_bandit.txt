@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+debianized-jupyterhub-0.9.5.1/setup.py,blacklist,B404,LOW,HIGH,Consider possible security implications associated with subprocess module.,26,"[26, 27]",https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b404-import-subprocess
+debianized-jupyterhub-0.9.5.1/setup.py,start_process_with_partial_path,B607,LOW,HIGH,Starting a process with a partial executable path,45,[45],https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html
+debianized-jupyterhub-0.9.5.1/setup.py,subprocess_popen_with_shell_equals_true,B602,LOW,HIGH,"subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",45,[45],https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html
+debianized-jupyterhub-0.9.5.1/setup.py,subprocess_popen_with_shell_equals_true,B602,HIGH,HIGH,"subprocess call with shell=True identified, security issue.",182,"[181, 182]",https://bandit.readthedocs.io/en/latest/plugins/b602_subprocess_popen_with_shell_equals_true.html

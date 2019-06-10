@@ -1,0 +1,3 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+codalab-0.2.32/codalab/lib/file_util.py,10,"Import ""import subprocess"" should be placed at the top of the module",Category.C,wrong-import-position,Consider possible security implications associated with subprocess module.,HIGH,LOW
+codalab-0.2.32/codalab/lib/file_util.py,10,"standard import ""import subprocess"" should be placed before ""import formatting""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW

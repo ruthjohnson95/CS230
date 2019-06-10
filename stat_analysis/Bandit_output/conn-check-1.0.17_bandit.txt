@@ -1,0 +1,7 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+conn-check-1.0.17/conn_check/check_impl.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,46,[46],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+conn-check-1.0.17/conn_check/check_impl.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,47,[47],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+conn-check-1.0.17/conn_check/checks.py,ssl_with_bad_version,B502,MEDIUM,MEDIUM,"Function call with insecure SSL/TLS protocol identified, possible security issue.",61,"[59, 60, 61]",https://bandit.readthedocs.io/en/latest/plugins/b502_ssl_with_bad_version.html
+conn-check-1.0.17/conn_check/main.py,yaml_load,B506,MEDIUM,HIGH,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,282,[282],https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html
+conn-check-1.0.17/conn_check/patterns.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: '*',60,[60],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+conn-check-1.0.17/conn_check/patterns.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: '*',84,[84],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html

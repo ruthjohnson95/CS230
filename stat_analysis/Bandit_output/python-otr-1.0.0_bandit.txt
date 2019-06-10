@@ -1,0 +1,16 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+python-otr-1.0.0/otr/cryptography.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",358,[358],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+python-otr-1.0.0/otr/cryptography.py,weak_cryptographic_key,B505,MEDIUM,HIGH,DSA key sizes below 2048 bits are considered breakable. ,393,[393],https://bandit.readthedocs.io/en/latest/plugins/b505_weak_cryptographic_key.html
+python-otr-1.0.0/otr/protocol.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,187,[187],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+python-otr-1.0.0/otr/protocol.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,351,[351],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+python-otr-1.0.0/otr/protocol.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,446,[446],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+python-otr-1.0.0/otr/protocol.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",739,[739],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+python-otr-1.0.0/otr/protocol.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",757,[757],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+python-otr-1.0.0/otr/protocol.py,blacklist,B303,MEDIUM,HIGH,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",758,[758],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+python-otr-1.0.0/otr/protocol.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,1110,[1110],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+python-otr-1.0.0/setup.py,exec_used,B102,MEDIUM,HIGH,Use of exec detected.,12,[12],https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html
+python-otr-1.0.0/test.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'foobar',167,[167],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+python-otr-1.0.0/test.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'foobar',168,[168],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+python-otr-1.0.0/test.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'foobar',177,[177],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+python-otr-1.0.0/test.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'foobar2',178,[178],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+python-otr-1.0.0/test.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'foobar',187,[187],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html

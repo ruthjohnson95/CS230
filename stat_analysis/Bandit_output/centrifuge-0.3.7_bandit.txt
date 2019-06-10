@@ -1,0 +1,6 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+centrifuge-0.3.7/centrifuge/client.py,blacklist,B311,LOW,HIGH,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,277,[277],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+centrifuge-0.3.7/centrifuge/structure/__init__.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,194,[194],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+centrifuge-0.3.7/centrifuge/utils.py,exec_used,B102,MEDIUM,HIGH,Use of exec detected.,87,[87],https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html
+centrifuge-0.3.7/setup.py,start_process_with_a_shell,B605,LOW,HIGH,"Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell",29,[29],https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html
+centrifuge-0.3.7/setup.py,start_process_with_partial_path,B607,LOW,HIGH,Starting a process with a partial executable path,29,[29],https://bandit.readthedocs.io/en/latest/plugins/b607_start_process_with_partial_path.html

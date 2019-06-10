@@ -1,0 +1,393 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+rdflib-4.2.2/rdflib/tools/rdfs2dot.py,57,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/compat.py,29,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.,HIGH,LOW
+rdflib-4.2.2/rdflib/compat.py,33,"Bad indentation. Found 4 spaces, expected 8",Category.W,bad-indentation,"Using xml.etree.cElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.cElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/compat.py,37,"Bad indentation. Found 6 spaces, expected 12",Category.W,bad-indentation,"Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/serializers/rdfxml.py,14,"standard import ""from xml.sax.saxutils import quoteattr, escape"" should be placed before ""from rdflib.plugins.serializers.xmlwriter import XMLWriter""",Category.C,wrong-import-order,"Using quoteattr to parse untrusted XML data is known to be vulnerable to XML attacks. Replace quoteattr with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/serializers/rdfxml.py,15,"standard import ""import xml.dom.minidom"" should be placed before ""from rdflib.plugins.serializers.xmlwriter import XMLWriter""",Category.C,wrong-import-order,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,310,"No space allowed before :
+		except :
+         ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,345,"No space allowed before :
+			except :
+          ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,513,"No space allowed before :
+			except :
+          ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,524,"No space allowed before :
+			except :
+          ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,527,"No space allowed before :
+		except :
+         ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,648,"No space allowed before :
+					except :
+            ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,650,"No space allowed before :
+				except :
+           ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,310,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,345,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,513,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,524,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,527,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,648,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,650,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,310,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,345,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,527,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,513,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,524,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,650,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/microdata.py,648,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/utils.py,264,"No space allowed before :
+	except :
+        ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/utils.py,293,"Exactly one space required before assignment
+			self.data		= urlopen(req)
+              ^",Category.C,bad-whitespace,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/utils.py,264,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/utils.py,289,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/utils.py,293,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/rdflib/plugins/parsers/pyMicrodata/utils.py,264,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/trix.py,12,"standard import ""from xml.sax.saxutils import handler"" should be placed before ""from rdflib.namespace import Namespace""",Category.C,wrong-import-order,"Using handler to parse untrusted XML data is known to be vulnerable to XML attacks. Replace handler with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/trix.py,13,"standard import ""from xml.sax import make_parser"" should be placed before ""from rdflib.namespace import Namespace""",Category.C,wrong-import-order,"Using make_parser to parse untrusted XML data is known to be vulnerable to XML attacks. Replace make_parser with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/trix.py,14,"standard import ""from xml.sax.handler import ErrorHandler"" should be placed before ""from rdflib.namespace import Namespace""",Category.C,wrong-import-order,"Using ErrorHandler to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ErrorHandler with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/trix.py,101,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/trix.py,118,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/rdfs/cache.py,53,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,Consider possible security implications associated with pickle module.,HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/rdfs/cache.py,55,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,Consider possible security implications associated with cPickle module.,HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/rdfs/cache.py,71,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/rdfs/cache.py,55,Unable to import 'cPickle',Category.E,import-error,Consider possible security implications associated with cPickle module.,HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/host/html5.py,20,"No space allowed before :
+except :
+       ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/host/html5.py,153,"No space allowed before :
+	except :
+        ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/host/html5.py,153,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/host/html5.py,20,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/host/html5.py,153,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/host/__init__.py,170,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/extras/httpheader.py,168,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/__init__.py,630,"No space allowed before :
+					except :
+            ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/__init__.py,176,"Import ""import xml.dom.minidom"" should be placed at the top of the module",Category.C,wrong-import-position,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/__init__.py,630,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/__init__.py,630,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,83,"Exactly one space required before assignment
+			self.data		= urlopen(req)
+              ^",Category.C,bad-whitespace,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,116,"No space allowed before :
+				except :
+           ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,125,"No space allowed before :
+				except :
+           ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,76,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,83,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,116,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,125,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,116,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/utils.py,125,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/termorcurie.py,27,"Import ""import xml.dom.minidom"" should be placed at the top of the module",Category.C,wrong-import-position,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/termorcurie.py,27,Unused import xml.dom.minidom,Category.W,unused-import,"Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/transform/DublinCore.py,58,"No space allowed before :
+				except :
+           ^",Category.C,bad-whitespace,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/transform/DublinCore.py,58,Found indentation with tabs instead of spaces,Category.W,mixed-indentation,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/parsers/pyRdfa/transform/DublinCore.py,58,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/sparql/sparql.py,259,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/plugins/sparql/sparql.py,263,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/parser.py,24,"Import ""from xml.sax import xmlreader"" should be placed at the top of the module",Category.C,wrong-import-position,"Using xmlreader to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xmlreader with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/parser.py,24,"standard import ""from xml.sax import xmlreader"" should be placed before ""from rdflib.py3compat import PY3""",Category.C,wrong-import-order,"Using xmlreader to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xmlreader with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+rdflib-4.2.2/rdflib/extras/infixowl.py,1637,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/rdflib/extras/infixowl.py,404,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/extras/infixowl.py,477,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/rdflib/extras/infixowl.py,740,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,79,"Exactly one space required after comma
+        assert len(list(self.G.triples((None,RDF.type,None))))                  == 4
+                                            ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,79,"Exactly one space required after comma
+        assert len(list(self.G.triples((None,RDF.type,None))))                  == 4
+                                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,79,"Exactly one space required before comparison
+        assert len(list(self.G.triples((None,RDF.type,None))))                  == 4
+                                                                                ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,80,"Exactly one space required after comma
+        assert len(list(self.G.triples((URIRef(""http://test/bar""),None,None)))) == 2
+                                                                 ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,80,"Exactly one space required after comma
+        assert len(list(self.G.triples((URIRef(""http://test/bar""),None,None)))) == 2
+                                                                      ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,81,"Exactly one space required after comma
+        assert len(list(self.G.triples((None,URIRef(""http://test/d""),None))))   == 3
+                                            ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,81,"Exactly one space required after comma
+        assert len(list(self.G.triples((None,URIRef(""http://test/d""),None))))   == 3
+                                                                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,81,"Exactly one space required before comparison
+        assert len(list(self.G.triples((None,URIRef(""http://test/d""),None))))   == 3
+                                                                                ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,88,"Exactly one space required after comma
+            assert isinstance(g,Graph)
+                               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,91,"Exactly one space required after comma
+        assert (URIRef(""http://test/foo""),RDF.type,RDFS.Resource) in self.G
+                                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,91,"Exactly one space required after comma
+        assert (URIRef(""http://test/foo""),RDF.type,RDFS.Resource) in self.G
+                                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,94,Line too long (101/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,94,"Exactly one space required after comma
+        assert len(list(self.G.triples_choices((URIRef(""http://test/bar""),barPredicates,None)))) == 2
+                                                                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_aggregate_graphs.py,94,"Exactly one space required after comma
+        assert len(list(self.G.triples_choices((URIRef(""http://test/bar""),barPredicates,None)))) == 2
+                                                                                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_sparqlstore.py,15,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_sparqlstore.py,15,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/test/test_sparqlstore.py,32,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_sparqlstore.py,41,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_sparqlstore.py,52,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_sparqlstore.py,74,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_finalnewline.py,30,"Exactly one space required around comparison
+    assert len(failed)==0, ""No final newline for formats: '%s'"" % failed
+                      ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_finalnewline.py,30,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue604.py,16,"No space allowed after bracket
+    assert got == [ Literal(3) ], got
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue604.py,16,"No space allowed before bracket
+    assert got == [ Literal(3) ], got
+                               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_events.py,59,Comparison to False should be 'not expr',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_events.py,60,Comparison to False should be 'not expr',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,7,"Exactly one space required around comparison
+    assert l1.datatype==RDF.XMLLiteral, 'literal must have right datatype'
+                      ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,11,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,15,"Exactly one space required around comparison
+    assert l3.datatype==RDF.XMLLiteral, 'literal must have right datatype'
+                      ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,18,"Exactly one space required around comparison
+    assert l1==l4
+             ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,23,"Exactly one space required around comparison
+    assert l1!=l4
+             ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,47,"Exactly one space required around comparison
+    assert l1.datatype==RDF.XMLLiteral
+                      ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,74,"Exactly one space required around comparison
+    assert l1.datatype==RDF.XMLLiteral, 'literal must have right datatype'
+                      ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,78,"Exactly one space required around comparison
+    assert l2.datatype==RDF.HTML, 'literal must have right datatype'
+                      ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_xmlliterals.py,80,"Exactly one space required around comparison
+    assert l1!=l2
+             ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_nt_misc.py,88,"Variable name ""u"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/test/test_nt_misc.py,88,Module 'urllib' has no 'urlopen' member,Category.E,no-member,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+rdflib-4.2.2/test/test_literal.py,15,"Variable name ""b"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+rdflib-4.2.2/test/test_literal.py,20,"Variable name ""b"" doesn't conform to snake_case naming style",Category.C,invalid-name,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+rdflib-4.2.2/test/test_literal.py,15,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+rdflib-4.2.2/test/test_literal.py,20,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+rdflib-4.2.2/test/test_issue535.py,16,Undefined variable 'g',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_serializexml.py,127,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_serializexml.py,128,Line too long (112/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_serializexml.py,140,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_serializexml.py,141,Line too long (112/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_serializexml.py,41,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_serializexml.py,42,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_conjunctive_graph.py,43,"Exactly one space required after comma
+    assert set(g) == set([(a,a,a), (b,b,b)])
+                            ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_conjunctive_graph.py,43,"Exactly one space required after comma
+    assert set(g) == set([(a,a,a), (b,b,b)])
+                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_conjunctive_graph.py,43,"Exactly one space required after comma
+    assert set(g) == set([(a,a,a), (b,b,b)])
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_conjunctive_graph.py,43,"Exactly one space required after comma
+    assert set(g) == set([(a,a,a), (b,b,b)])
+                                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_core_sparqlstore.py,22,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue576.py,26,Module 'rdflib' has no 'term' member,Category.E,no-member,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_nquads.py,42,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue184.py,18,Final newline missing,Category.C,missing-final-newline,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_prettyxml.py,124,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_prettyxml.py,125,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_prettyxml.py,136,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_prettyxml.py,137,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_prettyxml.py,152,Line too long (171/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_prettyxml.py,161,Line too long (135/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_prettyxml.py,42,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_prettyxml.py,43,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_swap_n3.py,117,"Variable name ""gt"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",HIGH,MEDIUM
+rdflib-4.2.2/test/test_graph_formula.py,46,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_graph_formula.py,46,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_graph_formula.py,97,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_graph_formula.py,104,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_graph_formula.py,110,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_graph_formula.py,112,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_graph_formula.py,115,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue457.py,11,"Constant name ""node"" doesn't conform to UPPER_CASE naming style",Category.C,invalid-name,Using xml.etree.ElementTree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called,HIGH,MEDIUM
+rdflib-4.2.2/test/test_extras_external_graph_libs.py,86,Undefined variable 'unicode',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_extras_external_graph_libs.py,87,Undefined variable 'unicode',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_conventions.py,25,"Exactly one space required around comparison
+            assert len(path)==1, ""We're assuming the path has exactly one item in it for now""
+                            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,14,"Exactly one space required around comparison
+    assert a==b, ""STR: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,14,"Exactly one space required after comma
+    assert a==b, ""STR: %r != %r""%(a,b)
+                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,19,"Exactly one space required around comparison
+    assert a==b, ""isIRI: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,19,"Exactly one space required after comma
+    assert a==b, ""isIRI: %r != %r""%(a,b)
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,24,"Exactly one space required around comparison
+    assert a==b, ""isBlank: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,24,"Exactly one space required after comma
+    assert a==b, ""isBlank: %r != %r""%(a,b)
+                                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,29,"Exactly one space required around comparison
+    assert a==b, ""isLiteral: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,29,"Exactly one space required after comma
+    assert a==b, ""isLiteral: %r != %r""%(a,b)
+                                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,34,"Exactly one space required around comparison
+    assert a==b, ""UCASE: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,34,"Exactly one space required after comma
+    assert a==b, ""UCASE: %r != %r""%(a,b)
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,39,"Exactly one space required around comparison
+    assert a==b, ""no func: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,39,"Exactly one space required after comma
+    assert a==b, ""no func: %r != %r""%(a,b)
+                                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,44,"Exactly one space required around comparison
+    assert a==b, ""orderby: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,44,"Exactly one space required after comma
+    assert a==b, ""orderby: %r != %r""%(a,b)
+                                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,49,"Exactly one space required around comparison
+    assert a==b, ""orderbyFunc: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,49,"Exactly one space required after comma
+    assert a==b, ""orderbyFunc: %r != %r""%(a,b)
+                                           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,54,"Exactly one space required around comparison
+    assert a==b, ""limit: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,54,"Exactly one space required after comma
+    assert a==b, ""limit: %r != %r""%(a,b)
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,59,"Exactly one space required around comparison
+    assert a==b, ""orderbyLimit: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,59,"Exactly one space required after comma
+    assert a==b, ""orderbyLimit: %r != %r""%(a,b)
+                                            ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,64,"Exactly one space required around comparison
+    assert a==b, ""orderbyFuncLimit: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,64,"Exactly one space required after comma
+    assert a==b, ""orderbyFuncLimit: %r != %r""%(a,b)
+                                                ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,69,"Exactly one space required around comparison
+    assert a==b, ""offset: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,69,"Exactly one space required after comma
+    assert a==b, ""offset: %r != %r""%(a,b)
+                                      ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,74,"Exactly one space required around comparison
+    assert a==b, ""limitOffset: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,74,"Exactly one space required after comma
+    assert a==b, ""limitOffset: %r != %r""%(a,b)
+                                           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,79,"Exactly one space required around comparison
+    assert a==b, ""orderbyLimitOffset: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,79,"Exactly one space required after comma
+    assert a==b, ""orderbyLimitOffset: %r != %r""%(a,b)
+                                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,84,"Exactly one space required around comparison
+    assert a==b, ""orderbyFuncLimitOffset: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,84,"Exactly one space required after comma
+    assert a==b, ""orderbyFuncLimitOffset: %r != %r""%(a,b)
+                                                      ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,89,"Exactly one space required around comparison
+    assert a==b, ""distinct: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,89,"Exactly one space required after comma
+    assert a==b, ""distinct: %r != %r""%(a,b)
+                                        ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,94,"Exactly one space required around comparison
+    assert a==b, ""distinctOrderby: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,94,"Exactly one space required after comma
+    assert a==b, ""distinctOrderby: %r != %r""%(a,b)
+                                               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,99,"Exactly one space required around comparison
+    assert a==b, ""distinctOrderbyLimit: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,99,"Exactly one space required after comma
+    assert a==b, ""distinctOrderbyLimit: %r != %r""%(a,b)
+                                                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,105,"Exactly one space required after comma
+    assert r == e, 'prepare: %r != %r'%(r,e)
+                                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,113,"Exactly one space required after comma
+    assert r == e, 'prepare: %r != %r'%(r,e)
+                                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,123,"Exactly one space required around comparison
+    assert a==b, ""data: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,123,"Exactly one space required after comma
+    assert a==b, ""data: %r != %r""%(a,b)
+                                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,128,"Exactly one space required around comparison
+    assert a==b, ""ask: %r != %r""%(a,b)
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_initbindings.py,128,"Exactly one space required after comma
+    assert a==b, ""ask: %r != %r""%(a,b)
+                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue084.py,39,"Exactly one space required around comparison
+    assert v==Literal(u""C\u00f4te d'Ivoire"", lang='fr')
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue084.py,46,"Exactly one space required around comparison
+    assert v==Literal(u""C\u00f4te d'Ivoire"", lang='fr')
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue084.py,54,"Exactly one space required around comparison
+    assert v==Literal(u""C\u00f4te d'Ivoire"", lang='fr')
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue084.py,61,"Exactly one space required around comparison
+    assert v==Literal(u""C\u00f4te d'Ivoire"", lang='fr')
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue084.py,68,"Exactly one space required around comparison
+    assert v==Literal(u""C\u00f4te d'Ivoire"", lang='fr')
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue084.py,100,"Exactly one space required around comparison
+    assert v==Literal(u""C\u00f4te d'Ivoire"", lang='fr')
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue084.py,111,"Exactly one space required around comparison
+    assert v==Literal(u""C\u00f4te d'Ivoire"", lang='fr')
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue084.py,137,"Exactly one space required around comparison
+    assert v==Literal(u""C\u00f4te d'Ivoire"", lang='fr')
+            ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+rdflib-4.2.2/test/test_issue579.py,16,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

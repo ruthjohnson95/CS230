@@ -1,0 +1,611 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Paste-0.9.3/paste/util/threadedprint.py,71,map/filter on lambda could be replaced by comprehension,Category.W,deprecated-lambda,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/util/threadedprint.py,158,map/filter on lambda could be replaced by comprehension,Category.W,deprecated-lambda,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/fileapp.py,55,"Exactly one space required after comma
+        assert isinstance(headers,(type(None),list))
+                                 ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/fileapp.py,55,"Exactly one space required after comma
+        assert isinstance(headers,(type(None),list))
+                                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,186,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,191,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,197,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,199,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,218,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,237,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,283,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,310,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,314,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,360,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,375,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/lint.py,380,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,25,"Exactly one space required after comma
+    assert not res.header('expires',None)
+                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,12,Comparison should be res.header('content-type') == 'application/octet-stream',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,13,Comparison should be res.header('content-length') == '9',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,14,"Comparison should be repr(res) == ""&lt;Response 200 OK 'mycontent'&gt;""",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,16,"Comparison should be repr(harness.get('/')) == ""&lt;Response 200 OK 'bingles'&gt;""",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,24,Comparison should be res.header('cache-control') == 'public',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,27,Comparison should be res.header('cache-control') == 'private',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,30,Comparison should be res.header('cache-control') == 'no-cache',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,33,"Comparison should be res.header('cache-control') == 'public, max-age=60, s-maxage=30'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,37,"Comparison should be res.header('cache-control') == 'private, no-store, no-transform, max-age=60'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,48,Comparison should be res.header('content-disposition') == 'attachment',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,49,Comparison should be res.header('content-type') == 'application/octet-stream',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,51,"Comparison should be res.header('content-disposition') == 'attachment; filename=""bing.txt""'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,53,Comparison should be res.header('content-type') == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,55,Comparison should be res.header('content-disposition') == 'inline',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,56,Comparison should be res.header('content-type') == 'application/octet-stream',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,58,"Comparison should be res.header('content-disposition') == 'inline; filename=""bing.txt""'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,60,Comparison should be res.header('content-type') == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,71,"Comparison should be repr(res) == ""&lt;Response 200 OK 'mycontent'&gt;""",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,74,"Comparison should be repr(res) == ""&lt;Response 304 Not Modified ''&gt;""",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,77,Comparison should be res.status == 400,Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,81,Comparison should be res.status == 400,Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,95,Comparison should be res.header('content-type') == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_fileapp.py,105,Comparison should be res.header('content-type') == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/util/import_string.py,21,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+Paste-0.9.3/tests/test_httpheaders.py,93,"Exactly one space required after comma
+    assert ('bytes',[(0,300)]) == RANGE.parse(""bytes=0-300"")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,93,"Exactly one space required after comma
+    assert ('bytes',[(0,300)]) == RANGE.parse(""bytes=0-300"")
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,94,"Exactly one space required after comma
+    assert ('bytes',[(0,300)]) == RANGE.parse(""bytes   =  -300"")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,94,"Exactly one space required after comma
+    assert ('bytes',[(0,300)]) == RANGE.parse(""bytes   =  -300"")
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,95,"Exactly one space required after comma
+    assert ('bytes',[(0,None)]) == RANGE.parse(""bytes=  -"")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,95,"Exactly one space required after comma
+    assert ('bytes',[(0,None)]) == RANGE.parse(""bytes=  -"")
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,96,"Exactly one space required after comma
+    assert ('bytes',[(0,None)]) == RANGE.parse(""bytes=0   -   "")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,96,"Exactly one space required after comma
+    assert ('bytes',[(0,None)]) == RANGE.parse(""bytes=0   -   "")
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,97,"Exactly one space required after comma
+    assert ('bytes',[(300,None)]) == RANGE.parse(""   BYTES=300-"")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,97,"Exactly one space required after comma
+    assert ('bytes',[(300,None)]) == RANGE.parse(""   BYTES=300-"")
+                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,98,"Exactly one space required after comma
+    assert ('bytes',[(4,5),(6,7)]) == RANGE.parse("" Bytes = 4 - 5,6 - 07  "")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,98,"Exactly one space required after comma
+    assert ('bytes',[(4,5),(6,7)]) == RANGE.parse("" Bytes = 4 - 5,6 - 07  "")
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,98,"Exactly one space required after comma
+    assert ('bytes',[(4,5),(6,7)]) == RANGE.parse("" Bytes = 4 - 5,6 - 07  "")
+                          ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,98,"Exactly one space required after comma
+    assert ('bytes',[(4,5),(6,7)]) == RANGE.parse("" Bytes = 4 - 5,6 - 07  "")
+                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,99,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,99,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,99,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                          ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,99,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,100,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,100,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,100,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                          ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,100,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,101,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,101,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,101,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                          ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,101,"Exactly one space required after comma
+    assert ('bytes',[(0,5),(7,None)]) == RANGE.parse("" bytes=-5,7-"")
+                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,5,Comparison should be VIA(collection) == 'bing',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,7,Comparison should be REFERER(collection) == 'internal:/some/path',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,11,"Comparison should be CACHE_CONTROL(collection) == 'public, max-age=1234'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,12,"Comparison should be CONTENT_DISPOSITION(collection) == 'attachment; filename=""bingles.txt""'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,14,"Comparison should be PRAGMA(collection) == 'test, multi, valued=""items""'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,32,Comparison should be CONTENT_TYPE(environ) == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,33,Comparison should be CONTENT_LENGTH(environ) == '200',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,35,Comparison should be CONTENT_TYPE(environ) == 'new/type',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,37,Comparison should be CONTENT_TYPE(environ) == '',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,38,Comparison should be environ['HTTP_CONTENT_TYPE'] == 'ignored/invalid',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,52,Comparison should be CACHE_CONTROL() == 'public',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,53,Comparison should be CACHE_CONTROL(public=True) == 'public',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,54,Comparison should be CACHE_CONTROL(private=True) == 'private',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,55,Comparison should be CACHE_CONTROL(no_cache=True) == 'no-cache',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,56,"Comparison should be CACHE_CONTROL(private=True, no_store=True) == 'private, no-store'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,57,"Comparison should be CACHE_CONTROL(max_age=60) == 'public, max-age=60'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,58,"Comparison should be CACHE_CONTROL(max_age=CACHE_CONTROL.ONE_DAY) == 'public, max-age=86400'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,61,"Comparison should be CACHE_CONTROL(community='bingles') == 'public, community=""bingles""'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,65,"Comparison should be CACHE_CONTROL(headers) == 'public, max-age=60'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,70,Comparison should be CONTENT_DISPOSITION() == 'attachment',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,71,Comparison should be CONTENT_DISPOSITION(attachment=True) == 'attachment',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,72,Comparison should be CONTENT_DISPOSITION(inline=True) == 'inline',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,73,"Comparison should be CONTENT_DISPOSITION(inline=True, filename='test.txt') == 'inline; filename=""test.txt""'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,75,"Comparison should be CONTENT_DISPOSITION(filename='/some/path/test.txt') == 'attachment; filename=""test.txt""'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,79,Comparison should be CONTENT_TYPE(headers) == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,81,Comparison should be CONTENT_TYPE(headers) == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,83,Comparison should be CONTENT_TYPE(headers) == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,86,Comparison should be CONTENT_TYPE(headers) == 'text/plain',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,102,Comparison should be RANGE.parse('') == None,Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,102,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,103,"Comparison should be RANGE.parse('bytes=0,300') == None",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,103,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,104,"Comparison should be RANGE.parse('bytes=-7,5-') == None",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,104,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,5,Undefined variable 'VIA',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,7,Undefined variable 'REFERER',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,11,Undefined variable 'CACHE_CONTROL',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,14,Undefined variable 'PRAGMA',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,32,Undefined variable 'CONTENT_TYPE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,33,Undefined variable 'CONTENT_LENGTH',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,35,Undefined variable 'CONTENT_TYPE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,37,Undefined variable 'CONTENT_TYPE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,52,Undefined variable 'CACHE_CONTROL',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,53,Undefined variable 'CACHE_CONTROL',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,54,Undefined variable 'CACHE_CONTROL',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,55,Undefined variable 'CACHE_CONTROL',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,56,Undefined variable 'CACHE_CONTROL',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,57,Undefined variable 'CACHE_CONTROL',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,65,Undefined variable 'CACHE_CONTROL',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,66,Undefined variable 'EXPIRES',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,67,Undefined variable 'EXPIRES',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,70,Undefined variable 'CONTENT_DISPOSITION',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,71,Undefined variable 'CONTENT_DISPOSITION',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,72,Undefined variable 'CONTENT_DISPOSITION',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,79,Undefined variable 'CONTENT_TYPE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,81,Undefined variable 'CONTENT_TYPE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,83,Undefined variable 'CONTENT_TYPE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,86,Undefined variable 'CONTENT_TYPE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,93,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,94,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,95,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,96,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,97,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,98,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,99,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,100,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,101,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,102,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,103,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_httpheaders.py,104,Undefined variable 'RANGE',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpexceptions.py,608,"No space allowed after bracket
+        assert not warning_level or ( warning_level &gt; 99 and
+                                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,331,"Exactly one space required after comma
+        assert isinstance(self.name,str)
+                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,342,"Exactly one space required after comma
+        assert self.version in ('1.1','1.0','0.9')
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,342,"Exactly one space required after comma
+        assert self.version in ('1.1','1.0','0.9')
+                                           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,425,"Exactly one space required after comma
+        assert isinstance(values, (tuple,list))
+                                        ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,705,"Exactly one space required after comma
+        assert isinstance(max_age,(type(None),int))
+                                 ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,705,"Exactly one space required after comma
+        assert isinstance(max_age,(type(None),int))
+                                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,706,"Exactly one space required after comma
+        assert isinstance(s_maxage,(type(None),int))
+                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,706,"Exactly one space required after comma
+        assert isinstance(s_maxage,(type(None),int))
+                                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,939,"Exactly one space required before comparison
+        assert last_byte  &lt; total_length
+                          ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,396,Comparison should be len(args) == 1,Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,404,Comparison should be len(args) == 1,Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,410,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,602,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpheaders.py,410,"Bad indentation. Found 11 spaces, expected 12",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/util/PySourceColor.py,825,Trailing whitespace,Category.C,trailing-whitespace,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Paste-0.9.3/paste/util/PySourceColor.py,870,"Variable name ""htmlPath"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Paste-0.9.3/paste/util/PySourceColor.py,874,"Variable name ""htmlPath"" doesn't conform to snake_case naming style",Category.C,invalid-name,Probable insecure usage of temp file/directory.,MEDIUM,MEDIUM
+Paste-0.9.3/paste/util/PySourceColor.py,1126,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Paste-0.9.3/paste/util/PySourceColor.py,1140,Module 'os' has no 'startfile' member,Category.E,no-member,Starting a process without a shell.,MEDIUM,LOW
+Paste-0.9.3/paste/auth/digest.py,49,"Exactly one space required before assignment
+        nonce  = md5.md5(""%s:%s"" % (time.time(),random.random())).hexdigest()
+               ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Paste-0.9.3/paste/auth/digest.py,49,"Exactly one space required after comma
+        nonce  = md5.md5(""%s:%s"" % (time.time(),random.random())).hexdigest()
+                                               ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Paste-0.9.3/paste/auth/digest.py,50,"Exactly one space required after comma
+        opaque = md5.md5(""%s:%s"" % (time.time(),random.random())).hexdigest()
+                                               ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Paste-0.9.3/paste/auth/digest.py,104,"Exactly one space required after comma
+            assert authpath.split(""?"",1)[0] in fullpath
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/auth/digest.py,110,Comparison should be qop == 'auth',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_import_string.py,14,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,10,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,11,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,12,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,13,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,14,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,15,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,16,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,17,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,18,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,19,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,20,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,21,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,22,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,23,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,24,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,25,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,26,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,29,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,30,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,31,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,32,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,33,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,34,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,35,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,36,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,37,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,38,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,39,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,40,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,41,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,42,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,43,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,49,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,49,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""411""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,49,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""411""))
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,49,"Exactly one space required before comparison
+    assert(date(yr,4,11)  == parse_date(""411""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,50,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,50,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""APR11""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,50,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""APR11""))
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,50,"Exactly one space required before comparison
+    assert(date(yr,4,11)  == parse_date(""APR11""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,51,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,51,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""11APR""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,51,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""11APR""))
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,51,"Exactly one space required before comparison
+    assert(date(yr,4,11)  == parse_date(""11APR""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,52,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,52,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""4 11""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,52,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""4 11""))
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,52,"Exactly one space required before comparison
+    assert(date(yr,4,11)  == parse_date(""4 11""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,53,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,53,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""11 APR""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,53,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""11 APR""))
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,53,"Exactly one space required before comparison
+    assert(date(yr,4,11)  == parse_date(""11 APR""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,54,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,54,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""APR 11""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,54,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""APR 11""))
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,54,"Exactly one space required before comparison
+    assert(date(yr,4,11)  == parse_date(""APR 11""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,55,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,55,"Exactly one space required after comma
+    assert(date(yr,mo,11) == parse_date(""11""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,55,"Exactly one space required after comma
+    assert(date(yr,mo,11) == parse_date(""11""))
+                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,56,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,56,"Exactly one space required after comma
+    assert(date(yr,4,1)   == parse_date(""APR""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,56,"Exactly one space required after comma
+    assert(date(yr,4,1)   == parse_date(""APR""))
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,56,"Exactly one space required before comparison
+    assert(date(yr,4,1)   == parse_date(""APR""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,57,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,57,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""4/11""))
+                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,57,"Exactly one space required after comma
+    assert(date(yr,4,11)  == parse_date(""4/11""))
+                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,57,"Exactly one space required before comparison
+    assert(date(yr,4,11)  == parse_date(""4/11""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,58,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,58,"Exactly one space required before comparison
+    assert(date.today()   == parse_date(""today""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,59,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,59,"Exactly one space required before comparison
+    assert(date.today()   == parse_date(""now""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,60,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,60,"Exactly one space required before comparison
+    assert(None           == parse_date(""""))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,61,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,61,"Exactly one space required before comparison
+    assert(''             == normalize_date(None))
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,63,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,64,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,65,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,66,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,67,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,68,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,69,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,70,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,71,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,72,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,73,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,75,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,76,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,78,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,79,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,80,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,81,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,82,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,83,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,84,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,85,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,86,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,87,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,88,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,89,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,90,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,91,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,92,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,94,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,95,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,96,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,97,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,98,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,99,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,100,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,101,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,102,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,103,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,104,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,105,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,107,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,108,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,109,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,110,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,111,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,112,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,10,Comparison should be normalize_timedelta('') == '',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,11,Comparison should be normalize_timedelta('6m') == '0.10',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,12,Comparison should be normalize_timedelta('30m') == '0.50',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,13,Comparison should be normalize_timedelta('45m') == '0.75',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,14,Comparison should be normalize_timedelta('60 min') == '1.00',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,15,Comparison should be normalize_timedelta('90min') == '1.50',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,16,Comparison should be normalize_timedelta('1.50') == '1.50',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,17,Comparison should be normalize_timedelta('4 : 30') == '4.50',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,18,Comparison should be normalize_timedelta('1h 30m') == '1.50',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,19,Comparison should be normalize_timedelta('1') == '1.00',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,20,Comparison should be normalize_timedelta('1 hour') == '1.00',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,21,Comparison should be normalize_timedelta('480 mins') == '8.00',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,22,Comparison should be normalize_timedelta('8h') == '8.00',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,23,Comparison should be normalize_timedelta('0.5') == '0.50',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,24,Comparison should be normalize_timedelta('.1') == '0.10',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,25,Comparison should be normalize_timedelta('.50') == '0.50',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,26,Comparison should be normalize_timedelta('0.75') == '0.75',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,29,"Comparison should be normalize_time('3p', ampm=True) == '03:00 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,30,"Comparison should be normalize_time('300', ampm=True) == '03:00 AM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,31,"Comparison should be normalize_time('322', ampm=True) == '03:22 AM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,32,"Comparison should be normalize_time('1322', ampm=True) == '01:22 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,33,"Comparison should be normalize_time('13', ampm=True) == '01:00 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,34,"Comparison should be normalize_time('noon', ampm=True) == '12:00 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,35,"Comparison should be normalize_time('6', ampm=True) == '06:00 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,36,"Comparison should be normalize_time('1', ampm=True) == '01:00 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,37,"Comparison should be normalize_time('7', ampm=True) == '07:00 AM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,38,"Comparison should be normalize_time('1 pm', ampm=True) == '01:00 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,39,"Comparison should be normalize_time('3:30 pm', ampm=True) == '03:30 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,40,"Comparison should be normalize_time('3 30 pm', ampm=True) == '03:30 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,41,"Comparison should be normalize_time('3 30 P.M.', ampm=True) == '03:30 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,42,"Comparison should be normalize_time('0', ampm=True) == '12:00 PM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,43,"Comparison should be normalize_time('1200 AM', ampm=True) == '12:00 AM'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,60,Comparison should be parse_date('') == None,Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,60,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,61,Comparison should be normalize_date(None) == '',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,63,Comparison should be normalize_date('20010203') == '2001-02-03',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,64,Comparison should be normalize_date('1999 4 11') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,65,Comparison should be normalize_date('1999 APR 11') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,66,Comparison should be normalize_date('APR 11 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,67,Comparison should be normalize_date('11 APR 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,68,Comparison should be normalize_date('4 11 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,69,Comparison should be normalize_date('1999 APR') == '1999-04-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,70,Comparison should be normalize_date('1999 4') == '1999-04-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,71,Comparison should be normalize_date('4 1999') == '1999-04-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,72,Comparison should be normalize_date('APR 1999') == '1999-04-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,73,Comparison should be normalize_date('1999') == '1999-01-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,75,Comparison should be normalize_date('1APR1999') == '1999-04-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,76,Comparison should be normalize_date('1APR2001') == '2001-04-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,78,Comparison should be normalize_date('1999-04-11+7') == '1999-04-18',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,79,Comparison should be normalize_date('1999-04-11 7') == '1999-04-18',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,80,Comparison should be normalize_date('1 apr 1999') == '1999-04-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,81,Comparison should be normalize_date('11 apr 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,82,Comparison should be normalize_date('11 Apr 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,83,Comparison should be normalize_date('11-apr-1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,84,Comparison should be normalize_date('11 April 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,85,Comparison should be normalize_date('11 APRIL 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,86,Comparison should be normalize_date('11 april 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,87,Comparison should be normalize_date('11 aprick 1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,88,"Comparison should be normalize_date('APR 11, 1999') == '1999-04-11'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,89,Comparison should be normalize_date('4/11/1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,90,Comparison should be normalize_date('4-11-1999') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,91,Comparison should be normalize_date('1999-4-11') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,92,Comparison should be normalize_date('19990411') == '1999-04-11',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,94,Comparison should be normalize_date('1 Jan 1999') == '1999-01-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,95,Comparison should be normalize_date('1 Feb 1999') == '1999-02-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,96,Comparison should be normalize_date('1 Mar 1999') == '1999-03-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,97,Comparison should be normalize_date('1 Apr 1999') == '1999-04-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,98,Comparison should be normalize_date('1 May 1999') == '1999-05-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,99,Comparison should be normalize_date('1 Jun 1999') == '1999-06-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,100,Comparison should be normalize_date('1 Jul 1999') == '1999-07-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,101,Comparison should be normalize_date('1 Aug 1999') == '1999-08-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,102,Comparison should be normalize_date('1 Sep 1999') == '1999-09-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,103,Comparison should be normalize_date('1 Oct 1999') == '1999-10-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,104,Comparison should be normalize_date('1 Nov 1999') == '1999-11-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,105,Comparison should be normalize_date('1 Dec 1999') == '1999-12-01',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,107,Comparison should be normalize_date('1999-4-30') == '1999-04-30',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,108,Comparison should be normalize_date('29 FEB 2000') == '2000-02-29',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,109,Comparison should be normalize_date('28 FEB 2001') == '2001-02-28',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,110,Comparison should be normalize_date('29 FEB 2004') == '2004-02-29',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,111,Comparison should be normalize_date('28 FEB 2100') == '2100-02-28',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_util/test_datetimeutil.py,112,Comparison should be normalize_date('28 FEB 1900') == '1900-02-28',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_digest.py,49,"Exactly one space required after comma
+    assert 'bing' == check(""bing"",""gnib"")
+                                 ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_digest.py,50,"Exactly one space required after comma
+    assert check(""bing"",""bad"") is None
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_digest.py,76,"Exactly one space required after comma
+        assert ""bing"" == authfetch('bing','gnib')
+                                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_digest.py,49,"Comparison should be check('bing', 'gnib') == 'bing'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_digest.py,76,"Comparison should be authfetch('bing', 'gnib') == 'bing'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/evalexception/evalcontext.py,35,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Paste-0.9.3/paste/auth/cookie.py,272,"Exactly one space required after comma
+            assert scanlist and isinstance(scanlist,self.environ_class)
+                                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/util/doctest24.py,1242,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Paste-0.9.3/paste/exceptions/collector.py,301,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Paste-0.9.3/paste/exceptions/collector.py,310,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Paste-0.9.3/paste/httpserver.py,202,"Exactly one space required after comma
+            assert isinstance(environ,dict)
+                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpserver.py,438,"Exactly one space required after comma
+        assert protocol_version in ('HTTP/0.9','HTTP/1.0','HTTP/1.1')
+                                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/httpserver.py,438,"Exactly one space required after comma
+        assert protocol_version in ('HTTP/0.9','HTTP/1.0','HTTP/1.1')
+                                                         ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_cookie.py,25,"Exactly one space required after comma
+    assert not header_value(headers,'Set-Cookie')
+                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_cookie.py,37,Unnecessary parens after 'assert' keyword,Category.C,superfluous-parens,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_cookie.py,37,"Exactly one space required after comma
+    assert (""%s: %s"" % (key,val.replace(""\n"",""\n    ""))) in content
+                           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_auth/test_auth_cookie.py,37,"Exactly one space required after comma
+    assert (""%s: %s"" % (key,val.replace(""\n"",""\n    ""))) in content
+                                            ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/urlmap.py,114,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/paste/wsgilib.py,152,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Paste-0.9.3/paste/wsgilib.py,455,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Paste-0.9.3/paste/util/subprocess24.py,1136,"Variable name ""p1"" doesn't conform to snake_case naming style",Category.C,invalid-name,"Function call with shell=True parameter identified, possible security issue.",LOW,MEDIUM
+Paste-0.9.3/paste/util/subprocess24.py,878,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Paste-0.9.3/paste/session.py,112,"Variable name ""r"" doesn't conform to snake_case naming style",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,22,"Exactly one space required after comma
+    assert isinstance(HTTPUseProxy(headers=[('LOCATION','/bing')])
+                                                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,24,"Exactly one space required after comma
+    assert isinstance(HTTPFound('/foobar'),HTTPRedirection)
+                                          ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,85,"Exactly one space required after comma
+    assert ""/bing/foo"" == header_value(saved[0][1],'location')
+                                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,91,"Exactly one space required after comma
+    assert ""text/plain"" == header_value(saved[1][1],'content-type')
+                                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,92,"Exactly one space required after comma
+    assert ""/bing/foo"" == header_value(saved[1][1],'location')
+                                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,97,"Exactly one space required after comma
+    assert isinstance(redirect,HTTPException)
+                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,98,"Exactly one space required after comma
+    assert isinstance(redirect,HTTPRedirection)
+                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,99,"Exactly one space required after comma
+    assert not isinstance(redirect,HTTPError)
+                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,101,"Exactly one space required after comma
+    assert isinstance(notfound,HTTPException)
+                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,102,"Exactly one space required after comma
+    assert isinstance(notfound,HTTPError)
+                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,103,"Exactly one space required after comma
+    assert isinstance(notfound,HTTPClientError)
+                              ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,104,"Exactly one space required after comma
+    assert not isinstance(notfound,HTTPServerError)
+                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,106,"Exactly one space required after comma
+    assert isinstance(notimpl,HTTPException)
+                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,107,"Exactly one space required after comma
+    assert isinstance(notimpl,HTTPError)
+                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,108,"Exactly one space required after comma
+    assert isinstance(notimpl,HTTPServerError)
+                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,109,"Exactly one space required after comma
+    assert not isinstance(notimpl,HTTPClientError)
+                                 ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,56,Comparison should be status == '302 Found',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,65,Comparison should be status == '302 Found',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,71,Comparison should be status == '302 Found',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,83,Comparison should be saved[0][0] == '302 Found',Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,84,"Comparison should be header_value(saved[0][1], 'content-type') == 'text/html'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,85,"Comparison should be header_value(saved[0][1], 'location') == '/bing/foo'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,91,"Comparison should be header_value(saved[1][1], 'content-type') == 'text/plain'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+Paste-0.9.3/tests/test_exceptions/test_httpexceptions.py,92,"Comparison should be header_value(saved[1][1], 'location') == '/bing/foo'",Category.C,misplaced-comparison-constant,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

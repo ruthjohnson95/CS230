@@ -1,0 +1,7 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+pigar-0.9.0/pigar/db.py,hardcoded_sql_expressions,B608,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.,68,[68],https://bandit.readthedocs.io/en/latest/plugins/b608_hardcoded_sql_expressions.html
+pigar-0.9.0/pigar/db.py,hardcoded_sql_expressions,B608,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.,74,[74],https://bandit.readthedocs.io/en/latest/plugins/b608_hardcoded_sql_expressions.html
+pigar-0.9.0/pigar/db.py,hardcoded_sql_expressions,B608,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.,77,[77],https://bandit.readthedocs.io/en/latest/plugins/b608_hardcoded_sql_expressions.html
+pigar-0.9.0/pigar/tests/imports_example/example1.py,blacklist,B307,MEDIUM,HIGH,Use of possibly insecure function - consider using safer ast.literal_eval.,10,[10],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b307-eval
+pigar-0.9.0/pigar/tests/imports_example/example1.py,exec_used,B102,MEDIUM,HIGH,Use of exec detected.,13,"[13, 14, 15]",https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html
+pigar-0.9.0/pigar/tests/imports_example/example1.py,exec_used,B102,MEDIUM,HIGH,Use of exec detected.,16,"[16, 17, 18]",https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html

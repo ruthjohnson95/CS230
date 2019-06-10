@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-relatives-0.2.0/relatives/templatetags/relatives.py,django_mark_safe,B703,MEDIUM,HIGH,Potential XSS on mark_safe function.,28,"[28, 29]",https://bandit.readthedocs.io/en/latest/plugins/b703_django_mark_safe.html
+django-relatives-0.2.0/relatives/templatetags/relatives.py,blacklist,B308,MEDIUM,HIGH,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,28,"[28, 29]",https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b308-mark-safe
+django-relatives-0.2.0/relatives/tests/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'pass',59,[59],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html

@@ -1,0 +1,8 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+rply-0.7.0/rply/lexergenerator.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,73,[73],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used
+rply-0.7.0/rply/lexergenerator.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,74,"[74, 75]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used
+rply-0.7.0/rply/lexergenerator.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,173,[173],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used
+rply-0.7.0/rply/parser.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,69,[69],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used
+rply-0.7.0/rply/parser.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,72,[72],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used
+rply-0.7.0/rply/parsergenerator.py,HIGH,LOW,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,28,[28],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random,B311,blacklist
+rply-0.7.0/rply/parsergenerator.py,HIGH,MEDIUM,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",49,[49],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5,B303,blacklist

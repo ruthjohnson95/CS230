@@ -1,0 +1,4 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+stargate-0.3/stargate/handshake.py,HIGH,MEDIUM,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",119,[119],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5,B303,blacklist
+stargate-0.3/stargate/test_utils.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,19,[19],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used
+stargate-0.3/stargate/test_utils.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,88,[88],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used

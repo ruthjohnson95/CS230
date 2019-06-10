@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+coveralls-0.1/tests/test_api.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'xxx',70,[70],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+coveralls-0.1/tests/test_api.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'xxx',96,[96],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+coveralls-0.1/tests/test_api.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'xxx',114,[114],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html
+coveralls-0.1/tests/test_api.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'xxx',119,[119],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html

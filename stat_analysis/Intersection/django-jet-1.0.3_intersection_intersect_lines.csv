@@ -1,0 +1,13 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+django-jet-1.0.3/jet/dashboard/modules.py,595,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+django-jet-1.0.3/jet/dashboard/dashboard_modules/yandex_metrika.py,219,Line too long (213/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+django-jet-1.0.3/jet/dashboard/dashboard_modules/yandex_metrika.py,219,Line too long (213/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+django-jet-1.0.3/jet/dashboard/dashboard_modules/yandex_metrika.py,222,Line too long (187/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+django-jet-1.0.3/jet/dashboard/dashboard_modules/yandex_metrika.py,222,Line too long (187/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+django-jet-1.0.3/jet/dashboard/dashboard_modules/yandex_metrika.py,50,"Invalid variable name ""f""",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+django-jet-1.0.3/jet/dashboard/dashboard_modules/google_analytics.py,277,Line too long (215/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+django-jet-1.0.3/jet/dashboard/dashboard_modules/google_analytics.py,277,Line too long (215/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+django-jet-1.0.3/jet/dashboard/dashboard_modules/google_analytics.py,280,Line too long (189/100),Category.C,line-too-long,Potential XSS on mark_safe function.,HIGH,MEDIUM
+django-jet-1.0.3/jet/dashboard/dashboard_modules/google_analytics.py,280,Line too long (189/100),Category.C,line-too-long,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,HIGH,MEDIUM
+django-jet-1.0.3/jet/tests/test_ordered_set.py,2,"standard import ""import pickle"" comes before ""from django.test import TestCase""",Category.C,wrong-import-order,Consider possible security implications associated with pickle module.,HIGH,LOW
+django-jet-1.0.3/jet/utils.py,124,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

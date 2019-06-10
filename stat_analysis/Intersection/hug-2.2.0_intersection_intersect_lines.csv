@@ -1,0 +1,2 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+hug-2.2.0/setup.py,25,Unused import subprocess,Category.W,unused-import,Consider possible security implications associated with subprocess module.,HIGH,LOW

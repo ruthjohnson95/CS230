@@ -1,0 +1,21 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Mezzanine-4.2.3/mezzanine/galleries/models.py,69,No exception type(s) specified,Category.W,bare-except,"Try, Except, Continue detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/core/management/commands/runserver.py,161,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/setup.py,19,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/setup.py,25,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/setup.py,35,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/setup.py,100,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/core/templatetags/mezzanine_tags.py,435,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/project_template/project_name/settings.py,318,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Mezzanine-4.2.3/mezzanine/blog/management/commands/import_rss.py,58,"Variable name ""l"" doesn't conform to snake_case naming style",Category.C,invalid-name,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,HIGH,MEDIUM
+Mezzanine-4.2.3/mezzanine/forms/tests.py,54,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/utils/docs.py,164,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Mezzanine-4.2.3/mezzanine/utils/docs.py,188,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/boot/lazy_admin.py,41,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+Mezzanine-4.2.3/mezzanine/boot/lazy_admin.py,46,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+Mezzanine-4.2.3/mezzanine/conf/forms.py,44,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/conf/forms.py,106,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/blog/management/commands/import_wordpress.py,8,"standard import ""from xml.dom.minidom import parse"" should be placed before ""from future.builtins import int""",Category.C,wrong-import-order,"Using parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace parse with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/pages/tests.py,358,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/core/admin.py,130,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Mezzanine-4.2.3/mezzanine/twitter/management/commands/poll_twitter.py,28,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

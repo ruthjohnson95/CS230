@@ -1,0 +1,5 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+girder-2.1.1/girder/utility/system.py,54,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+girder-2.1.1/girder/utility/system.py,69,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+girder-2.1.1/girder/utility/system.py,81,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+girder-2.1.1/girder/utility/install.py,30,"standard import ""import subprocess"" should be placed before ""import pip""",Category.C,wrong-import-order,Consider possible security implications associated with subprocess module.,HIGH,LOW

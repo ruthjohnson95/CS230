@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+MTGA-0.6.0/setup.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,51,"[51, 52]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+MTGA-0.6.0/source/mtga/models/card_set.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,140,[140],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+MTGA-0.6.0/source/mtga/models/card_set.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,210,[210],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html

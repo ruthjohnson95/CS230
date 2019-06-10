@@ -1,0 +1,187 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+tiddlyweb-1.2.17/test/test_limit_filter.py,18,"Exactly one space required after comma
+    assert ['1','c'] == [tiddler.title for tiddler in limited_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_limit_filter.py,24,"Exactly one space required after comma
+    assert ['c','a'] == [tiddler.title for tiddler in limited_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_user.py,18,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_recipe.py,21,Undefined variable 'recipe',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_recipe.py,28,Undefined variable 'recipe',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_recipe.py,28,Undefined variable 'recipe',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_store_search.py,19,Comparison to literal,Category.R,literal-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_store_search.py,17,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_store_search.py,18,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_negotiate.py,28,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_negotiate.py,40,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_negotiate.py,48,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_negotiate.py,59,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_negotiate.py,72,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_serializer.py,19,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_collection_tiddlers.py,49,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_collection_tiddlers.py,54,Trailing whitespace,Category.C,trailing-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,27,"Exactly one space required after comma
+    assert ['1','a','b','c'] == [tiddler.title for tiddler in sorted_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,27,"Exactly one space required after comma
+    assert ['1','a','b','c'] == [tiddler.title for tiddler in sorted_tiddlers]
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,27,"Exactly one space required after comma
+    assert ['1','a','b','c'] == [tiddler.title for tiddler in sorted_tiddlers]
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,33,"Exactly one space required after comma
+    assert ['c','b','a','1'] == [tiddler.title for tiddler in sorted_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,33,"Exactly one space required after comma
+    assert ['c','b','a','1'] == [tiddler.title for tiddler in sorted_tiddlers]
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,33,"Exactly one space required after comma
+    assert ['c','b','a','1'] == [tiddler.title for tiddler in sorted_tiddlers]
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,44,Line too long (114/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,27,Redefining name 'tiddler' from outer scope (line 19),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,33,Redefining name 'tiddler' from outer scope (line 19),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,39,Redefining name 'tiddler' from outer scope (line 19),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_sort_filter.py,44,Redefining name 'tiddler' from outer scope (line 19),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_tiddlers_fields.py,29,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,26,"Exactly one space required after comma
+    assert ['1','a'] == [tiddler.title for tiddler in selected_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,30,"Exactly one space required after comma
+    assert ['c','b'] == [tiddler.title for tiddler in selected_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,34,"Exactly one space required after comma
+    assert ['1','a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,34,"Exactly one space required after comma
+    assert ['1','a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,39,"Exactly one space required after comma
+    assert ['1','c','a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,39,"Exactly one space required after comma
+    assert ['1','c','a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,39,"Exactly one space required after comma
+    assert ['1','c','a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,43,"Exactly one space required after comma
+    assert ['1','c'] == [tiddler.title for tiddler in selected_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,47,"Exactly one space required after comma
+    assert ['1','c'] == [tiddler.title for tiddler in selected_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,51,"Exactly one space required after comma
+    assert ['a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,55,"Exactly one space required after comma
+    assert ['1','c','a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,55,"Exactly one space required after comma
+    assert ['1','c','a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,55,"Exactly one space required after comma
+    assert ['1','c','a','b'] == [tiddler.title for tiddler in selected_tiddlers]
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,60,"Exactly one space required after comma
+    assert ['1','c','a','b'] == results
+               ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,60,"Exactly one space required after comma
+    assert ['1','c','a','b'] == results
+                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,60,"Exactly one space required after comma
+    assert ['1','c','a','b'] == results
+                       ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,26,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,30,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,34,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,39,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,43,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,47,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,55,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,64,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,68,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_select_filter.py,72,Redefining name 'tiddler' from outer scope (line 12),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_unicode.py,39,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_muchdata.py,66,"Exactly one space required after comparison
+    assert len(tiddlers) ==  10, 'there are 10 tiddlers in bag0'
+                         ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,36,Line too long (157/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,56,Line too long (160/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,57,Line too long (112/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,65,Line too long (157/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,81,Line too long (157/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,91,Line too long (119/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,107,Line too long (157/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,117,Line too long (160/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,118,Line too long (117/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,126,Line too long (157/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,174,Line too long (157/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,295,"Exactly one space required after comma
+    assert bag_data['policy']['read'] == ['a','b','c','GUEST']
+                                             ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,295,"Exactly one space required after comma
+    assert bag_data['policy']['read'] == ['a','b','c','GUEST']
+                                                 ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,295,"Exactly one space required after comma
+    assert bag_data['policy']['read'] == ['a','b','c','GUEST']
+                                                     ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,156,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_bag.py,191,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_bag.py,51,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_bag.py,37,Undefined variable 'bag',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_recipe.py,131,Line too long (158/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_recipe.py,141,Line too long (160/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_recipe.py,142,Line too long (117/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_recipe.py,170,Line too long (157/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_recipe.py,153,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_recipe.py,302,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_challenge.py,62,Line too long (103/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_policy.py,36,"Exactly one space required after comma
+    assert policy.read == ['chris','jeremy']
+                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_policy.py,45,"Exactly one space required after comma
+    assert policy.read == ['chris','jeremy']
+                                  ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_policy.py,85,"Exactly one space required after comma
+    assert policy.user_perms(chris_info) == ['read','write','create','delete']
+                                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_policy.py,85,"Exactly one space required after comma
+    assert policy.user_perms(chris_info) == ['read','write','create','delete']
+                                                           ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_policy.py,85,"Exactly one space required after comma
+    assert policy.user_perms(chris_info) == ['read','write','create','delete']
+                                                                    ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_policy.py,88,"Exactly one space required after comma
+    assert policy.user_perms(chris_info) == ['read','write']
+                                                   ^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_policy.py,26,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,106,Line too long (104/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,156,Line too long (102/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,157,Line too long (101/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,192,Line too long (104/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,40,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,74,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,91,Do not use `len(SEQUENCE)` to determine if a sequence is empty,Category.C,len-as-condition,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,106,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,119,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,144,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,156,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,162,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,168,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,192,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,200,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_filter.py,214,Redefining name 'tiddler' from outer scope (line 21),Category.W,redefined-outer-name,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_query.py,23,Comparison to None should be 'expr is None',Category.C,singleton-comparison,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_query.py,20,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_query.py,21,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_query.py,22,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_query.py,23,Undefined variable 'environ',Category.E,undefined-variable,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_store_tiddler.py,76,Line too long (134/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_store_tiddler.py,122,Line too long (101/100),Category.C,line-too-long,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_make_cookie.py,42,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_tiddler.py,477,Anomalous backslash in string: '\d'. String constant might be missing an r prefix.,Category.W,anomalous-backslash-in-string,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_web_http_api.py,14,Redefining name 'tests' from outer scope (line 11),Category.W,redefined-outer-name,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,HIGH,MEDIUM
+tiddlyweb-1.2.17/test/test_tiddler.py,16,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_tiddler.py,31,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+tiddlyweb-1.2.17/test/test_tiddler.py,59,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

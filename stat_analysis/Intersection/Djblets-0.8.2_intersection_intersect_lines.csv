@@ -1,0 +1,7 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Djblets-0.8.2/djblets/webapi/resources.py,911,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Djblets-0.8.2/djblets/extensions/loaders.py,46,Catching too general exception Exception,Category.W,broad-except,"Try, Except, Pass detected.",HIGH,LOW
+Djblets-0.8.2/djblets/extensions/packaging.py,249,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Djblets-0.8.2/djblets/cache/backend.py,164,Unnecessary semicolon,Category.W,unnecessary-semicolon,"Use of insecure MD2, MD4, MD5, or SHA1 hash function.",HIGH,MEDIUM
+Djblets-0.8.2/djblets/cache/backend.py,135,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW
+Djblets-0.8.2/djblets/cache/backend.py,158,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

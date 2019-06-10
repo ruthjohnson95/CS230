@@ -1,0 +1,6 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+zope.html-1.1.0/bootstrap.py,HIGH,MEDIUM,Use of exec detected.,28,"[28, 29]",https://bandit.readthedocs.io/en/latest/plugins/b102_exec_used.html,B102,exec_used
+zope.html-1.1.0/bootstrap.py,HIGH,MEDIUM,Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.,28,[28],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b310-urllib-urlopen,B310,blacklist
+zope.html-1.1.0/bootstrap.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,39,"[39, 40, 41, 42, 43, 44, 45, 46, 47]",https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used
+zope.html-1.1.0/bootstrap.py,MEDIUM,LOW,Starting a process without a shell.,39,"[39, 40, 41, 42, 43, 44]",https://bandit.readthedocs.io/en/latest/plugins/b606_start_process_with_no_shell.html,B606,start_process_with_no_shell
+zope.html-1.1.0/src/zope/html/browser.py,HIGH,LOW,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,123,[123],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html,B101,assert_used

@@ -1,0 +1,7 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-smart-selects-1.5.0/smart_selects/widgets.py,django_mark_safe,B703,MEDIUM,HIGH,Potential XSS on mark_safe function.,147,[147],https://bandit.readthedocs.io/en/latest/plugins/b703_django_mark_safe.html
+django-smart-selects-1.5.0/smart_selects/widgets.py,blacklist,B308,MEDIUM,HIGH,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,147,[147],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b308-mark-safe
+django-smart-selects-1.5.0/smart_selects/widgets.py,django_mark_safe,B703,MEDIUM,HIGH,Potential XSS on mark_safe function.,255,[255],https://bandit.readthedocs.io/en/latest/plugins/b703_django_mark_safe.html
+django-smart-selects-1.5.0/smart_selects/widgets.py,blacklist,B308,MEDIUM,HIGH,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,255,[255],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b308-mark-safe
+django-smart-selects-1.5.0/test_app/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'f8fkupu8pa%%u$wgk6c!os39el41v7i7^u*8xs3@~]$asffw',20,"[20, 21, 22]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+django-smart-selects-1.5.0/test_app/tests.py,hardcoded_password_funcarg,B106,LOW,MEDIUM,Possible hardcoded password: 'admin',36,[36],https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html

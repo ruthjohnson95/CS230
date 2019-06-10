@@ -1,0 +1,3 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+aldryn-django-1.6.11.1/aldryn_django/cli.py,start_process_with_a_shell,B605,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue.",51,[51],https://bandit.readthedocs.io/en/latest/plugins/b605_start_process_with_a_shell.html
+aldryn-django-1.6.11.1/aldryn_django/cli.py,start_process_with_no_shell,B606,LOW,MEDIUM,Starting a process without a shell.,76,[76],https://bandit.readthedocs.io/en/latest/plugins/b606_start_process_with_no_shell.html

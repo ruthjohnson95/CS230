@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+django-uni-form-0.8.0/test_project/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: '',25,[25],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+django-uni-form-0.8.0/test_project/settings.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'towk(yx^x3ydpj&ifv&f07lil+g9wld5x48o=i(fo_9sf@1=%6',61,"[61, 62, 63]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+django-uni-form-0.8.0/uni_form/helpers.py,django_mark_safe,B703,MEDIUM,HIGH,Potential XSS on mark_safe function.,549,[549],https://bandit.readthedocs.io/en/latest/plugins/b703_django_mark_safe.html
+django-uni-form-0.8.0/uni_form/helpers.py,blacklist,B308,MEDIUM,HIGH,Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.,549,[549],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b308-mark-safe

@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+pigar-0.9.0/pigar/tests/imports_example/example1.py,10,Use of eval,Category.W,eval-used,Use of possibly insecure function - consider using safer ast.literal_eval.,HIGH,MEDIUM
+pigar-0.9.0/pigar/tests/imports_example/example1.py,13,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+pigar-0.9.0/pigar/tests/imports_example/example1.py,16,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM

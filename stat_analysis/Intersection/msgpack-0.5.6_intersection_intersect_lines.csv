@@ -1,0 +1,26 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+msgpack-0.5.6/test/test_buffer.py,20,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/test/test_buffer.py,29,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/setup.py,61,Use of exec,Category.W,exec-used,Use of exec detected.,HIGH,MEDIUM
+msgpack-0.5.6/test/test_extension.py,12,"Exactly one space required before comparison
+    assert p(b'A')        == b'\xd4\x42A'          # fixext 1
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/test/test_extension.py,13,"Exactly one space required before comparison
+    assert p(b'AB')       == b'\xd5\x42AB'         # fixext 2
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/test/test_extension.py,14,"Exactly one space required before comparison
+    assert p(b'ABCD')     == b'\xd6\x42ABCD'       # fixext 4
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/test/test_extension.py,16,"Exactly one space required before comparison
+    assert p(b'A'*16)     == b'\xd8\x42' + b'A'*16 # fixext 16
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/test/test_extension.py,17,"Exactly one space required before comparison
+    assert p(b'ABC')      == b'\xc7\x03\x42ABC'        # ext 8
+                          ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/test/test_extension.py,18,"Exactly one space required before comparison
+    assert p(b'A'*0x0123)     == b'\xc8\x01\x23\x42' + b'A'*0x0123 # ext 16
+                              ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/test/test_pack.py,90,"Exactly one space required before comparison
+    assert packb(1.0, use_single_float=True)  == b'\xca' + struct.pack(str('&gt;f'), 1.0)
+                                              ^^",Category.C,bad-whitespace,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+msgpack-0.5.6/test/test_seq.py,37,Using type() instead of isinstance() for a typecheck.,Category.C,unidiomatic-typecheck,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW

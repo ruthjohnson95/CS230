@@ -1,0 +1,6 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+rtv-1.12.0/rtv/terminal.py,475,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+rtv-1.12.0/rtv/terminal.py,514,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+rtv-1.12.0/rtv/terminal.py,554,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+rtv-1.12.0/rtv/terminal.py,592,"Variable name ""p"" doesn't conform to snake_case naming style",Category.C,invalid-name,subprocess call - check for execution of untrusted input.,HIGH,LOW
+rtv-1.12.0/rtv/objects.py,59,No exception type(s) specified,Category.W,bare-except,"Try, Except, Pass detected.",HIGH,LOW

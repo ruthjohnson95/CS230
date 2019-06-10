@@ -1,0 +1,2 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+unicef-locations-1.4.1/src/unicef_locations/tasks.py,260,Line too long (111/100),Category.C,line-too-long,Possible SQL injection vector through string-based query construction.,LOW,MEDIUM

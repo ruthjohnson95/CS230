@@ -1,0 +1,2 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+twilio-3.4.5/twilio/twiml.py,HIGH,LOW,"Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",4,[4],https://bandit.readthedocs.io/en/latest/blacklists/blacklist_imports.html#b405-import-xml-etree,B405,blacklist

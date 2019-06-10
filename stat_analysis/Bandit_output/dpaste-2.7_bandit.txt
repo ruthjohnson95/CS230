@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+dpaste-2.7/dpaste/settings/__init__.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: '',17,"[17, 18]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+dpaste-2.7/dpaste/settings/__init__.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'CHANGE_ME',27,"[27, 28, 29, 30, 31, 32]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+dpaste-2.7/runtests.py,hardcoded_tmp_directory,B108,MEDIUM,MEDIUM,Probable insecure usage of temp file/directory.,19,[19],https://bandit.readthedocs.io/en/latest/plugins/b108_hardcoded_tmp_directory.html

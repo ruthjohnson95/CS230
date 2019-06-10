@@ -1,0 +1,6 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+passlib-1.3.1/passlib/tests/test_drivers.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,389,[389],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+passlib-1.3.1/passlib/tests/test_drivers.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,508,[508],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+passlib-1.3.1/passlib/tests/test_drivers.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'unicÖde',717,[717],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+passlib-1.3.1/passlib/tests/test_drivers.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'too many secrets',719,[719],https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+passlib-1.3.1/passlib/utils/md4.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,214,[214],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html

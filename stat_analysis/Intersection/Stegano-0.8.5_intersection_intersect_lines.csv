@@ -1,0 +1,4 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+Stegano-0.8.5/stegano/exifHeader/exifHeader.py,110,"No space allowed around keyword argument assignment
+    parser.set_defaults(input_image_file = './pictures/Elisha-Cuthbert.jpg',
+                                         ^",Category.C,bad-whitespace,Possible hardcoded password: '',MEDIUM,LOW

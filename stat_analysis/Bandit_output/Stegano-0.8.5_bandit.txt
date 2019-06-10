@@ -1,0 +1,2 @@
+filename,issue_confidence,issue_severity,issue_text,line_number,line_range,more_info,test_id,test_name
+Stegano-0.8.5/stegano/exifHeader/exifHeader.py,MEDIUM,LOW,Possible hardcoded password: '',110,"[110, 111, 112]",https://bandit.readthedocs.io/en/latest/plugins/b106_hardcoded_password_funcarg.html,B106,hardcoded_password_funcarg

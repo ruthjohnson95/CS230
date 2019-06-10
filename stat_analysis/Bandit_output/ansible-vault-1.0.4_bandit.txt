@@ -1,0 +1,5 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+ansible-vault-1.0.4/ansible_vault/api.py,yaml_load,B506,MEDIUM,HIGH,Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().,18,[18],https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html
+ansible-vault-1.0.4/ansible_vault/test/test_api.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,23,[23],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+ansible-vault-1.0.4/ansible_vault/test/test_api.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,48,[48],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+ansible-vault-1.0.4/ansible_vault/test/test_api.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,57,[57],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html

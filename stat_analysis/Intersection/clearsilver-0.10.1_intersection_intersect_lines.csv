@@ -1,0 +1,17 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+clearsilver-0.10.1/clearsilver/scripts/commitlog.py,59,"Exactly one space required after comma
+  os.system('co -f -q -l %s %s,v' % (filename,filename))
+                                             ^",Category.C,bad-whitespace,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+clearsilver-0.10.1/clearsilver/scripts/commitlog.py,74,"Exactly one space required after comma
+  os.system('ci -q -m""none"" %s %s,v' % (filename,filename))
+                                                ^",Category.C,bad-whitespace,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+clearsilver-0.10.1/clearsilver/scripts/commitlog.py,79,"Exactly one space required after comma
+  os.system('co -f -q -l %s %s,v' % (filename,filename))
+                                             ^",Category.C,bad-whitespace,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+clearsilver-0.10.1/clearsilver/scripts/commitlog.py,83,"Exactly one space required after comma
+  os.system('ci -q -m""none"" %s %s,v' % (filename,filename))
+                                                ^",Category.C,bad-whitespace,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+clearsilver-0.10.1/clearsilver/scripts/commitlog.py,59,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+clearsilver-0.10.1/clearsilver/scripts/commitlog.py,74,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+clearsilver-0.10.1/clearsilver/scripts/commitlog.py,79,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH
+clearsilver-0.10.1/clearsilver/scripts/commitlog.py,83,"Bad indentation. Found 2 spaces, expected 4",Category.W,bad-indentation,"Starting a process with a shell, possible injection detected, security issue.",HIGH,HIGH

@@ -1,0 +1,52 @@
+filename,line_number,pylint_message,pylint_type,pylint_symbol,bandit_issue_text,bandit_issue_confidence,bandit_issue_severity
+trosnoth-1.12.2/trosnoth/bots/orders.py,681,"Invalid variable name ""x""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/bots/orders.py,682,"Invalid variable name ""y""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/bots/ranger.py,203,Attribute 'huntedPlayer' defined outside __init__,Category.W,attribute-defined-outside-init,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/bots/base.py,1259,"Invalid variable name ""startTick""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/bots/base.py,1259,Unused variable 'attached',Category.W,unused-variable,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/bots/sirrobin.py,78,"Invalid variable name ""targetZone""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/run/authserver.py,118,"Invalid variable name ""authTag""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/run/authserver.py,147,Attribute 'token' defined outside __init__,Category.W,attribute-defined-outside-init,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/model/universe.py,1595,"Invalid variable name ""hitPlayer""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/model/universe.py,1653,"Invalid variable name ""xVel""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/model/universe.py,1654,"Invalid variable name ""yVel""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/elements.py,242,Access to a protected member __shadow of a client class,Category.W,protected-access,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_dialogbox.py,34,"Exactly one space required after comma
+            randPos = (randint(0,580), randint(0,430))
+                                ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_dialogbox.py,34,"Exactly one space required after comma
+            randPos = (randint(0,580), randint(0,430))
+                                ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_dialogbox.py,34,"Exactly one space required after comma
+            randPos = (randint(0,580), randint(0,430))
+                                                ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_dialogbox.py,34,"Exactly one space required after comma
+            randPos = (randint(0,580), randint(0,430))
+                                                ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_dialogbox.py,34,"Invalid variable name ""randPos""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_dialogbox.py,34,"Invalid variable name ""randPos""",Category.C,invalid-name,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_tabs.py,58,"Exactly one space required after comma
+        super(EpilepticTab, self).__init__(app, str(randint(0,1000)))
+                                                             ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_tabs.py,84,"Exactly one space required after comma
+        if randint(0,100) == 1:
+                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_tabs.py,86,"Exactly one space required after comma
+        if randint(0,30000) == 42:
+                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_tabs.py,87,"Exactly one space required after comma
+            self.l.append(""What's going on here?! %d"" % randint(0,100000))
+                                                                 ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_tabs.py,88,"Exactly one space required after comma
+        if randint(0,1000) == 100:
+                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_statlist.py,52,"Exactly one space required after comma
+        if randint(0,100) == 1:
+                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_statlist.py,54,"Exactly one space required after comma
+        if randint(0,30000) == 42:
+                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/gui/framework/test/demo_statlist.py,56,"Exactly one space required after comma
+        if randint(0,1000) == 100:
+                    ^",Category.C,bad-whitespace,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
+trosnoth-1.12.2/trosnoth/trosnothgui/ingame/statusBar.py,102,The if statement can be reduced by assigning bool of test,Category.R,simplifiable-if-statement,Standard pseudo-random generators are not suitable for security/cryptographic purposes.,HIGH,LOW
